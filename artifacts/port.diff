@@ -1,0 +1,27 @@
+diff --git a/prior_art/Erdos777.lean b/vendor/plby/ErdosProblems/Erdos777.lean
+index 1d0660d..b2c6d87 100644
+--- a/prior_art/Erdos777.lean
++++ b/vendor/plby/ErdosProblems/Erdos777.lean
+@@ -1,4 +1,4 @@
+-/- leanprover/lean4:v4.33.0  mathlib v4.33.0 -/
++/- Ported locally to Lean/Mathlib v4.34.0; original target was v4.33.0. -/
+ /- Original license: Apache 2.0. Note: This file has been modified. -/
+ /-
+ This is a Lean formalization of a solution to Erdős Problem 777.
+@@ -1657,13 +1657,11 @@ lemma four_mul_edges_le_sq_of_triangleFree
+     (hG : G.CliqueFree 3) :
+     4 * G.edgeFinset.card ≤ Fintype.card V ^ 2 := by
+   have h := hG.card_edgeFinset_le (r := 2)
+-  simp only [Nat.reduceSub, Nat.mul_one, Nat.reduceMul,
+-    Nat.choose_eq_zero_of_lt (Nat.mod_lt _ (by omega : 0 < 2))] at h
++  rw [SimpleGraph.turanNumber_two] at h
+   calc
+-    4 * G.edgeFinset.card ≤ 4 * ((Fintype.card V ^ 2 - (Fintype.card V % 2) ^ 2) / 4) :=
++    4 * G.edgeFinset.card ≤ 4 * (Fintype.card V ^ 2 / 4) :=
+       Nat.mul_le_mul_left 4 h
+-    _ ≤ Fintype.card V ^ 2 - (Fintype.card V % 2) ^ 2 := Nat.mul_div_le _ _
+-    _ ≤ Fintype.card V ^ 2 := Nat.sub_le _ _
++    _ ≤ Fintype.card V ^ 2 := Nat.mul_div_le _ _
+ 
+ /-- The graph-theoretic deduction of the first answer from the sparse-triangle
+ theorem.  The only deep set-system input is isolated in

@@ -1,0 +1,23 @@
+Jsp637.jsp_000637 :
+  (∀ (ε : ℝ),
+      0 < ε →
+        ∃ N,
+          ∀ (n : ℕ),
+            N ≤ n → ∀ (F : Finset (Finset (Fin n))), ↑F.card ≤ (2 - ε) * 2 ^ (↑n / 2) → Jsp637.edgeCount F < 2 ^ n) ∧
+    (¬∀ (c : ℝ),
+          0 < c →
+            ∃ C,
+              0 < C ∧
+                ∀ (n : ℕ) (F : Finset (Finset (Fin n))),
+                  c * ↑F.card ^ 2 ≤ ↑(Jsp637.edgeCount F) → ↑F.card ≤ C * 2 ^ (↑n / 2)) ∧
+      ∀ (ε : ℝ),
+        0 < ε →
+          ∃ δ,
+            0 < δ ∧
+              ∀ (n : ℕ) (F : Finset (Finset (Fin n))),
+                ↑F.card ^ (2 - δ) < ↑(Jsp637.edgeCount F) → ↑F.card < (2 + ε) ^ (↑n / 2)
+'Jsp637.first_question' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Jsp637.second_question' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Jsp637.third_question' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Jsp637.jsp_000637' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos777.erdos_777' depends on axioms: [propext, Classical.choice, Quot.sound]

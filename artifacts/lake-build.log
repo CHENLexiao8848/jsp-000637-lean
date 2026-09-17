@@ -1,0 +1,3 @@
+ℹ [8924/8926] Replayed ErdosProblems.Erdos777
+info: vendor/plby/ErdosProblems/Erdos777.lean:1773:0: 'Erdos777.erdos_777' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (8926 jobs).

@@ -1,0 +1,16 @@
+.lake/
+dist/
+notes/
+prior_art/
+submission-local/
+artifacts/*
+!artifacts/axioms.log
+!artifacts/lake-build.log
+!artifacts/kernel-upstream.log
+!artifacts/kernel-entry.log
+!artifacts/kernel-replay.log
+!artifacts/verification.json
+!artifacts/source-hashes.json
+!artifacts/port.diff
+!artifacts/provenance-check.json
+!artifacts/*.exitcode

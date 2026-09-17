@@ -1,0 +1,30 @@
+[
+  {
+    "path": "Jsp637.lean",
+    "sha256": "f93ebb92fc2313aaf7bb8c3310ea1fec02f93c7e348541e2fbb0da49f916e4f3"
+  },
+  {
+    "path": "vendor/plby/ErdosProblems/Erdos777.lean",
+    "sha256": "d98c6976eed71ceaab4cbfe1ad55849567a064973b3437ac139c64a32280daa3"
+  },
+  {
+    "path": "Audit.lean",
+    "sha256": "73d5e95e615d2333d1c796442d72061833a02be489ca13f0ce0d99aed38a23bd"
+  },
+  {
+    "path": "lean-toolchain",
+    "sha256": "8733782dc070a99b312039cda424f601b80f3be6f6f512627da5ba25adc27632"
+  },
+  {
+    "path": "lakefile.toml",
+    "sha256": "c6a44145889dd7aa618c670db6d6eda19b5f923d4e63f961c4c7cd8589625d5f"
+  },
+  {
+    "path": "lake-manifest.json",
+    "sha256": "f60ad86e9ef519ba0eac36c94a952c2566394d5370e6d2735635c8cda03e1b28"
+  },
+  {
+    "path": "scripts/verify.ps1",
+    "sha256": "621d53868a960c08abe823035f582f3b663250cf49ac3a1cd1d8dad6abbb573d"
+  }
+]
