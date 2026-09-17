@@ -1,0 +1,43 @@
+name: Completed proof packages
+
+on:
+  push:
+    branches: [codex/completed-proofs-20260917]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    name: Verify ${{ matrix.jsp }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      max-parallel: 2
+      matrix:
+        jsp: [jsp-000182, jsp-000464, jsp-000584, jsp-000870]
+    defaults:
+      run:
+        working-directory: proofs/${{ matrix.jsp }}
+    env:
+      LEAN_NUM_THREADS: 2
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - name: Install pinned Lean toolchain
+        run: |
+          curl --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh | sh -s -- -y --default-toolchain none
+          echo "$HOME/.elan/bin" >> "$GITHUB_PATH"
+      - name: Download pinned dependency cache
+        run: lake exe cache get
+      - name: Build and audit the complete local proof
+        run: python3 verify.py
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: verification-${{ matrix.jsp }}
+          path: proofs/${{ matrix.jsp }}/verification-output/
+          retention-days: 90

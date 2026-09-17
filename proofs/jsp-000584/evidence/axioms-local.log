@@ -1,0 +1,2 @@
+'Formalization20.jsp_000584' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Formalization20.jsp_000584_exists_degree' depends on axioms: [propext, Classical.choice, Quot.sound]

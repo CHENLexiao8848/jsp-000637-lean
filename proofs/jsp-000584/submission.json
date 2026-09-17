@@ -1,0 +1,52 @@
+{
+  "jsp": "JSP-000584",
+  "erdos": 715,
+  "authors": "V. A. Tashkinov.",
+  "scope": "Every nonempty finite simple 4-regular graph contains a nonempty 3-regular subgraph. The subgraph need not be induced or spanning. The existential cubic-forcing-degree question is also proved by degree four.",
+  "decls": [
+    "Formalization20.jsp_000584",
+    "Formalization20.jsp_000584_exists_degree"
+  ],
+  "prior": [
+    88
+  ],
+  "module": "ErdosProblems.Erdos715",
+  "wrapper": "JSP000584.lean",
+  "source_records": [
+    {
+      "module": "ErdosProblems.Erdos182.Foundations",
+      "path": "vendor/plby/ErdosProblems/Erdos182/Foundations.lean",
+      "sha256": "3b0ebb4681df4d302129baf066b17b1ecdb01894ae28c87bb371ca2bd328a393",
+      "bytes": 10150,
+      "upstream_url": "https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos182/Foundations.lean",
+      "modified": false,
+      "workspace_sha256": "648d0c921196c211d0ece0bc5c23f92659a79620a711dfdfbbab0d680da59406",
+      "line_endings": "Normalized CRLF to LF for cross-platform reproducibility; proof tokens unchanged."
+    },
+    {
+      "module": "ErdosProblems.Erdos182.MultiColor",
+      "path": "vendor/plby/ErdosProblems/Erdos182/MultiColor.lean",
+      "sha256": "3ddfb575c5f7bea204867d9385055020b242dd1ce70353dc77ab51c67b2bb43a",
+      "bytes": 13715,
+      "upstream_url": "https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos182/MultiColor.lean",
+      "modified": false,
+      "workspace_sha256": "954c728319dccd0be99f1642daac14a6c78bd918be46f283ca77fb70cc5ee31a",
+      "line_endings": "Normalized CRLF to LF for cross-platform reproducibility; proof tokens unchanged."
+    },
+    {
+      "module": "ErdosProblems.Erdos715",
+      "path": "vendor/plby/ErdosProblems/Erdos715.lean",
+      "sha256": "136e70d570614fd2e0764317bad3d6423a13f8a5c6dc65455893cee5028a5557",
+      "bytes": 1503566,
+      "upstream_url": "https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos715.lean",
+      "modified": false,
+      "workspace_sha256": "8fc620800a829768d487832d194a7198e209f24220a786597127e8235fc8f77a",
+      "line_endings": "Normalized CRLF to LF for cross-platform reproducibility; proof tokens unchanged."
+    }
+  ],
+  "local_compile_order": [
+    "ErdosProblems.Erdos182.Foundations",
+    "ErdosProblems.Erdos182.MultiColor",
+    "ErdosProblems.Erdos715"
+  ]
+}

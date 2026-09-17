@@ -1,0 +1,95 @@
+{
+  "jsp": "JSP-000464",
+  "erdos": 574,
+  "authors": "Felix Lazebnik, Vasiliy Ustimenko and Andrew Woldar; related extremal constructions are discussed in the original problem bibliography.",
+  "scope": "Negates the universal proposed asymptotic for forbidding C_(2k-1) and C_(2k), with k>=2. An unbounded bipartite C6-free construction disproves it already at k=3. No claim of an exact extremal formula for every k is made.",
+  "decls": [
+    "Formalization20.jsp_000464"
+  ],
+  "prior": [
+    504
+  ],
+  "module": "ErdosProblems.Erdos574",
+  "wrapper": "JSP000464.lean",
+  "source_records": [
+    {
+      "module": "ErdosProblems.Erdos574",
+      "path": "vendor/plby/ErdosProblems/Erdos574.lean",
+      "sha256": "8a713b414850386ae0ae36620787f292062a8c89752965b80a6e660584801b94",
+      "bytes": 15857,
+      "upstream_url": "https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos574.lean",
+      "modified": false,
+      "workspace_sha256": "95f37a12da1f9a7efc7efec57832cfb0eecb0a064644c65eb3c79f0874693773",
+      "line_endings": "Normalized CRLF to LF for cross-platform reproducibility; proof tokens unchanged."
+    },
+    {
+      "module": "ErdosProblems.Erdos59.AffinePolarity",
+      "path": "vendor/plby/ErdosProblems/Erdos59/AffinePolarity.lean",
+      "sha256": "b800e4278acf51b0ea86af537842f0c71ec0d9a90d1ec23e4d961c502b7d59eb",
+      "bytes": 33624,
+      "upstream_url": "https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos59/AffinePolarity.lean",
+      "modified": false,
+      "workspace_sha256": "6bde06bb365995dadabd8b1aade5086cc085bb81f4fd0bcbbd0616931995d171",
+      "line_endings": "Normalized CRLF to LF for cross-platform reproducibility; proof tokens unchanged."
+    },
+    {
+      "module": "ErdosProblems.Erdos59.Blowup",
+      "path": "vendor/plby/ErdosProblems/Erdos59/Blowup.lean",
+      "sha256": "07b4dbf480a0f9eaf83b36112b158359d3579853b0e3ded76eb0a28de21316a5",
+      "bytes": 12752,
+      "upstream_url": "https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos59/Blowup.lean",
+      "modified": false,
+      "workspace_sha256": "5c7c81163c6a1fce15173215eaf96d655a2f40651b80cd0e5e785473950c0d73",
+      "line_endings": "Normalized CRLF to LF for cross-platform reproducibility; proof tokens unchanged."
+    },
+    {
+      "module": "ErdosProblems.Erdos59.Core",
+      "path": "vendor/plby/ErdosProblems/Erdos59/Core.lean",
+      "sha256": "3a805423c4b6565db48bcc69f4ce857f47c57d58472ec6ab2f3f2b95368b2462",
+      "bytes": 11591,
+      "upstream_url": "https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos59/Core.lean",
+      "modified": false,
+      "workspace_sha256": "163ff13c535a34e7552882443bf34b91b5cad8bfb2d22cd0a7beaa552da73a94",
+      "line_endings": "Normalized CRLF to LF for cross-platform reproducibility; proof tokens unchanged."
+    },
+    {
+      "module": "ErdosProblems.Erdos59.CycleAdapters",
+      "path": "vendor/plby/ErdosProblems/Erdos59/CycleAdapters.lean",
+      "sha256": "849962cd08a7bb049ebd55927a38bbbe75fb6a2bd5e6c5905ca38fd99f6d6ba7",
+      "bytes": 20773,
+      "upstream_url": "https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos59/CycleAdapters.lean",
+      "modified": false,
+      "workspace_sha256": "a4595d0a6db1f287827e8121ed99022ada398a987adba7d145980f39a72a2c7b",
+      "line_endings": "Normalized CRLF to LF for cross-platform reproducibility; proof tokens unchanged."
+    },
+    {
+      "module": "ErdosProblems.Erdos59.Duplication",
+      "path": "vendor/plby/ErdosProblems/Erdos59/Duplication.lean",
+      "sha256": "7932d1511c1a0363b8bc8551b27ae4dc248a0cefa23a54b51cf2b52ef12cf960",
+      "bytes": 24351,
+      "upstream_url": "https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos59/Duplication.lean",
+      "modified": false,
+      "workspace_sha256": "6544cf8fe0c9b23d0789db3350666a7ba3c42b78c448249efd7c05f45af466e5",
+      "line_endings": "Normalized CRLF to LF for cross-platform reproducibility; proof tokens unchanged."
+    },
+    {
+      "module": "ErdosProblems.Erdos59.Matching",
+      "path": "vendor/plby/ErdosProblems/Erdos59/Matching.lean",
+      "sha256": "064211ae17186e0996ac03e8bfe42f5347c38e1462e1f82f5b0f7ebd2f49a439",
+      "bytes": 6651,
+      "upstream_url": "https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos59/Matching.lean",
+      "modified": false,
+      "workspace_sha256": "e35da26238dcd42b8ddd14c2881852b964153bc312d8ce10b38f397a335995b9",
+      "line_endings": "Normalized CRLF to LF for cross-platform reproducibility; proof tokens unchanged."
+    }
+  ],
+  "local_compile_order": [
+    "ErdosProblems.Erdos59.AffinePolarity",
+    "ErdosProblems.Erdos59.Matching",
+    "ErdosProblems.Erdos59.Blowup",
+    "ErdosProblems.Erdos59.Core",
+    "ErdosProblems.Erdos59.Duplication",
+    "ErdosProblems.Erdos59.CycleAdapters",
+    "ErdosProblems.Erdos574"
+  ]
+}

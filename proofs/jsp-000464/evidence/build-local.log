@@ -1,0 +1,9 @@
+✔ [2260/2267] Built ErdosProblems.Erdos59.AffinePolarity (14s)
+✔ [8707/8712] Built ErdosProblems.Erdos59.Core (38s)
+✔ [8708/8712] Built ErdosProblems.Erdos59.Duplication (39s)
+✔ [8709/8712] Built ErdosProblems.Erdos59.Matching (30s)
+✔ [8710/8712] Built ErdosProblems.Erdos59.Blowup (32s)
+✔ [8711/8712] Built ErdosProblems.Erdos59.CycleAdapters (36s)
+ℹ [8712/8712] Built ErdosProblems.Erdos574 (32s)
+info: ErdosProblems/Erdos574.lean:388:0: 'Erdos574.not_erdos_574' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (8712 jobs).

@@ -1,0 +1,52 @@
+{
+  "jsp": "JSP-000870",
+  "erdos_id": 1050,
+  "recorded_at": "2026-09-17T13:17:07.235Z",
+  "toolchain": "leanprover/lean4:v4.33.0",
+  "mathlib_commit": "db584cd6d46c92f209a44c0f1c829460d327499d",
+  "upstream_commit": "8822f7ddef30fadbd92e1c6ab4ed897af356af5e",
+  "wrapper": {
+    "file": "JSP000870.lean",
+    "sha256": "0faf3666b03526cf9f4d51dd3daabda69b71cf45865cf1b78fa0013b642b309e"
+  },
+  "declarations": [
+    "Formalization20.jsp_000870"
+  ],
+  "axiom_checks": [
+    {
+      "declaration": "Formalization20.jsp_000870",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "build_exit": 0,
+  "audit_exit": 0,
+  "source_records": [
+    {
+      "module": "ErdosProblems.Erdos1050",
+      "path": "vendor/plby/ErdosProblems/Erdos1050.lean",
+      "sha256": "f47e7133c4e0cc81c6aec4493f7e1c8c75b8cda8b86fdd4eec28c0f722a343b2",
+      "bytes": 68362,
+      "upstream_url": "https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos1050.lean",
+      "modified": true,
+      "workspace_sha256": "6bb0ed793bad051f5317064a4ef6a4d99c93e2e5823e01873d062d32924cd26a",
+      "line_endings": "Normalized CRLF to LF for cross-platform reproducibility; proof tokens unchanged."
+    },
+    {
+      "module": "ErdosProblems.Erdos250.Erdos250Core",
+      "path": "vendor/plby/ErdosProblems/Erdos250/Erdos250Core.lean",
+      "sha256": "e1d124bfedab13ba3e9ade00136a8c322efcf3aa57bbf57d944e9ef316b69b55",
+      "bytes": 6169,
+      "upstream_url": "https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos250/Erdos250Core.lean",
+      "modified": false,
+      "workspace_sha256": "27ef50ce947df3a2a4b6205bc02a9fcf7094ed3703f2f9eeb50748b2f1896e8e",
+      "line_endings": "Normalized CRLF to LF for cross-platform reproducibility; proof tokens unchanged."
+    }
+  ],
+  "verification_scope": "Actual local build and final-declaration axiom audit, with pinned Mathlib caches reused. Not a fresh rebuild of Mathlib, independent checker, or human attestation.",
+  "contribution": "CHENLexiao8848: explicit JSP interface, source packaging, reproducible verification and catalog evidence; no claim to authorship of reused original proof.",
+  "source_change": "Only import Mathlib replaced by Polynomial.Roots, SpecificLimits.Normed and Tactic; proof text and theorem unchanged."
+}

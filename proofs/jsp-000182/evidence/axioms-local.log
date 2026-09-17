@@ -1,0 +1,3 @@
+'Formalization20.jsp_000182' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Formalization20.jsp_000182_threshold_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Formalization20.jsp_000182_threshold_minimal' depends on axioms: [propext, Classical.choice, Quot.sound]

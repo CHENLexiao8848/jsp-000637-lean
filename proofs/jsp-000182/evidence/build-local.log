@@ -1,0 +1,12 @@
+✔ [3079/3085] Built PrimeNumberTheoremAnd.Mathlib.Analysis.SpecialFunctions.Log.Basic (15s)
+✔ [3703/3713] Built PrimeNumberTheoremAnd.Sobolev (24s)
+✔ [3708/3718] Built PrimeNumberTheoremAnd.Mathlib.Analysis.Asymptotics.Asymptotics (14s)
+✔ [3711/3718] Built PrimeNumberTheoremAnd.Mathlib.Algebra.Notation.Support (7.2s)
+✔ [3712/3718] Built PrimeNumberTheoremAnd.Fourier (18s)
+✔ [3714/3718] Built PrimeNumberTheoremAnd.SmoothExistence (21s)
+✔ [3715/3718] Built PrimeNumberTheoremAnd.Defs (23s)
+✔ [3716/3718] Built PrimeNumberTheoremAnd.Wiener (53s)
+✔ [3717/3718] Built PrimeNumberTheoremAnd.Consequences (54s)
+ℹ [3718/3718] Built ErdosProblems.Erdos190 (29s)
+info: ErdosProblems/Erdos190.lean:914:0: 'Erdos190.erdos_190' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (3718 jobs).
