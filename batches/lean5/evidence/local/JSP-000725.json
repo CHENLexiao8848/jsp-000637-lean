@@ -1,0 +1,35 @@
+{
+  "problem": "JSP-000725",
+  "verification_kind": "Prior local module build / theorem axiom audit",
+  "proof_source_equivalence": "Packaged proof matches verified source modulo CRLF-to-LF normalization",
+  "proof_sha256": "8866113ea9d0bd63f41ff36566251e4285875f8f078152a70714d541afd5b9f0",
+  "theorem": "JSP000725.solution",
+  "axiom_reports": [
+    {
+      "theorem": "JSP000725.solution",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "JSP000725.eventual_exact",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "JSP000725.eventual_cardinal_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "source_log_sha256": "15214d8a12f574800b7a0fc99bf010581732de5592a0431f9e62febbb57a182d",
+  "limitations": "Original local checks reused pinned caches. Fresh batch reproduction and entry kernel replay are performed by scripts/verify.py and reported by CI; not independent human review."
+}

@@ -1,0 +1,1 @@
+'JSP000733.solution' depends on axioms: [propext, Classical.choice, Quot.sound]

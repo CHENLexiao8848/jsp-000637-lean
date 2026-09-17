@@ -1,0 +1,75 @@
+{
+  "problem": "JSP-001021",
+  "verification_kind": "Prior local module build / theorem axiom audit",
+  "proof_source_equivalence": "Packaged proof matches verified source modulo CRLF-to-LF normalization",
+  "proof_sha256": "d7e3c477bfb46608db6afecaaa715cd906f8d9319212fd159e95454296234b0f",
+  "theorem": "JSP001021.solution",
+  "axiom_reports": [
+    {
+      "theorem": "Erdos1216.directed_ramsey_five_fourteen",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "Erdos1216.st13_has_no_transitive_five",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "Erdos1216.extremal14_has_no_transitive_six",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "Erdos1216.f_fourteen_eq_five",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "Erdos1216.not_erdos_1216",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "JSP001021.labeled_fourteen",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "JSP001021.every_fourteen",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "JSP001021.solution",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "source_log_sha256": "0bfd15a4ba591ec0c39e6ee8d601f28bb4ecc10cd1f6d5e77b5a77ae9544558d",
+  "limitations": "Original local checks reused pinned caches. Fresh batch reproduction and entry kernel replay are performed by scripts/verify.py and reported by CI; not independent human review."
+}

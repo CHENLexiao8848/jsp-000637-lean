@@ -1,0 +1,4 @@
+info: LeanTwenty/JSP000725.lean:47:0: 'JSP000725.solution' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanTwenty/JSP000725.lean:48:0: 'JSP000725.eventual_exact' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanTwenty/JSP000725.lean:49:0: 'JSP000725.eventual_cardinal_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (8966 jobs).

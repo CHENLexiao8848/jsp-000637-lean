@@ -1,0 +1,4 @@
+info: .lake/upstream-src/ErdosProblems/Erdos795.lean:6678:0: 'Erdos795.erdos_795' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanTwenty/JSP000653.lean:33:0: 'JSP000653.solution' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanTwenty/JSP000653.lean:34:0: 'JSP000653.cardinal_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (2102 jobs).

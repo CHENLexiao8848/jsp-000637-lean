@@ -1,0 +1,3 @@
+info: LeanTwenty/JSP000759.lean:232:0: 'JSP000759.solution' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanTwenty/JSP000759.lean:233:0: 'JSP000759.no_five_paths' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (3107 jobs).

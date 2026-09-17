@@ -1,0 +1,27 @@
+{
+  "problem": "JSP-000897",
+  "verification_kind": "Prior local module build / theorem axiom audit",
+  "proof_source_equivalence": "Packaged proof matches verified source modulo CRLF-to-LF normalization",
+  "proof_sha256": "04ec9c946fe06fd0e7ed53b8efa9314577b84bb61eb6a56d5d2c4b794632275b",
+  "theorem": "JSP000897.solution",
+  "axiom_reports": [
+    {
+      "theorem": "Erdos1079.erdos_problem_1079",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "Erdos1079.erdos_1079",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "source_log_sha256": "90c2345b8d583bbf0cc5f82a4d2c76d535a4ae86a9494a354fb1406ea41a8b4a",
+  "limitations": "Original local checks reused pinned caches. Fresh batch reproduction and entry kernel replay are performed by scripts/verify.py and reported by CI; not independent human review."
+}

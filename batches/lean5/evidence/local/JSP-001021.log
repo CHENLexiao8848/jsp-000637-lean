@@ -1,0 +1,8 @@
+'Erdos1216.directed_ramsey_five_fourteen' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos1216.st13_has_no_transitive_five' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos1216.extremal14_has_no_transitive_six' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos1216.f_fourteen_eq_five' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos1216.not_erdos_1216' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP001021.labeled_fourteen' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP001021.every_fourteen' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP001021.solution' depends on axioms: [propext, Classical.choice, Quot.sound]

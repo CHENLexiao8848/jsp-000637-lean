@@ -1,0 +1,2 @@
+info: LeanTwenty/JSP000690.lean:129:0: 'JSP000690.solution' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (3092 jobs).

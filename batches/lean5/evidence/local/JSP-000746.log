@@ -1,0 +1,3 @@
+'JSP000746.finite_certificate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP000746.erdos_895' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP000746.on_integers' depends on axioms: [propext, Classical.choice, Quot.sound]
