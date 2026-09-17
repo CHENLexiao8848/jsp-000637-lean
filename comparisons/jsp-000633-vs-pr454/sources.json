@@ -1,0 +1,34 @@
+{
+  "checked_utc": "2026-09-17T15:13:17.917942+00:00",
+  "sources": [
+    {
+      "name": "user-main",
+      "url": "https://github.com/CHENLexiao8848/awards/blob/ea6e7fc0a5893edd13335acc4e1ebd00cd261782/proofs/chen-lexiao-four-20260917/proof/Problems/JSP000633.lean",
+      "commit": "ea6e7fc0a5893edd13335acc4e1ebd00cd261782",
+      "git_blob_sha": "0c5da2c26f8a0c98dbb4737511a39fa73018ada7",
+      "sha256": "7d190d1d4990ac090db9d40aed09b93f456eb5bb96a224d3c2ec269fe0b1711e"
+    },
+    {
+      "name": "comparison-bounds",
+      "url": "https://github.com/CollinYuanjieRen/awards/blob/ea595e8a8a96f1fbd5a097fb8517ca19ef5f6904/submissions/jsp-000633-cyr/Erdos772Sidon/Bounds.lean",
+      "commit": "ea595e8a8a96f1fbd5a097fb8517ca19ef5f6904",
+      "git_blob_sha": "42908f14a76ab8819d7fc6f583f1f07e41ebcb20",
+      "sha256": "dd8a5fbc8b8729ec647efce34c4b66e1b2e7e5d805bbb27a4cc91f7197408e8d"
+    },
+    {
+      "name": "comparison-definitions",
+      "url": "https://github.com/CollinYuanjieRen/awards/blob/ea595e8a8a96f1fbd5a097fb8517ca19ef5f6904/submissions/jsp-000633-cyr/Erdos772Sidon/Definitions.lean",
+      "commit": "ea595e8a8a96f1fbd5a097fb8517ca19ef5f6904",
+      "git_blob_sha": "f597027dd4c4f688928cce7992dc5c46bfd13cc0",
+      "sha256": "c41e7b8dc743603fcc55e16dcda7f7b7e691b3dc2966903307ebfde0d55590f5"
+    },
+    {
+      "name": "user-verification",
+      "url": "https://github.com/CHENLexiao8848/awards/blob/ea6e7fc0a5893edd13335acc4e1ebd00cd261782/proofs/chen-lexiao-four-20260917/proof/verification/report.json",
+      "commit": "ea6e7fc0a5893edd13335acc4e1ebd00cd261782",
+      "git_blob_sha": "bc664be3af0e5434b2ab7bcfb3c1da45a65e59ee",
+      "sha256": "649e83ca5bb9de632d9141328820813bc800cac889d9a2955e7f235136617a06"
+    }
+  ],
+  "source_review": "Definitions, finite bounds and rounding read directly; no competing Lean rebuild."
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "scope": "exact arithmetic certificate comparison; not Lean verification",
+  "pairs_checked": 200100,
+  "equal": 2544,
+  "strict_improvement": 197556,
+  "counterexamples": 0,
+  "examples": [
+    {
+      "k": 4,
+      "n": 1000,
+      "earlier_guarantee": 17,
+      "user_guarantee": 22
+    },
+    {
+      "k": 10,
+      "n": 1000,
+      "earlier_guarantee": 13,
+      "user_guarantee": 17
+    },
+    {
+      "k": 100,
+      "n": 1000,
+      "earlier_guarantee": 6,
+      "user_guarantee": 8
+    },
+    {
+      "k": 4,
+      "n": 1000000,
+      "earlier_guarantee": 1733,
+      "user_guarantee": 2155
+    },
+    {
+      "k": 10,
+      "n": 1000000,
+      "earlier_guarantee": 1277,
+      "user_guarantee": 1601
+    },
+    {
+      "k": 100,
+      "n": 1000000,
+      "earlier_guarantee": 593,
+      "user_guarantee": 747
+    }
+  ]
+}
