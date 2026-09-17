@@ -1,0 +1,18 @@
+JSP001018.erdos1213_int (A K : ℕ) (hA : 1 ≤ A) (_hK : 1 ≤ K) :
+  ∃ F,
+    ∀ (s : ℕ) (a : ℕ → ℤ),
+      0 < s →
+        a 0 = ↑A →
+          (∀ (j : ℕ), j + 1 < s → a j < a (j + 1)) →
+            (∀ (j : ℕ), j + 1 < s → a (j + 1) - a j ≤ ↑K) →
+              ↑F < a (s - 1) →
+                ∃ i l j m,
+                  0 < l ∧
+                    0 < m ∧
+                      i + l ≤ s ∧
+                        j + m ≤ s ∧
+                          Finset.Ico i (i + l) ≠ Finset.Ico j (j + m) ∧
+                            ∑ t ∈ Finset.Ico i (i + l), a t = ∑ t ∈ Finset.Ico j (j + m), a t
+'JSP001018.erdos1213_int' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP001018.erdos1213' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP001018.bounded_gap_equal_intervals' depends on axioms: [propext, Classical.choice, Quot.sound]

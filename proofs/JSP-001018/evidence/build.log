@@ -1,0 +1,5 @@
+ℹ [3092/3094] Built JSPProofs.JSP001018 (20s)
+info: JSPProofs/JSP001018.lean:247:0: 'JSP001018.erdos1213' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSPProofs/JSP001018.lean:294:0: 'JSP001018.erdos1213_int' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [3093/3094] Built JSPProofs (20s)
+Build completed successfully (3094 jobs).

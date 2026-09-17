@@ -1,0 +1,70 @@
+{
+  "status": "passed",
+  "started_utc": "2026-09-17T13:12:24.4192566Z",
+  "theorem": "JSP001018.erdos1213_int",
+  "lean_version": "4.34.0",
+  "mathlib_commit": "5ed2965256430c3649e86755f9576b54eca72435",
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "source_hashes": [
+    {
+      "path": "JSPProofs/JSP001018.lean",
+      "sha256": "8a561afac62a7c942bb98d6ec935bb9322dfb6f9ba930fd7700ce8ac4ceaa445"
+    },
+    {
+      "path": "JSPProofs.lean",
+      "sha256": "0a8e239f26911440575c7c87d249c69ccb3c3b000c9ca4e2e275a34fcbc54deb"
+    },
+    {
+      "path": "Audit.lean",
+      "sha256": "b6c0ad0f0791fa01c7acd5d250b9ba5ed54e2b0f7416cc6c9db17523d0dd7302"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "8733782dc070a99b312039cda424f601b80f3be6f6f512627da5ba25adc27632"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "c5ceae19ae010c359e911edf56b030b72453fb651a4d1813d2f4bcfc11ea1161"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "32435e5a61192a76731d2eb80a1339678374b9b3662ebff980d29561869f974e"
+    },
+    {
+      "path": "scripts/verify.ps1",
+      "sha256": "9dc4951f1c9c6467b82a6ca4cc436fbbefe0fab7ee21e4e076a41c38a719bf70"
+    }
+  ],
+  "checks": [
+    {
+      "command": "lake build",
+      "exit_code": 0,
+      "started_utc": "2026-09-17T13:12:24.4702631Z",
+      "ended_utc": "2026-09-17T13:13:15.7011673Z",
+      "log": "evidence/build.log",
+      "sha256": "58d021031cbc8d2183ca2d139b2eaf93d7f6aab8192d0676e446128c0289672d"
+    },
+    {
+      "command": "lake env lean Audit.lean",
+      "exit_code": 0,
+      "started_utc": "2026-09-17T13:13:16.1848809Z",
+      "ended_utc": "2026-09-17T13:13:45.5748522Z",
+      "log": "evidence/axioms.log",
+      "sha256": "a507d3a5e79d56d647df69806d145f91f7fed8852df38b3d99dc5dd1a471f43d"
+    },
+    {
+      "command": "lake env leanchecker --verbose JSPProofs.JSP001018",
+      "exit_code": 0,
+      "started_utc": "2026-09-17T13:13:45.7946238Z",
+      "ended_utc": "2026-09-17T13:14:46.1015635Z",
+      "log": "evidence/kernel-replay.log",
+      "sha256": "7fb7d522dba80ce351215d819c4ca070aa75c3a02c7b46b28099bee2cdf616f8"
+    }
+  ],
+  "replay_scope": "JSPProofs.JSP001018 only, using pinned imported dependencies and the same Lean kernel",
+  "completed_utc": "2026-09-17T13:14:46.2561130Z"
+}
