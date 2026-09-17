@@ -1,0 +1,171 @@
+[
+  {
+    "jsp": "JSP-000725",
+    "erdos": 874,
+    "source_url": "https://www.erdosproblems.com/874",
+    "status": "proved",
+    "required_scope": "Disjoint subset-sum layers: asymptotic 2 sqrt N, eventual exact cardinality",
+    "proof_file": "LeanTwenty/JSP000725.lean",
+    "proof_sha256": "8866113ea9d0bd63f41ff36566251e4285875f8f078152a70714d541afd5b9f0",
+    "theorem": "JSP000725.solution",
+    "module": "LeanTwenty.JSP000725",
+    "theorems": [
+      "JSP000725.solution",
+      "JSP000725.eventual_exact",
+      "JSP000725.eventual_cardinal_bound"
+    ],
+    "mathematical_attribution": "Jean-Marc Deshouillers; Gregory Freiman; Ernst Straus (earlier construction)",
+    "local_contribution": "Reuses the complete plby proof with a direct JSP interface to the asymptotic and eventual exact formula."
+  },
+  {
+    "jsp": "JSP-000733",
+    "erdos": 882,
+    "source_url": "https://www.erdosproblems.com/882",
+    "status": "proved",
+    "required_scope": "Primitive nonempty subset sums: maximumSize(n)/log_2(n) tends to 1",
+    "proof_file": "LeanTwenty/JSP000733.lean",
+    "proof_sha256": "61d6035f89ac432767ef13dd06e3992dad8ae8b658f97872c1981c4348d95d9b",
+    "theorem": "JSP000733.solution",
+    "module": "LeanTwenty.JSP000733",
+    "theorems": [
+      "JSP000733.solution"
+    ],
+    "mathematical_attribution": "Paul Erdos; Vsevolod Lev; Gerard Rauzy; Csaba Sandor; Andras Sarkozy",
+    "local_contribution": "Reuses ToshiDad/erdos-882 lower-bound core; new local work adds the actual extremal maximum, subset-sum injectivity, counting upper bound and asymptotic sandwich."
+  },
+  {
+    "jsp": "JSP-000653",
+    "erdos": 795,
+    "source_url": "https://www.erdosproblems.com/795",
+    "status": "proved",
+    "required_scope": "Distinct subset products: sharp prime-counting asymptotic",
+    "proof_file": "LeanTwenty/JSP000653.lean",
+    "proof_sha256": "b01200abec3ef792d1cad24e88f46b551a53af5348bd895b07224bc6411d38d9",
+    "theorem": "JSP000653.solution",
+    "module": "LeanTwenty.JSP000653",
+    "theorems": [
+      "JSP000653.solution",
+      "JSP000653.cardinal_bound"
+    ],
+    "mathematical_attribution": "Paul Erdos; Rushil Raghavan",
+    "local_contribution": "Reuses the complete plby proof; local contribution is a JSP interface and Lean 4.34 reproduction."
+  },
+  {
+    "jsp": "JSP-001021",
+    "erdos": 1216,
+    "source_url": "https://www.erdosproblems.com/1216",
+    "status": "proved",
+    "required_scope": "f(14)=5 disproves floor(log2 n)+1 formula; arbitrary finite tournament interface",
+    "proof_file": "LeanTwenty/JSP001021.lean",
+    "proof_sha256": "d7e3c477bfb46608db6afecaaa715cd906f8d9319212fd159e95454296234b0f",
+    "theorem": "JSP001021.solution",
+    "module": "LeanTwenty.JSP001021",
+    "theorems": [
+      "JSP001021.solution",
+      "JSP001021.every_fourteen"
+    ],
+    "mathematical_attribution": "K. B. Reid; E. T. Parker",
+    "local_contribution": "Apache-licensed plby proof/certificates port with a new arbitrary-finite-tournament relation interface."
+  },
+  {
+    "jsp": "JSP-000842",
+    "erdos": 1012,
+    "source_url": "https://www.erdosproblems.com/1012",
+    "status": "proved",
+    "required_scope": "Woodall cycle length threshold n>=2k+3",
+    "proof_file": "LeanTwenty/JSP000842.lean",
+    "proof_sha256": "02dcab35cf9a72a6b4097caa204fe64fa23ef505083c8d8cb06ea09ee5814f97",
+    "theorem": "JSP000842.solution",
+    "module": "LeanTwenty.JSP000842",
+    "theorems": [
+      "JSP000842.solution",
+      "JSP000842.all_lengths"
+    ],
+    "mathematical_attribution": "D. R. Woodall; earlier Erdos, Ore and Bondy results",
+    "local_contribution": "Reuses the complete plby Woodall proof with a direct cycle-length interface."
+  },
+  {
+    "jsp": "JSP-000896",
+    "erdos": 1078,
+    "source_url": "https://www.erdosproblems.com/1078",
+    "status": "proved",
+    "required_scope": "Haxell sufficient threshold; explicit finite r correction, not later sharp endpoint",
+    "proof_file": "LeanTwenty/JSP000896.lean",
+    "proof_sha256": "b4a7537d1ac2187ebda2f33e6016b27f8197edf0dc6b2845ed989d3020a2a5bb",
+    "theorem": "JSP000896.solution",
+    "module": "LeanTwenty.JSP000896",
+    "theorems": [
+      "JSP000896.solution"
+    ],
+    "mathematical_attribution": "Penny Haxell; Tibor Szabo (later sharpening)",
+    "local_contribution": "Apache-licensed plby proof port, finite-product-membership compatibility and JSP interface. This proves Haxells asymptotic sufficient threshold; it does not claim the later sharp endpoint."
+  },
+  {
+    "jsp": "JSP-000897",
+    "erdos": 1079,
+    "source_url": "https://www.erdosproblems.com/1079",
+    "status": "proved",
+    "required_scope": "Dense neighborhood at Turan threshold, linear degree and strict strengthening",
+    "proof_file": "LeanTwenty/JSP000897.lean",
+    "proof_sha256": "04ec9c946fe06fd0e7ed53b8efa9314577b84bb61eb6a56d5d2c4b794632275b",
+    "theorem": "JSP000897.solution",
+    "module": "LeanTwenty.JSP000897",
+    "theorems": [
+      "JSP000897.solution",
+      "JSP000897.strict_solution"
+    ],
+    "mathematical_attribution": "Bela Bollobas; Andrew Thomason; J. A. Bondy",
+    "local_contribution": "Apache-licensed plby proof port, Turan-number recurrence compatibility and JSP interfaces."
+  },
+  {
+    "jsp": "JSP-000690",
+    "erdos": 834,
+    "source_url": "https://www.erdosproblems.com/834",
+    "status": "proved",
+    "required_scope": "Nine-vertex three-uniform critically-three-chromatic min-degree-seven witness",
+    "proof_file": "LeanTwenty/JSP000690.lean",
+    "proof_sha256": "611c3d23d8cefce13634a87fee3d8c953c6b7e6b15c1019d335276e4f97d02fd",
+    "theorem": "JSP000690.solution",
+    "module": "LeanTwenty.JSP000690",
+    "theorems": [
+      "JSP000690.solution"
+    ],
+    "mathematical_attribution": "Ruiliang Li",
+    "local_contribution": "Local formalization of the nine-vertex construction with explicit kernel-checked colorings. Related plby evidence is acknowledged; no priority claim."
+  },
+  {
+    "jsp": "JSP-000746",
+    "erdos": 895,
+    "source_url": "https://www.erdosproblems.com/895",
+    "status": "proved",
+    "required_scope": "Every triangle-free graph on 1..n, n>=18, has distinct independent a,b,a+b",
+    "proof_file": "LeanTwenty/Problem000746.lean",
+    "proof_sha256": "fe741e61ded3523cb4bc0e785475f9ce7e8f41ec24ef6cad45170540042f79ed",
+    "theorem": "JSP000746.erdos_895",
+    "module": "LeanTwenty.Problem000746",
+    "theorems": [
+      "JSP000746.erdos_895",
+      "JSP000746.on_integers",
+      "JSP000746.finite_certificate"
+    ],
+    "mathematical_attribution": "Ben Barber, reported on Erdos Problems",
+    "local_contribution": "Locally regenerated SAT/LRAT certificate and local graph/integer interfaces. Existing plby proof evidence is acknowledged."
+  },
+  {
+    "jsp": "JSP-000759",
+    "erdos": 915,
+    "source_url": "https://www.erdosproblems.com/915",
+    "status": "proved",
+    "required_scope": "Internally vertex-disjoint paths conjecture disproof",
+    "proof_file": "LeanTwenty/JSP000759.lean",
+    "proof_sha256": "8d71bc141d32ce4da7b5637a8cbcdced605d0dbf1d19902367d1b663adbb3247",
+    "theorem": "JSP000759.solution",
+    "module": "LeanTwenty.JSP000759",
+    "theorems": [
+      "JSP000759.solution",
+      "JSP000759.no_five_paths"
+    ],
+    "mathematical_attribution": "Bollobas-Erdos problem; negative results of Leonard and Sorensen-Thomassen",
+    "local_contribution": "Locally authored separator/path-family formalization for a 17-vertex witness recorded by plby; the witness is not claimed as a new discovery."
+  }
+]

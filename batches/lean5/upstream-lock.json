@@ -1,0 +1,295 @@
+{
+  "repository": "https://github.com/plby/lean-proofs",
+  "branch": "main",
+  "commit": "8822f7ddef30fadbd92e1c6ab4ed897af356af5e",
+  "files": [
+    {
+      "module": "ErdosProblems.Erdos1012",
+      "path": "ErdosProblems/Erdos1012.lean",
+      "sha256": "b0f1b27d5508799b5e94268bbb8662281f90930259a917e5f13a59e754d96805",
+      "bytes": 147228
+    },
+    {
+      "module": "ErdosProblems.Erdos13.Erdos13Additive",
+      "path": "ErdosProblems/Erdos13/Erdos13Additive.lean",
+      "sha256": "5da02d7a5885813a80e97319510fe69823a59d4603bb69ed5a485135aad3037d",
+      "bytes": 74765
+    },
+    {
+      "module": "ErdosProblems.Erdos13.Erdos13Kneser",
+      "path": "ErdosProblems/Erdos13/Erdos13Kneser.lean",
+      "sha256": "cb0d5c08c5c8db560f5ccfd4dff0160972941ffbfc7fa3117aa5e73558f8e9af",
+      "bytes": 27533
+    },
+    {
+      "module": "ErdosProblems.Erdos13.Erdos13MulStab",
+      "path": "ErdosProblems/Erdos13/Erdos13MulStab.lean",
+      "sha256": "0b5c6339a5e2518ea0086245602b49738f79f83398363d31ac62525d5328394d",
+      "bytes": 17916
+    },
+    {
+      "module": "ErdosProblems.Erdos746.PathMax",
+      "path": "ErdosProblems/Erdos746/PathMax.lean",
+      "sha256": "db2b043e2a6e1d67564615befb4295279b82f9eed17cf8e1c05f626094b449a0",
+      "bytes": 13725
+    },
+    {
+      "module": "ErdosProblems.Erdos746.Posa",
+      "path": "ErdosProblems/Erdos746/Posa.lean",
+      "sha256": "4ed0a0de07a6c0cf564df66be95db3e93923b44cf9ecd8f4951bb927f931c395",
+      "bytes": 26248
+    },
+    {
+      "module": "ErdosProblems.Erdos795",
+      "path": "ErdosProblems/Erdos795.lean",
+      "sha256": "c80f70e965bc3f1874da9b308be6780a1584e24f636fd1e1efefa4f55ca4b1d4",
+      "bytes": 277071
+    },
+    {
+      "module": "ErdosProblems.Erdos874",
+      "path": "ErdosProblems/Erdos874.lean",
+      "sha256": "19826df408b708db0d1e5a0dd32018bfedb340a2c3c1c9c8614d9fb1a4a82ef8",
+      "bytes": 4202
+    },
+    {
+      "module": "ErdosProblems.Erdos874.AlignedBlockSum",
+      "path": "ErdosProblems/Erdos874/AlignedBlockSum.lean",
+      "sha256": "01398876ddc6f6796a30e1734cc3eff8d8558de9aa5355201cac4ca92b583cf6",
+      "bytes": 18909
+    },
+    {
+      "module": "ErdosProblems.Erdos874.Asymptotics",
+      "path": "ErdosProblems/Erdos874/Asymptotics.lean",
+      "sha256": "4dbda88e95304f35ec6df3055da302dc49a66637109b14ea6c9202da0546a38a",
+      "bytes": 4901
+    },
+    {
+      "module": "ErdosProblems.Erdos874.CentralExtractor",
+      "path": "ErdosProblems/Erdos874/CentralExtractor.lean",
+      "sha256": "0070ea80023f0561a18f466a7d718f7a8f26503d8aaa1e518941c22b5a0fffe3",
+      "bytes": 99232
+    },
+    {
+      "module": "ErdosProblems.Erdos874.CentralSpan",
+      "path": "ErdosProblems/Erdos874/CentralSpan.lean",
+      "sha256": "013b56801c2481b848d273dcbf952f00348a56a7eb6ec5dc25f218cba0c473f6",
+      "bytes": 20018
+    },
+    {
+      "module": "ErdosProblems.Erdos874.ConvexTranslate",
+      "path": "ErdosProblems/Erdos874/ConvexTranslate.lean",
+      "sha256": "62d7976cbe4279952184b82246da42b1bbe378451db91192479642192797cdcd",
+      "bytes": 51210
+    },
+    {
+      "module": "ErdosProblems.Erdos874.DensityEndgame",
+      "path": "ErdosProblems/Erdos874/DensityEndgame.lean",
+      "sha256": "343c543bd4b0fbef0af5334dbf28f3106c77c127147621185daa5971222a2953",
+      "bytes": 31232
+    },
+    {
+      "module": "ErdosProblems.Erdos874.EndpointOrientation",
+      "path": "ErdosProblems/Erdos874/EndpointOrientation.lean",
+      "sha256": "d12db23622c3942391bf4227d98c101e097a7ffa944cbb5aea2aecbf98b573d5",
+      "bytes": 23147
+    },
+    {
+      "module": "ErdosProblems.Erdos874.ExactUpper",
+      "path": "ErdosProblems/Erdos874/ExactUpper.lean",
+      "sha256": "ddfd4698dff9ea04c93dba05c84e076a8c6d2293f188dc62201a4fa0edc88920",
+      "bytes": 17174
+    },
+    {
+      "module": "ErdosProblems.Erdos874.Foundations",
+      "path": "ErdosProblems/Erdos874/Foundations.lean",
+      "sha256": "01f06ab553112b05a3a5905a28da86d21701b0eb737e6cfe2e77e855bd577972",
+      "bytes": 8986
+    },
+    {
+      "module": "ErdosProblems.Erdos874.FreimanDimension",
+      "path": "ErdosProblems/Erdos874/FreimanDimension.lean",
+      "sha256": "211bf31912130cd033de6d83c425330348925089220aa7cc8c4ba7cfbc9dacbb",
+      "bytes": 15756
+    },
+    {
+      "module": "ErdosProblems.Erdos874.FreimanEngine",
+      "path": "ErdosProblems/Erdos874/FreimanEngine.lean",
+      "sha256": "41bf3e2e4cc3426e8480485eb06e3c84f6583cdb695ae4eafba1de9a59b3079c",
+      "bytes": 18040
+    },
+    {
+      "module": "ErdosProblems.Erdos874.FreimanNormalization",
+      "path": "ErdosProblems/Erdos874/FreimanNormalization.lean",
+      "sha256": "14eb302dcf928932d98b055856c6dbf3f80165d79ba2865b6caa0954c83094cb",
+      "bytes": 19100
+    },
+    {
+      "module": "ErdosProblems.Erdos874.FreimanNormalizedCore",
+      "path": "ErdosProblems/Erdos874/FreimanNormalizedCore.lean",
+      "sha256": "4066e81dc741a78360881c855006eb5ad0c6245c6d2300295527aa86445192d4",
+      "bytes": 5470
+    },
+    {
+      "module": "ErdosProblems.Erdos874.FreimanThreeKInductive",
+      "path": "ErdosProblems/Erdos874/FreimanThreeKInductive.lean",
+      "sha256": "c987245fcef1f25d87fdb0533a180b8296400825a6d9d216dff635ff0ddd49ad",
+      "bytes": 9308
+    },
+    {
+      "module": "ErdosProblems.Erdos874.FreimanThreeKMinusFour",
+      "path": "ErdosProblems/Erdos874/FreimanThreeKMinusFour.lean",
+      "sha256": "1954d28753217f58302a575f6228cb259b852ec1d1be92c7601390e9988d762f",
+      "bytes": 8775
+    },
+    {
+      "module": "ErdosProblems.Erdos874.LayerOrdering",
+      "path": "ErdosProblems/Erdos874/LayerOrdering.lean",
+      "sha256": "e3163d64ae158393fd52afa984362b4dbcb09858ce0c9a81618bdccbc02dfd1d",
+      "bytes": 3516
+    },
+    {
+      "module": "ErdosProblems.Erdos874.LayerSelection",
+      "path": "ErdosProblems/Erdos874/LayerSelection.lean",
+      "sha256": "5aca109c762013b8122ca6bf2b8a649211b71bd4d110e226c6cbb168d7bc5462",
+      "bytes": 14746
+    },
+    {
+      "module": "ErdosProblems.Erdos874.LevSmelianski",
+      "path": "ErdosProblems/Erdos874/LevSmelianski.lean",
+      "sha256": "31bf9397d20aa08bf324891f7794e1f3030a1f69a243837c84f334c6f3769e6c",
+      "bytes": 2425
+    },
+    {
+      "module": "ErdosProblems.Erdos874.LocalDensity",
+      "path": "ErdosProblems/Erdos874/LocalDensity.lean",
+      "sha256": "6a49017f95594ff5b991f68f029fab9fb2c119969e8de02619f31d6d2d6413fe",
+      "bytes": 55475
+    },
+    {
+      "module": "ErdosProblems.Erdos874.LongProgression",
+      "path": "ErdosProblems/Erdos874/LongProgression.lean",
+      "sha256": "0b55aa5a67b2fa553c5b03e708900fe98e99498b6648c4ee32e17266c94978b5",
+      "bytes": 26570
+    },
+    {
+      "module": "ErdosProblems.Erdos874.MixedSumPath",
+      "path": "ErdosProblems/Erdos874/MixedSumPath.lean",
+      "sha256": "c662600ad4e9032e668b1d9825456583080533d84d4e80281fb61b0aacc06bdc",
+      "bytes": 12884
+    },
+    {
+      "module": "ErdosProblems.Erdos874.ModularDecomposition",
+      "path": "ErdosProblems/Erdos874/ModularDecomposition.lean",
+      "sha256": "7427f4405aca6b828de7c515c641da22292bd7e15b6ae2476eb677485f4f82b9",
+      "bytes": 10554
+    },
+    {
+      "module": "ErdosProblems.Erdos874.ModularStructure",
+      "path": "ErdosProblems/Erdos874/ModularStructure.lean",
+      "sha256": "30cf24186ccfa995fbc4185e435e45579967a028693be4f580e4f6294cac5a56",
+      "bytes": 114370
+    },
+    {
+      "module": "ErdosProblems.Erdos874.NearIndexFiber",
+      "path": "ErdosProblems/Erdos874/NearIndexFiber.lean",
+      "sha256": "c44bd4bc89f8e48a18e8cad60b54f76ff02662b483e75c7644294d1a9023b504",
+      "bytes": 8887
+    },
+    {
+      "module": "ErdosProblems.Erdos874.PopularPairs",
+      "path": "ErdosProblems/Erdos874/PopularPairs.lean",
+      "sha256": "da20718dc2a9115c973350e59ced9b872c370880c5b71216d0c7ef79651fabf4",
+      "bytes": 14242
+    },
+    {
+      "module": "ErdosProblems.Erdos874.ProgressionExtraction",
+      "path": "ErdosProblems/Erdos874/ProgressionExtraction.lean",
+      "sha256": "1da254f946eb4ff1b78bb1c1f7e1740db420461a455afffb66d8296bf42126be",
+      "bytes": 14224
+    },
+    {
+      "module": "ErdosProblems.Erdos874.RegularSpan",
+      "path": "ErdosProblems/Erdos874/RegularSpan.lean",
+      "sha256": "491679cf1d330a6e9805f8341fb877cfc299be435d26262df3df5bf08282f3fe",
+      "bytes": 23685
+    },
+    {
+      "module": "ErdosProblems.Erdos874.ResidueAlignment",
+      "path": "ErdosProblems/Erdos874/ResidueAlignment.lean",
+      "sha256": "861dd5a07ff61022a1daa7399bdb7cb39fdeb650873e79e47eee933a5ae8004a",
+      "bytes": 29121
+    },
+    {
+      "module": "ErdosProblems.Erdos874.ResidueSubgroup",
+      "path": "ErdosProblems/Erdos874/ResidueSubgroup.lean",
+      "sha256": "e8e6fc072a954cc63eba5e033af799db16e4f27e643546f88be59043dd62ad41",
+      "bytes": 22358
+    },
+    {
+      "module": "ErdosProblems.Erdos874.RestrictedGrowth",
+      "path": "ErdosProblems/Erdos874/RestrictedGrowth.lean",
+      "sha256": "8c0cfce6ef0bb8f858803840f9a049b55ec27c96b19331bc2394b31301bd86d0",
+      "bytes": 14590
+    },
+    {
+      "module": "ErdosProblems.Erdos874.RestrictedSums",
+      "path": "ErdosProblems/Erdos874/RestrictedSums.lean",
+      "sha256": "408c5e406fed06dcae09023ba9dfc3c4eb77c7c1e2bb6974d00addfe1fd04c58",
+      "bytes": 17983
+    },
+    {
+      "module": "ErdosProblems.Erdos874.RoughUpper",
+      "path": "ErdosProblems/Erdos874/RoughUpper.lean",
+      "sha256": "61377dbc595f65c9bea97afd415863c9afab7bf94d7d78d77fcec29ff20b609b",
+      "bytes": 41836
+    },
+    {
+      "module": "ErdosProblems.Erdos874.SmallFourLayer",
+      "path": "ErdosProblems/Erdos874/SmallFourLayer.lean",
+      "sha256": "43c7419bc4e4f105126167c57961c11505ad0fb8caa66f099641fb0e14217a60",
+      "bytes": 26836
+    },
+    {
+      "module": "ErdosProblems.Erdos874.StrausUpper",
+      "path": "ErdosProblems/Erdos874/StrausUpper.lean",
+      "sha256": "26e75144ff7060a280d2cd4cbd649fa6ca18fc736280cc6047721ab148887662",
+      "bytes": 7873
+    },
+    {
+      "module": "ErdosProblems.Erdos874.Structure",
+      "path": "ErdosProblems/Erdos874/Structure.lean",
+      "sha256": "dd4f0edc0b6627e34b9761df14dbf7ee465e4f9eac490407fef4f9984197e9a9",
+      "bytes": 26557
+    },
+    {
+      "module": "ErdosProblems.Erdos874.SubgroupGenerators",
+      "path": "ErdosProblems/Erdos874/SubgroupGenerators.lean",
+      "sha256": "e833c85341acc295a81246fa87665c74c31d77419b28ec9a04698635cfa76177",
+      "bytes": 7948
+    },
+    {
+      "module": "ErdosProblems.Erdos874.Tail",
+      "path": "ErdosProblems/Erdos874/Tail.lean",
+      "sha256": "359f793d98bcb723451d6c72b5e3bda843b33d88456248418a4d7abf04f57f63",
+      "bytes": 17004
+    },
+    {
+      "module": "ErdosProblems.Erdos874.Thresholds",
+      "path": "ErdosProblems/Erdos874/Thresholds.lean",
+      "sha256": "83f6e51c4a36c36a5aa6cc3d51790c793ed8558337751c3733c0c664c2f79947",
+      "bytes": 78709
+    },
+    {
+      "module": "ErdosProblems.Erdos916.Blocks",
+      "path": "ErdosProblems/Erdos916/Blocks.lean",
+      "sha256": "663da90d6f5fca1c80a80142d9e6c00e1cf475f7678c3d84c34dd7f9589bfe0d",
+      "bytes": 11656
+    },
+    {
+      "module": "ErdosProblems.Erdos916.Core",
+      "path": "ErdosProblems/Erdos916/Core.lean",
+      "sha256": "b7f15a192d418ed75d3aa90a196c0751cf0ba6a6bf0df84fd8c6ffed577f5ec1",
+      "bytes": 13884
+    }
+  ]
+}

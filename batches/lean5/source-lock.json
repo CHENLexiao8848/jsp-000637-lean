@@ -1,0 +1,137 @@
+[
+  {
+    "path": "LeanTwenty/JSP000759.lean",
+    "sha256": "8d71bc141d32ce4da7b5637a8cbcdced605d0dbf1d19902367d1b663adbb3247",
+    "bytes": 9858
+  },
+  {
+    "path": "LeanTwenty/Problem000746.lean",
+    "sha256": "fe741e61ded3523cb4bc0e785475f9ce7e8f41ec24ef6cad45170540042f79ed",
+    "bytes": 5730
+  },
+  {
+    "path": "LeanTwenty/JSP000690.lean",
+    "sha256": "9dea96349e7f72d78b456d7273cdb03c8d46208aa23c60ef0a79ac6ee5a52795",
+    "bytes": 6307
+  },
+  {
+    "path": "LeanTwenty/JSP000897.lean",
+    "sha256": "04ec9c946fe06fd0e7ed53b8efa9314577b84bb61eb6a56d5d2c4b794632275b",
+    "bytes": 1235
+  },
+  {
+    "path": "LeanTwenty/Upstream/Erdos1079.lean",
+    "sha256": "e3aa40e54458784d54a72482a7716be65f582a8691899efe36dde9e3cc07509e",
+    "bytes": 18718
+  },
+  {
+    "path": "LeanTwenty/JSP000896.lean",
+    "sha256": "b4a7537d1ac2187ebda2f33e6016b27f8197edf0dc6b2845ed989d3020a2a5bb",
+    "bytes": 890
+  },
+  {
+    "path": "LeanTwenty/Upstream/Erdos1078.lean",
+    "sha256": "79055365caf42f6ec4e3c7ff5bd7863a73af74b2c798951aa516facbdf94130c",
+    "bytes": 37800
+  },
+  {
+    "path": "LeanTwenty/JSP000842.lean",
+    "sha256": "02dcab35cf9a72a6b4097caa204fe64fa23ef505083c8d8cb06ea09ee5814f97",
+    "bytes": 1102
+  },
+  {
+    "path": "LeanTwenty/JSP001021.lean",
+    "sha256": "d7e3c477bfb46608db6afecaaa715cd906f8d9319212fd159e95454296234b0f",
+    "bytes": 3381
+  },
+  {
+    "path": "LeanTwenty/Upstream/Erdos1216.lean",
+    "sha256": "96d70169d8946ed780c9419139bc34cddc38f836c344ae0b47ff28c0a39cc3fa",
+    "bytes": 48635
+  },
+  {
+    "path": "LeanTwenty/Upstream/Erdos1216/Certificates.lean",
+    "sha256": "da9a1c93e177bc814ef80984c5afed176777547ffcaf449b327023bbd98b27c0",
+    "bytes": 3263124
+  },
+  {
+    "path": "LeanTwenty/JSP000653.lean",
+    "sha256": "b01200abec3ef792d1cad24e88f46b551a53af5348bd895b07224bc6411d38d9",
+    "bytes": 1473
+  },
+  {
+    "path": "LeanTwenty/JSP000733.lean",
+    "sha256": "61d6035f89ac432767ef13dd06e3992dad8ae8b658f97872c1981c4348d95d9b",
+    "bytes": 10063
+  },
+  {
+    "path": "LeanTwenty/External/Erdos882/Core.lean",
+    "sha256": "c00a0906cfe3f0dcb7cc8e7cb968e0711cb39c7b04833d48f289759aa6b83fb6",
+    "bytes": 26074
+  },
+  {
+    "path": "LeanTwenty/JSP000725.lean",
+    "sha256": "8866113ea9d0bd63f41ff36566251e4285875f8f078152a70714d541afd5b9f0",
+    "bytes": 1771
+  },
+  {
+    "path": "LeanTwenty.lean",
+    "sha256": "d6c66c86a314af12d73ee96d69f765db5605855c56064651584c957cdde57c4f",
+    "bytes": 493
+  },
+  {
+    "path": "lean-toolchain",
+    "sha256": "8733782dc070a99b312039cda424f601b80f3be6f6f512627da5ba25adc27632",
+    "bytes": 25
+  },
+  {
+    "path": "lake-manifest.json",
+    "sha256": "c910a858577ad46005840705bb04421e3c5367f713536472abd07e198a901f97",
+    "bytes": 3511
+  },
+  {
+    "path": "LeanTwenty/Certificates/JSP000746.cnf",
+    "sha256": "260b7c50fac4fcc4525f7253eb37a8750bf744cff5bb41e92a314cdea1ccab45",
+    "bytes": 12986
+  },
+  {
+    "path": "LeanTwenty/Certificates/JSP000746.lrat",
+    "sha256": "55172fa9925cb62926d91a078590e9480b294b5c7727e27e8b68858ca20ac20b",
+    "bytes": 218957
+  },
+  {
+    "path": "LeanTwenty/External/Erdos882/LICENSE",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "bytes": 11358
+  },
+  {
+    "path": "LeanTwenty/External/Erdos882/NOTICE.md",
+    "sha256": "a59d9d37245e18984764dd39d8bbad8caf5ebb85307fa828821664762c83b376",
+    "bytes": 503
+  },
+  {
+    "path": "LeanTwenty/Upstream/NOTICE.md",
+    "sha256": "d2596184fd29fac17272cfa74c119ac1b9a37a4a280ac7c04e2f199357830f15",
+    "bytes": 1141
+  },
+  {
+    "path": "licenses/Apache-2.0.txt",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "bytes": 11358
+  },
+  {
+    "path": "lakefile.toml",
+    "sha256": "cde26a663f61ee2593fa768a6d683b797d3b614f7ff48ae393a1bc07b9917be0",
+    "bytes": 278
+  },
+  {
+    "path": "proofs.json",
+    "sha256": "179941858f184f3a3136d27da40058aae6ce4a6c513cc9c58f0e8fbb62cf0f52",
+    "bytes": 7540
+  },
+  {
+    "path": "upstream-lock.json",
+    "sha256": "02bd63c567ea09ac03d6a91a47194fb365b108b9a7c6eeefa96ca165559f4720",
+    "bytes": 11286
+  }
+]

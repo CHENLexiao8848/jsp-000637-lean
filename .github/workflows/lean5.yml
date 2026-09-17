@@ -1,0 +1,40 @@
+name: LEAN_5 complete proofs
+on:
+  push:
+    branches: [codex/lean5-completed-20260917]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    strategy:
+      fail-fast: false
+      max-parallel: 3
+      matrix:
+        problem: [JSP-000653, JSP-000690, JSP-000725, JSP-000733, JSP-000746, JSP-000759, JSP-000842, JSP-000896, JSP-000897, JSP-001021]
+    env:
+      LEAN_NUM_THREADS: 1
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: "3.12"
+      - name: Install pinned Lean toolchain
+        shell: bash
+        run: |
+          curl -sSf https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh | sh -s -- -y --default-toolchain none
+          echo "$HOME/.elan/bin" >> "$GITHUB_PATH"
+      - name: Verify selected complete proof
+        working-directory: batches/lean5
+        run: python scripts/verify.py --problem ${{ matrix.problem }} --fetch-cache
+      - name: Preserve proof verification evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: lean5-${{ matrix.problem }}
+          path: batches/lean5/verification/
+          retention-days: 90
