@@ -1,0 +1,53 @@
+name: JSP 301 139 838 verification
+on:
+  push:
+    branches: [codex/jsp-000301-000139-000838]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - package: jsp-000301-000139
+            directory: packages/jsp-000301-000139
+          - package: jsp-000838
+            directory: packages/jsp-000838/proof
+    env:
+      LEAN_NUM_THREADS: 2
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: leanprover/lean-action@50fcf42d2e460296f1a34b402e990d1b24f8b596
+        with:
+          lake-package-directory: ${{ matrix.directory }}
+          auto-config: 'false'
+          build: 'false'
+          test: 'false'
+          lint: 'false'
+          use-mathlib-cache: 'true'
+          use-github-cache: 'false'
+      - name: Verify 301 and 139
+        if: matrix.package == 'jsp-000301-000139'
+        working-directory: ${{ matrix.directory }}
+        run: python3 scripts/verify.py
+      - name: Verify preserved 838 proof
+        if: matrix.package == 'jsp-000838'
+        working-directory: ${{ matrix.directory }}
+        run: |
+          python3 verify.py --output-dir ../evidence
+          lake env leanchecker --verbose JSP000838.Main > ../evidence/kernel-replay.txt 2>&1
+      - name: Preserve verification evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: ${{ matrix.package }}-verification
+          path: |
+            packages/${{ matrix.package }}/artifacts/
+            packages/${{ matrix.package }}/evidence/
+          retention-days: 90

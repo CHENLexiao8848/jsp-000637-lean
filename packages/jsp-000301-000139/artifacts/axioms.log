@@ -1,0 +1,14 @@
+Jsp.Powerful301.answer :
+  ¬∀ (n : ℕ), Jsp.Powerful301.Powerful n → Jsp.Powerful301.Powerful (n + 1) → IsSquare n ∨ IsSquare (n + 1)
+Jsp.Powerful301.counterexample :
+  ∃ n, Jsp.Powerful301.Powerful n ∧ Jsp.Powerful301.Powerful (n + 1) ∧ ¬IsSquare n ∧ ¬IsSquare (n + 1)
+Jsp.Graph139Upper.answer (n : ℕ) :
+  121 ≤ n →
+    (∀ (G : SimpleGraph (Fin n)), G.CliqueFree 3 → G.ediam ≤ 2 → n ≤ G.maxDegree ^ 2 + 1) ∧
+      ∃ G, G.CliqueFree 3 ∧ G.ediam ≤ 2 ∧ G.maxDegree ^ 2 ≤ 857435524 * n
+Jsp.Graph139Upper.upper_bound (n : ℕ) (hn : 121 ≤ n) :
+  ∃ G, G.CliqueFree 3 ∧ G.ediam ≤ 2 ∧ G.maxDegree ^ 2 ≤ 857435524 * n
+'Jsp.Powerful301.answer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Jsp.Powerful301.counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Jsp.Graph139Upper.answer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Jsp.Graph139Upper.upper_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

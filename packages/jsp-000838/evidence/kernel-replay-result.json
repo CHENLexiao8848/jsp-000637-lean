@@ -1,0 +1,6 @@
+{
+  "command": "lake env leanchecker --verbose JSP000838.Main",
+  "exit_code": 0,
+  "scope": "Targeted replay of local Main using the same kernel against imported dependencies",
+  "log": "kernel-replay.txt"
+}

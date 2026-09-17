@@ -1,0 +1,130 @@
+{
+  "status": "passed",
+  "started_utc": "2026-09-17T13:12:36.797733+00:00",
+  "source_hashes": {
+    "Audit.lean": "752845d471cecfd547adc5110a4586b41f39a933420689eb1f0721dd997f1079",
+    "Jsp/Graph139.lean": "8070a9dfd11f746ba2275fafc6d8f8468a4520b38aa4a518d81c8228dfffb2a2",
+    "Jsp/Graph139Blowup.lean": "7d04c3017cfd75a76c795c723fc758f7f1cc3f4395bade8a66a6a9ac879fb6e3",
+    "Jsp/Graph139Fields.lean": "5bfb3f2f8cf6bbff473080346c5e2a39b42e28b4c909dbd30f414444ccb3305b",
+    "Jsp/Graph139Parabola.lean": "a47534931ebb9173006ba74577722f47191620019d8b2723695afe45d6b48d11",
+    "Jsp/Graph139Upper.lean": "de18a1b0939fc36a95da5bedc6130d3b0c07be5688475241789fd475650716cc",
+    "Jsp/Powerful301.lean": "a76765dc02bb9fccdf0e06120adfe1fa9b20e02f83fbffdfad47471094748936",
+    "Jsp.lean": "d00af2a27a7d99edc3e3c2a027f59031a46b848a5e7c8a6e509c5087ded05627",
+    "lake-manifest.json": "bffcad8355f4ce032e76f94ee4e1a438a6b3d25b74764fcc4fc331d8186b190d",
+    "lakefile.toml": "795b00ad5b8b59e8d46647c32e0e39e1e4040b60367732859a1b9578f35ab846",
+    "lean-toolchain": "8733782dc070a99b312039cda424f601b80f3be6f6f512627da5ba25adc27632",
+    "scripts/verify.py": "8882d0c7380ef813fe48ed1bcd3cc1d719cb37ab07f1181127f6065c683e9d73"
+  },
+  "checks": [
+    {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--version"
+      ],
+      "exit_code": 0,
+      "log": "toolchain.log",
+      "sha256": "22b2a7b07d8cf2dd036853226f0f7ec55987cbd55c285e1d7282c8ba4840939b"
+    },
+    {
+      "command": [
+        "lake",
+        "build"
+      ],
+      "exit_code": 0,
+      "log": "build.log",
+      "sha256": "9e8b5231b1208ab6a946f6291ba0d39e052d58a25c1458873c47f1165e6195bb"
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "Audit.lean"
+      ],
+      "exit_code": 0,
+      "log": "axioms.log",
+      "sha256": "a6af308f1a7ed9a16a6dec96ff743e5900b39638e7a191457768fcfa3f7f5ae2"
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "leanchecker",
+        "--verbose",
+        "Jsp.Powerful301"
+      ],
+      "exit_code": 0,
+      "log": "Jsp.Powerful301.log",
+      "sha256": "0a8c3bd34dde2bfd8589f6f2ae4bfd094dfd56e7ca462a7c20e9dd72754aa641"
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "leanchecker",
+        "--verbose",
+        "Jsp.Graph139"
+      ],
+      "exit_code": 0,
+      "log": "Jsp.Graph139.log",
+      "sha256": "0dc47010f370ccc41e3ea2492a706518d3c79f3253d5af8aa5decbb018c6e447"
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "leanchecker",
+        "--verbose",
+        "Jsp.Graph139Fields"
+      ],
+      "exit_code": 0,
+      "log": "Jsp.Graph139Fields.log",
+      "sha256": "7ee9c70a65ec9c61a0fb9aec11a9e8a689727fb4e99213daa642366aed5bd490"
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "leanchecker",
+        "--verbose",
+        "Jsp.Graph139Parabola"
+      ],
+      "exit_code": 0,
+      "log": "Jsp.Graph139Parabola.log",
+      "sha256": "64b13f08bc030027598bf9061e4215ef7973ee0f809936f5df0eafdd729eda12"
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "leanchecker",
+        "--verbose",
+        "Jsp.Graph139Blowup"
+      ],
+      "exit_code": 0,
+      "log": "Jsp.Graph139Blowup.log",
+      "sha256": "4e9b19734f729fa67331def650125d08684e86516cb2626e5bdaf3fe2b68f928"
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "leanchecker",
+        "--verbose",
+        "Jsp.Graph139Upper"
+      ],
+      "exit_code": 0,
+      "log": "Jsp.Graph139Upper.log",
+      "sha256": "86752ec5b4e98076033614ecda00a3d879a2031225f4649442fb2662fc9bcf2e"
+    }
+  ],
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "replay_scope": "six local modules, same kernel, importing pinned dependencies",
+  "completed_utc": "2026-09-17T13:20:59.141479+00:00"
+}

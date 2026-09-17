@@ -1,0 +1,78 @@
+{
+  "source_commit": "cee43256a4674c25eb1f4dab64d91d8a7647a584",
+  "files": [
+    {
+      "file": "JSP000838.lean",
+      "sha256": "5b8c6c601f5a8edad7ca65f3b779d9bf15ffa3022d2f24e521a05283efce3858"
+    },
+    {
+      "file": "JSP000838/AxiomAudit.lean",
+      "sha256": "ffcfeb853d53e0f45ac3d72624762984c6f6ba5227aaa592794ec502e92f156c"
+    },
+    {
+      "file": "JSP000838/Carrier.lean",
+      "sha256": "44c734bd31475ae44fca860905edfcb813352b61890e898c0d2136eaeca17c57"
+    },
+    {
+      "file": "JSP000838/CoverObstruction.lean",
+      "sha256": "2ce86b10bd5fcf65fb0b18c58cbf2025fc7137e6ba1be8c3c59dd5b497402cb1"
+    },
+    {
+      "file": "JSP000838/Cycles.lean",
+      "sha256": "2a534490e7aa2cbfb38ee27ce523ede2b60b152e4304daa11ccfeea1c9eba086"
+    },
+    {
+      "file": "JSP000838/Defs.lean",
+      "sha256": "727b5ada4209fdcb93deb6250aef11e51123927bb80d0976c36e14682694e4d1"
+    },
+    {
+      "file": "JSP000838/FiniteChoice.lean",
+      "sha256": "dc113541e932a4114a5ccd22cb232deddccae6e74d8455f0ab67ef38df44c937"
+    },
+    {
+      "file": "JSP000838/FiniteSeparation.lean",
+      "sha256": "eb0d767d57070a1f81478a31060c33e9f1062357724d4a0ba04712ea9b56f2ef"
+    },
+    {
+      "file": "JSP000838/Gluing.lean",
+      "sha256": "6fee4b8f4e5fd1b54765333a5284022f99ad4cbc41c7c0defc20ef77f25ce3f3"
+    },
+    {
+      "file": "JSP000838/HasseBridge.lean",
+      "sha256": "0f98c2147e836976c2af52e723854253f591d4a313ef09723887107b1616f098"
+    },
+    {
+      "file": "JSP000838/LocalCycle.lean",
+      "sha256": "eb53e0d490556aae1256f586266cb40e2e54f57e2002e0629352b6c6abb0643f"
+    },
+    {
+      "file": "JSP000838/Main.lean",
+      "sha256": "c43a160085fffb6b73afe24e67476486ee83b172e792248bba9dd52393be33e0"
+    },
+    {
+      "file": "JSP000838/OrderedObstruction.lean",
+      "sha256": "fb48ac396f264deaa35451c258e1b435200f13c87db4560d4a40b5bc144f8260"
+    },
+    {
+      "file": "JSP000838/Orientation.lean",
+      "sha256": "ec6e632b52068208dc85c8df0f1ed1ce490c770e55e3fd3c5916b26e07566f02"
+    },
+    {
+      "file": "JSP000838/Pasting.lean",
+      "sha256": "d4ec4f4359a3790e2911484e2f429804ed64208ae44a5554799723a4e1377f5e"
+    },
+    {
+      "file": "JSP000838/Reachability.lean",
+      "sha256": "7c79650c8d73875884ebe242126a4569aeb824dd8a3e77278cd44d05a98a9854"
+    },
+    {
+      "file": "JSP000838/ReverseEdge.lean",
+      "sha256": "9aa0220cfb8cddaf0a68aadb17217fe4861e2349549d320ba75aa1e0b8c3ea9c"
+    },
+    {
+      "file": "JSP000838/SourceTheorem.lean",
+      "sha256": "3f699d1c8e550598fed2ff388281fc14c13ef5c5e6643882cb160bbbdd4464fe"
+    }
+  ],
+  "unchanged_lean_files": 18
+}

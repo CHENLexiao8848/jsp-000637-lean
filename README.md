@@ -1,5 +1,7 @@
 # JSP-000637 / Erdős 777
 
+This branch also hosts reusable, separately buildable submission packages for [JSP-000301 and JSP-000139](packages/jsp-000301-000139/README.md), and the [preserved JSP-000838 proof from PR #707](packages/jsp-000838/MIGRATION.md). The original 637 package below remains unchanged. See the branch's [batch verification workflow](.github/workflows/jsp-batch.yml).
+
 Complete Lean proof of all three Daykin–Erdős questions: **yes, no, yes**. The entry theorem is `Jsp637.jsp_000637` in [Jsp637.lean](Jsp637.lean); the full proof is [Erdos777.lean](vendor/plby/ErdosProblems/Erdos777.lean).
 
 [中文提交 SOP](docs/SUBMISSION_SOP.zh-CN.md) · [Attribution](vendor/plby/UPSTREAM.md) · [Verification](artifacts/verification.json)

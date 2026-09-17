@@ -1,0 +1,9 @@
+# Catalog-only migration of PR #707
+
+The complete proof selected for JSP-000838 is the existing submission from CHENLexiao8848/awards commit `cee43256a4674c25eb1f4dab64d91d8a7647a584`, [PR #707](https://github.com/TheJustinSunPrize/awards/pull/707). All 18 Lean sources, the original MIT license and locked dependencies are preserved byte-for-byte in `proof/`. The mathematical result is due to Jaroslav Nešetřil and Vojtěch Rödl (1978). The original AI-assisted local formalization and exact statement/reversal/Hasse-diagram bridges are retained; this migration adds no new mathematical discovery claim.
+
+The new work in this version relocates that already-reviewed source from the awards fork into an existing public proof repository, updates documentation paths, and records fresh local and Linux reproduction. The official PR is revised to contain only the relevant catalog references and attribution. No second PR for the same contribution is created. The old fork commit and CI evidence remain accessible.
+
+The different Apache-2.0 `plby/lean-proofs` proof and [Issue #24](https://github.com/TheJustinSunPrize/awards/issues/24) remain acknowledged in [ATTRIBUTION.md](ATTRIBUTION.md). This selected proof is not replaced with that alternate implementation. The local project also contains an adapter for the alternate proof, but it is not a second submitted version. No first-formalization, independent human review, award eligibility or entitlement is asserted.
+
+Local verification: `python proof/verify.py --output-dir evidence`, then from `proof`, `lake env leanchecker --verbose JSP000838.Main`. The latter checks the local module against imported dependencies using the same Lean kernel. The earlier published full-environment replay is linked in the existing PR; this migration does not mislabel the new targeted replay as fresh replay of all Mathlib.

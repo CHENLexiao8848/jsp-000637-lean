@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--fresh",
+    "JSP000838.Main"
+  ],
+  "exit_code": 0,
+  "scope": "Replay the complete imported environment through the bundled Lean kernel; not an independent implementation.",
+  "provenance": "Preserved prior evidence from awards commit cee43256a4674c25eb1f4dab64d91d8a7647a584; not a new fresh replay in this migration",
+  "ci_url": "https://github.com/CHENLexiao8848/awards/actions/runs/35218411582"
+}
