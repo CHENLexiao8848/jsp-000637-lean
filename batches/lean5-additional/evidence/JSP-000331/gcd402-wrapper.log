@@ -1,0 +1,149 @@
+⚠ [2826/2829] Replayed ErdosProblems.Erdos49.PNT.MellinCalculus
+warning: .lake/upstream-src/ErdosProblems/Erdos49/PNT/MellinCalculus.lean:602:15: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: .lake/upstream-src/ErdosProblems/Erdos49/PNT/MellinCalculus.lean:1037:23: `if_pos` has been deprecated: Use `ite_eq_left` instead
+⚠ [3657/3661] Replayed PrimeNumberTheoremAnd.Sobolev
+warning: .lake/upstream-src/PrimeNumberTheoremAnd/Sobolev.lean:307:42: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3691/3693] Replayed ErdosProblems.Erdos49.PNT.MediumPNT
+warning: .lake/upstream-src/ErdosProblems/Erdos49/PNT/MediumPNT.lean:320:10: `mul_lt_one_of_nonneg_of_lt_one_left` has been deprecated: No replacement, use constituent lemmas from proof.
+info: .lake/upstream-src/ErdosProblems/Erdos49/PNT/MediumPNT.lean:3553:0: 'MediumPNT' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3692/3693] Replayed ErdosProblems.Erdos402
+warning: .lake/upstream-src/ErdosProblems/Erdos402.lean:96:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: .lake/upstream-src/ErdosProblems/Erdos402.lean:93:19: Variable name `hb0` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hb0
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: .lake/upstream-src/ErdosProblems/Erdos402.lean:169:6: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+warning: .lake/upstream-src/ErdosProblems/Erdos402.lean:177:6: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+warning: .lake/upstream-src/ErdosProblems/Erdos402.lean:187:6: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+warning: .lake/upstream-src/ErdosProblems/Erdos402.lean:229:13: Variable name `α` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _α
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: .lake/upstream-src/ErdosProblems/Erdos402.lean:359:6: Try `simp at this` instead of `simpa using this`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: .lake/upstream-src/ErdosProblems/Erdos402.lean:734:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: .lake/upstream-src/ErdosProblems/Erdos402.lean:1229:13: Variable name `l` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _l
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: .lake/upstream-src/ErdosProblems/Erdos402.lean:1237:15: Variable name `hN` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hN
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: .lake/upstream-src/ErdosProblems/Erdos402.lean:1312:31: This simp argument is unused:
+  m
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [squareMomentSide, s, hs]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: .lake/upstream-src/ErdosProblems/Erdos402.lean:1337:33: This simp argument is unused:
+  s
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [squareMomentSide, m, lo]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: .lake/upstream-src/ErdosProblems/Erdos402.lean:1337:36: This simp argument is unused:
+  m
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [squareMomentSide, s, lo]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: .lake/upstream-src/ErdosProblems/Erdos402.lean:1337:39: This simp argument is unused:
+  lo
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [squareMomentSide, s, m]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: .lake/upstream-src/ErdosProblems/Erdos402.lean:1343:17: Variable name `hN` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hN
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: .lake/upstream-src/ErdosProblems/Erdos402.lean:1876:6: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: .lake/upstream-src/ErdosProblems/Erdos402.lean:1868:13: This simp argument is unused:
+  Real.rpow_natCast
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Real.rpow_one] at hratio
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: .lake/upstream-src/ErdosProblems/Erdos402.lean:2617:13: Variable name `p` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _p
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: .lake/upstream-src/ErdosProblems/Erdos402.lean:2617:24: Variable name `α` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _α
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: .lake/upstream-src/ErdosProblems/Erdos402.lean:2998:30: This simp argument is unused:
+  mul_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [mul_assoc, mul_left_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: .lake/upstream-src/ErdosProblems/Erdos402.lean:3001:30: This simp argument is unused:
+  mul_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [mul_assoc, mul_left_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: .lake/upstream-src/ErdosProblems/Erdos402.lean:3012:30: This simp argument is unused:
+  mul_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [mul_assoc, mul_left_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: .lake/upstream-src/ErdosProblems/Erdos402.lean:3015:30: This simp argument is unused:
+  mul_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [mul_assoc, mul_left_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: .lake/upstream-src/ErdosProblems/Erdos402.lean:3084:57: Variable name `hpupper` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hpupper
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [3693/3693] Built LeanTwenty.JSP000331 (82s)
+Build completed successfully (3693 jobs).

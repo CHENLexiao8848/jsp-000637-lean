@@ -1,0 +1,18 @@
+{
+  "checked_utc": "2026-09-17T14:49:30.241201+00:00",
+  "problems": [
+    "JSP-000331",
+    "JSP-000248"
+  ],
+  "result": "passed",
+  "restored_external_files": 25,
+  "source_correspondence": "All restored files equal the current locally verified source modulo LF normalization. Entry hashes equal manifest evidence. Toolchain and library lock identical.",
+  "commands": [
+    {
+      "command": "python scripts/verify.py --prepare-only",
+      "exit_code": 0
+    }
+  ],
+  "reused_proof_verification": "evidence/JSP-000248/verification.json; evidence/JSP-000331/verification.json",
+  "not_run": "No redundant full Lean rebuild was run for publication. Existing successful kernel builds/axiom audits are reused."
+}

@@ -1,0 +1,45 @@
+{
+  "proof_commit": "060945b90e39e6ce77731e31879d83075309bee5",
+  "proof_branch": "codex/lean5-completed-20260917",
+  "clean_linux_ci": {
+    "url": "https://github.com/CHENLexiao8848/jsp-000637-lean/actions/runs/35226287772",
+    "status": "completed",
+    "conclusion": "success"
+  },
+  "supplemental_interface_axioms": [
+    {
+      "theorem": "JSP000896.solution",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "JSP000897.solution",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "JSP000897.strict_solution",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "command": "lake env lean scripts/CheckAxioms.lean",
+  "exit_code": 0,
+  "reused_log_sha256": "1b95e220efbed166af8dacf6bb304b52209743aeecc0d1d8306022b1f512ba51",
+  "evidence_correction": "The original local evidence for 896/897 listed underlying theorem axioms. These exact interface reports were also successfully run and are supplied here without re-running unchanged proofs.",
+  "metadata_correction": {
+    "problem": "JSP-000690",
+    "published_file": "batches/lean5/LeanTwenty/JSP000690.lean",
+    "actual_published_sha256": "9dea96349e7f72d78b456d7273cdb03c8d46208aa23c60ef0a79ac6ee5a52795",
+    "explanation": "Old proofs.json carried its original CRLF hash; source-lock and original evidence carried the correct published LF hash. Mathematical source is unchanged."
+  }
+}

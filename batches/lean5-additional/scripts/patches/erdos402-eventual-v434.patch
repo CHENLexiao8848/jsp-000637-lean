@@ -1,0 +1,14 @@
+diff --git a/ErdosProblems/Erdos402.lean b/ErdosProblems/Erdos402.lean
+index 8fcd695..2255df8 100644
+--- a/ErdosProblems/Erdos402.lean
++++ b/ErdosProblems/Erdos402.lean
+@@ -2022,8 +2022,7 @@ private lemma pairTriple_mem {N D n x y : ℕ} (hn : 0 < n)
+   have hlpos : 0 < n / (X₁ * X₂) :=
+     Nat.div_pos (Nat.le_of_dvd hn hprod) hprodpos
+   have hXX : X₁ < X₂ :=
+-    (Nat.div_lt_div_right hg.ne' (Nat.gcd_dvd_left x y)
+-      (Nat.gcd_dvd_right x y)).mpr hxy
++    (Nat.div_lt_div_right hg.ne' (Nat.gcd_dvd_right x y)).mpr hxy
+   rw [mem_factorTriples]
+   refine ⟨hlpos, Nat.div_le_self n _, hX₁, ?_, hX₂, ?_, ?_, hXX, ?_⟩
+   · exact hXX.le.trans hD

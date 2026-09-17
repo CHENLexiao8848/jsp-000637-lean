@@ -1,0 +1,51 @@
+{
+  "problem": "JSP-000331",
+  "proof_source_sha256": "2468fd8d349fb3aa344557e06a6ebcc4d4f07beb13b15829d40d6beaf87fe7cb",
+  "lean": "4.34.0",
+  "mathlib_commit": "5ed2965256430c3649e86755f9576b54eca72435",
+  "checks": [
+    {
+      "command": "lake build LeanTwenty.JSP000331",
+      "exit_code": 0,
+      "kind": "reused prior successful local verification; not a fresh build",
+      "original_log_sha256": "f2662ac64ef6c212c1a58320d0b2e34ae2b29c46dab2fb9fe1266155390ff1b8",
+      "published_log": "gcd402-wrapper.log",
+      "published_log_sha256": "244671e160b880626e2012d6728601d63696f34bdb0713cbb21870e6a14707c4"
+    },
+    {
+      "command": "lake env lean artifacts/audit/CheckGcd402.lean",
+      "exit_code": 0,
+      "kind": "reused prior successful local verification; not a fresh build",
+      "original_log_sha256": "7b4df4db2a901c25860d4c62206df1375c818a198b18fcdf67dff3fc4a0b8729",
+      "published_log": "gcd402-final-axioms.log",
+      "published_log_sha256": "7b4df4db2a901c25860d4c62206df1375c818a198b18fcdf67dff3fc4a0b8729"
+    }
+  ],
+  "axioms": [
+    {
+      "theorem": "MediumPNT",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "Erdos402.erdos_402",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "JSP000331.solution",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "limitations": "Original local module builds reuse pinned dependency caches; not independent human review. Portable source reconstruction is checked separately; no fresh rebuild claimed."
+}

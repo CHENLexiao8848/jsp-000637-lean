@@ -1,0 +1,32 @@
+[
+  {
+    "jsp": "JSP-000331",
+    "erdos": 402,
+    "source_url": "https://www.erdosproblems.com/402",
+    "status": "proved",
+    "required_scope": "Eventual Graham gcd bound; all-cardinality strengthening is separate",
+    "proof_file": "LeanTwenty/JSP000331.lean",
+    "proof_sha256": "2468fd8d349fb3aa344557e06a6ebcc4d4f07beb13b15829d40d6beaf87fe7cb",
+    "theorem": "JSP000331.solution",
+    "module": "LeanTwenty.JSP000331",
+    "theorems": [
+      "JSP000331.solution",
+      "Erdos402.erdos_402"
+    ]
+  },
+  {
+    "jsp": "JSP-000248",
+    "erdos": 292,
+    "source_url": "https://www.erdosproblems.com/292",
+    "status": "proved",
+    "required_scope": "Largest denominators in distinct Egyptian fraction sums equal to one have density one",
+    "proof_file": "LeanTwenty/JSP000248.lean",
+    "proof_sha256": "74d44087bc87f878eb0c7df57ef11586cb070290c83cdf1364471cb1e1937eae",
+    "theorem": "JSP000248.solution",
+    "module": "LeanTwenty.JSP000248",
+    "theorems": [
+      "JSP000248.solution",
+      "Erdos292.erdos_292"
+    ]
+  }
+]

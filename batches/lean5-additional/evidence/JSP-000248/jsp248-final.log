@@ -1,0 +1,35 @@
+⚠ [8927/8934] Replayed UnitFractions.ForMathlib.BasicEstimates
+warning: .lake/upstream-src/UnitFractions/ForMathlib/BasicEstimates.lean:274:8: `Finset.prod_le_prod'` has been deprecated: Use `Finset.prod_le_prod` instead
+warning: .lake/upstream-src/UnitFractions/ForMathlib/BasicEstimates.lean:1262:8: `Finset.sum_nonneg'` has been deprecated: Use `Finset.sum_nonneg` instead
+
+Note: The updated constant has a different type:
+  ∀ {ι : Type u_1} {N : Type u_5} [inst : AddCommMonoid N] [inst_1 : Preorder N] {f : ι → N} {s : Finset ι}
+    [AddLeftMono N], (∀ i ∈ s, 0 ≤ f i) → 0 ≤ ∑ i ∈ s, f i
+instead of
+  ∀ {ι : Type u_1} {N : Type u_5} [inst : AddCommMonoid N] [inst_1 : Preorder N] {f : ι → N} {s : Finset ι}
+    [AddLeftMono N], (∀ (i : ι), 0 ≤ f i) → 0 ≤ ∑ i ∈ s, f i
+warning: .lake/upstream-src/UnitFractions/ForMathlib/BasicEstimates.lean:1271:8: `Finset.sum_nonneg'` has been deprecated: Use `Finset.sum_nonneg` instead
+
+Note: The updated constant has a different type:
+  ∀ {ι : Type u_1} {N : Type u_5} [inst : AddCommMonoid N] [inst_1 : Preorder N] {f : ι → N} {s : Finset ι}
+    [AddLeftMono N], (∀ i ∈ s, 0 ≤ f i) → 0 ≤ ∑ i ∈ s, f i
+instead of
+  ∀ {ι : Type u_1} {N : Type u_5} [inst : AddCommMonoid N] [inst_1 : Preorder N] {f : ι → N} {s : Finset ι}
+    [AddLeftMono N], (∀ (i : ι), 0 ≤ f i) → 0 ≤ ∑ i ∈ s, f i
+warning: .lake/upstream-src/UnitFractions/ForMathlib/BasicEstimates.lean:1750:81: `if_pos` has been deprecated: Use `ite_eq_left` instead
+⚠ [8928/8934] Replayed UnitFractions.AuxiliaryLemmas
+warning: .lake/upstream-src/UnitFractions/AuxiliaryLemmas.lean:671:14: `List.pow_card_le_prod` has been deprecated: Use `List.pow_length_le_prod` instead
+⚠ [8929/8934] Replayed UnitFractions.Fourier
+warning: .lake/upstream-src/UnitFractions/Fourier.lean:429:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: .lake/upstream-src/UnitFractions/Fourier.lean:454:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+⚠ [8931/8934] Replayed UnitFractions.FinalResults
+warning: .lake/upstream-src/UnitFractions/FinalResults.lean:178:44: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: .lake/upstream-src/UnitFractions/FinalResults.lean:186:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: .lake/upstream-src/UnitFractions/FinalResults.lean:194:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: .lake/upstream-src/UnitFractions/FinalResults.lean:195:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: .lake/upstream-src/UnitFractions/FinalResults.lean:245:53: `if_pos` has been deprecated: Use `ite_eq_left` instead
+ℹ [8933/8934] Built ErdosProblems.Erdos292 (32s)
+info: .lake/upstream-src/ErdosProblems/Erdos292.lean:124:0: 'Erdos292.erdos_292' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8934/8934] Built LeanTwenty.JSP000248 (26s)
+info: LeanTwenty/JSP000248.lean:29:0: 'JSP000248.solution' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (8934 jobs).

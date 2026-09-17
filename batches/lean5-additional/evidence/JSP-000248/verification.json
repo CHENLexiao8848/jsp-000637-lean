@@ -1,0 +1,35 @@
+{
+  "problem": "JSP-000248",
+  "proof_source_sha256": "74d44087bc87f878eb0c7df57ef11586cb070290c83cdf1364471cb1e1937eae",
+  "lean": "4.34.0",
+  "mathlib_commit": "5ed2965256430c3649e86755f9576b54eca72435",
+  "checks": [
+    {
+      "command": "lake build LeanTwenty.JSP000248",
+      "exit_code": 0,
+      "kind": "reused prior successful local verification; not a fresh build",
+      "original_log_sha256": "23b214dda47efc962ff438877026c0b391b0c2f7e2721506bdaa3e4287613b18",
+      "published_log": "jsp248-final.log",
+      "published_log_sha256": "23b214dda47efc962ff438877026c0b391b0c2f7e2721506bdaa3e4287613b18"
+    }
+  ],
+  "axioms": [
+    {
+      "theorem": "Erdos292.erdos_292",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "JSP000248.solution",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "limitations": "Original local module builds reuse pinned dependency caches; not independent human review. Portable source reconstruction is checked separately; no fresh rebuild claimed."
+}

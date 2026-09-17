@@ -1,0 +1,66 @@
+{
+  "revision": "8822f7ddef30fadbd92e1c6ab4ed897af356af5e",
+  "reason": "Mathlib 4.34 separates nonnegative product lemmas with a subscript zero.",
+  "edits": [
+    {
+      "file": "UnitFractions/ForMathlib/Misc.lean",
+      "before": "Finset.one_le_prod (s := s) (f := f) h1",
+      "after": "Finset.one_le_prod₀ (s := s) (f := f) h1"
+    },
+    {
+      "file": "UnitFractions/ForMathlib/BasicEstimates.lean",
+      "before": "Finset.one_le_prod ?_",
+      "after": "Finset.one_le_prod₀ ?_"
+    },
+    {
+      "file": "UnitFractions/ForMathlib/BasicEstimates.lean",
+      "before": "Finset.prod_le_prod_of_subset_of_one_le h hs hf",
+      "after": "Finset.prod_le_prod_of_subset_of_one_le₀ h hs hf"
+    },
+    {
+      "file": "UnitFractions/ForMathlib/BasicEstimates.lean",
+      "before": "Finset.prod_le_prod_of_subset_of_le_one hsubset",
+      "after": "Finset.prod_le_prod_of_subset_of_le_one₀ hsubset"
+    },
+    {
+      "file": "UnitFractions/ForMathlib/BasicEstimates.lean",
+      "before": "refine Finset.prod_le_prod (fun i hi =>",
+      "after": "refine Finset.prod_le_prod₀ (fun i hi =>"
+    },
+    {
+      "file": "UnitFractions/ForMathlib/BasicEstimates.lean",
+      "before": "(Finset.prod_le_prod ?_ ?_).trans ((Finset.prod_const K).trans_le ?_)",
+      "after": "(Finset.prod_le_prod₀ ?_ ?_).trans ((Finset.prod_const K).trans_le ?_)"
+    },
+    {
+      "file": "UnitFractions/AuxiliaryLemmas.lean",
+      "before": "Finset.prod_le_prod hs hf",
+      "after": "Finset.prod_le_prod₀ hs hf"
+    },
+    {
+      "file": "UnitFractions/AuxiliaryLemmas.lean",
+      "before": "Finset.prod_le_prod ?_ ?_",
+      "after": "Finset.prod_le_prod₀ ?_ ?_"
+    },
+    {
+      "file": "UnitFractions/Fourier.lean",
+      "before": "Finset.prod_le_one ?_ ?_",
+      "after": "Finset.prod_le_one₀ ?_ ?_"
+    },
+    {
+      "file": "UnitFractions/Fourier.lean",
+      "before": "Finset.prod_le_prod (",
+      "after": "Finset.prod_le_prod₀ ("
+    },
+    {
+      "file": "UnitFractions/Fourier.lean",
+      "before": "Finset.prod_le_prod ?_ ?_",
+      "after": "Finset.prod_le_prod₀ ?_ ?_"
+    },
+    {
+      "file": "UnitFractions/FinalResults.lean",
+      "before": "Finset.prod_le_prod_of_subset_of_le_one",
+      "after": "Finset.prod_le_prod_of_subset_of_le_one₀"
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "repository": "https://github.com/plby/lean-proofs",
+  "branch": "main",
+  "commit": "8822f7ddef30fadbd92e1c6ab4ed897af356af5e",
+  "files": [
+    {
+      "module": "ErdosProblems.Erdos292",
+      "path": "ErdosProblems/Erdos292.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos292.lean",
+      "original_sha256": "2d27070c325db42ce5b2850d053cd5517ed2f696a97f19dd475fa2ecdb0752c9",
+      "verified_sha256": "2d27070c325db42ce5b2850d053cd5517ed2f696a97f19dd475fa2ecdb0752c9",
+      "extracted": false
+    },
+    {
+      "module": "ErdosProblems.Erdos402",
+      "path": "ErdosProblems/Erdos402.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos402.lean",
+      "original_sha256": "09a31c0c26c3ca20ea7c82897cf15182b1984e31a018bdb0c22970823e7a76d0",
+      "verified_sha256": "428fab9525c8093fa75130baa0c6444f8bae9f5da48d510fbcbc2099a5f6f089",
+      "extracted": true
+    },
+    {
+      "module": "ErdosProblems.Erdos49.PNT.Auxiliary",
+      "path": "ErdosProblems/Erdos49/PNT/Auxiliary.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos49/PNT/Auxiliary.lean",
+      "original_sha256": "6a57cc112e9a6dbe780c019cb22fa1469733afc78976f3aeeaaa80949acf0cfc",
+      "verified_sha256": "6a57cc112e9a6dbe780c019cb22fa1469733afc78976f3aeeaaa80949acf0cfc",
+      "extracted": false
+    },
+    {
+      "module": "ErdosProblems.Erdos49.PNT.EulerMaclaurin",
+      "path": "ErdosProblems/Erdos49/PNT/EulerMaclaurin.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos49/PNT/EulerMaclaurin.lean",
+      "original_sha256": "8c8362686141aa33ba80e791d39383bda12d1781a2497553c8369b6c9b2d3fae",
+      "verified_sha256": "8c8362686141aa33ba80e791d39383bda12d1781a2497553c8369b6c9b2d3fae",
+      "extracted": false
+    },
+    {
+      "module": "ErdosProblems.Erdos49.PNT.MediumPNT",
+      "path": "ErdosProblems/Erdos49/PNT/MediumPNT.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos49/PNT/MediumPNT.lean",
+      "original_sha256": "3558ef2c9810b7bfa3d47aab0b491a282f507c9567e10ccfee24411b11de040a",
+      "verified_sha256": "3558ef2c9810b7bfa3d47aab0b491a282f507c9567e10ccfee24411b11de040a",
+      "extracted": false
+    },
+    {
+      "module": "ErdosProblems.Erdos49.PNT.MellinCalculus",
+      "path": "ErdosProblems/Erdos49/PNT/MellinCalculus.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos49/PNT/MellinCalculus.lean",
+      "original_sha256": "8b25d2fcb087420fba3f8d7b64639d4645101b7c092b235e0c1afeafe6432d95",
+      "verified_sha256": "2bfea70aac22066e3629ec0df90a0fce5b4b3e2d59a661d6133426c52f38d2d4",
+      "extracted": false
+    },
+    {
+      "module": "ErdosProblems.Erdos49.PNT.Rectangle",
+      "path": "ErdosProblems/Erdos49/PNT/Rectangle.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos49/PNT/Rectangle.lean",
+      "original_sha256": "dc2cb8f0f5b0651b938b6fcceb1972831df9a8c0ae02dd4a4fc43a35b38380b9",
+      "verified_sha256": "dc2cb8f0f5b0651b938b6fcceb1972831df9a8c0ae02dd4a4fc43a35b38380b9",
+      "extracted": false
+    },
+    {
+      "module": "ErdosProblems.Erdos49.PNT.ResidueCalcOnRectangles",
+      "path": "ErdosProblems/Erdos49/PNT/ResidueCalcOnRectangles.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos49/PNT/ResidueCalcOnRectangles.lean",
+      "original_sha256": "f8ab22f18cc15ee447bc9249d563f5fd1aebaed8cb16dc4fdadd4d0eb401ff12",
+      "verified_sha256": "f8ab22f18cc15ee447bc9249d563f5fd1aebaed8cb16dc4fdadd4d0eb401ff12",
+      "extracted": false
+    },
+    {
+      "module": "ErdosProblems.Erdos49.PNT.Tactic.AdditiveCombination",
+      "path": "ErdosProblems/Erdos49/PNT/Tactic/AdditiveCombination.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos49/PNT/Tactic/AdditiveCombination.lean",
+      "original_sha256": "f802d3a8a338b5be3df1f0b7483a8438c3406a01fefa1b1b62f33c476b11fa10",
+      "verified_sha256": "f802d3a8a338b5be3df1f0b7483a8438c3406a01fefa1b1b62f33c476b11fa10",
+      "extracted": false
+    },
+    {
+      "module": "ErdosProblems.Erdos49.PNT.ZetaBounds",
+      "path": "ErdosProblems/Erdos49/PNT/ZetaBounds.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos49/PNT/ZetaBounds.lean",
+      "original_sha256": "875f1b2f5af332756a67efedabb1e420730f0d27a06ea2a6c8c07ad6522145eb",
+      "verified_sha256": "875f1b2f5af332756a67efedabb1e420730f0d27a06ea2a6c8c07ad6522145eb",
+      "extracted": false
+    },
+    {
+      "module": "ErdosProblems.Erdos49.PNT.ZetaConj",
+      "path": "ErdosProblems/Erdos49/PNT/ZetaConj.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos49/PNT/ZetaConj.lean",
+      "original_sha256": "a65ab6c845f7906e961950725416df0919cae9fd6fb4658263399e28241b4b6a",
+      "verified_sha256": "a65ab6c845f7906e961950725416df0919cae9fd6fb4658263399e28241b4b6a",
+      "extracted": false
+    },
+    {
+      "module": "PrimeNumberTheoremAnd.Fourier",
+      "path": "PrimeNumberTheoremAnd/Fourier.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/PrimeNumberTheoremAnd/Fourier.lean",
+      "original_sha256": "5812d352fbc983626ff0b5c1ac51cb35b17008901598feeba9b2382cf10baac0",
+      "verified_sha256": "5812d352fbc983626ff0b5c1ac51cb35b17008901598feeba9b2382cf10baac0",
+      "extracted": false
+    },
+    {
+      "module": "PrimeNumberTheoremAnd.Mathlib.Algebra.Notation.Support",
+      "path": "PrimeNumberTheoremAnd/Mathlib/Algebra/Notation/Support.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/PrimeNumberTheoremAnd/Mathlib/Algebra/Notation/Support.lean",
+      "original_sha256": "dec487419be00fa77ecfc6273a7451d0c04ea90693ab50566a47ba827c5ab84d",
+      "verified_sha256": "dec487419be00fa77ecfc6273a7451d0c04ea90693ab50566a47ba827c5ab84d",
+      "extracted": false
+    },
+    {
+      "module": "PrimeNumberTheoremAnd.Mathlib.Analysis.SpecialFunctions.Log.Basic",
+      "path": "PrimeNumberTheoremAnd/Mathlib/Analysis/SpecialFunctions/Log/Basic.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/PrimeNumberTheoremAnd/Mathlib/Analysis/SpecialFunctions/Log/Basic.lean",
+      "original_sha256": "21bc8312b14d87e78b42af2d1ab78bfe7ecaa3343f6c32bedd6b2483ef984af5",
+      "verified_sha256": "21bc8312b14d87e78b42af2d1ab78bfe7ecaa3343f6c32bedd6b2483ef984af5",
+      "extracted": false
+    },
+    {
+      "module": "PrimeNumberTheoremAnd.SmoothExistence",
+      "path": "PrimeNumberTheoremAnd/SmoothExistence.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/PrimeNumberTheoremAnd/SmoothExistence.lean",
+      "original_sha256": "5943ee37e08b463e63332c8f3ccc918d734e7bf799705bb3c1a8ff0c35935952",
+      "verified_sha256": "5943ee37e08b463e63332c8f3ccc918d734e7bf799705bb3c1a8ff0c35935952",
+      "extracted": false
+    },
+    {
+      "module": "PrimeNumberTheoremAnd.Sobolev",
+      "path": "PrimeNumberTheoremAnd/Sobolev.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/PrimeNumberTheoremAnd/Sobolev.lean",
+      "original_sha256": "17cedc5898d6a696dca9e557bfaafbe1209e4a5252a62baddebc777c2a3a9bb2",
+      "verified_sha256": "089d6a7dc4d86abdb8f733aea51bfe0f156a4491c27c33e74890ec0bee40191e",
+      "extracted": false
+    },
+    {
+      "module": "UnitFractions.AuxiliaryLemmas",
+      "path": "UnitFractions/AuxiliaryLemmas.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/UnitFractions/AuxiliaryLemmas.lean",
+      "original_sha256": "7022420db51b9bbce5a5d242937d825edefb206ad87c90e1762e155114d5519e",
+      "verified_sha256": "cc7fc94e809bc8daeecc518e4a8ae1e39eddbf034e1719610001eced12252b47",
+      "extracted": false
+    },
+    {
+      "module": "UnitFractions.Definitions",
+      "path": "UnitFractions/Definitions.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/UnitFractions/Definitions.lean",
+      "original_sha256": "ad13485bbed982f2a250248ccedc58232007670c75b214911a09ab9c0419a4b9",
+      "verified_sha256": "ad13485bbed982f2a250248ccedc58232007670c75b214911a09ab9c0419a4b9",
+      "extracted": false
+    },
+    {
+      "module": "UnitFractions.ErdosProblems",
+      "path": "UnitFractions/ErdosProblems.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/UnitFractions/ErdosProblems.lean",
+      "original_sha256": "2aadcacf85182547fa2f4d24fba0931fcfb36ee4ce47c33eeedb178d02e0179f",
+      "verified_sha256": "2aadcacf85182547fa2f4d24fba0931fcfb36ee4ce47c33eeedb178d02e0179f",
+      "extracted": false
+    },
+    {
+      "module": "UnitFractions.FinalResults",
+      "path": "UnitFractions/FinalResults.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/UnitFractions/FinalResults.lean",
+      "original_sha256": "6e6877d457445af9bd9e58f1acf6942ca5b4b60ed04c2890561f01d87c0ef6cb",
+      "verified_sha256": "83807129b55b269e93e30d67c421e0717718dc67df6c2a5f8f282841c64f9c98",
+      "extracted": false
+    },
+    {
+      "module": "UnitFractions.ForMathlib.BasicEstimates",
+      "path": "UnitFractions/ForMathlib/BasicEstimates.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/UnitFractions/ForMathlib/BasicEstimates.lean",
+      "original_sha256": "1475f84517f02f43f91563e7852b147d677d661d57e7cac6b4b3120570613775",
+      "verified_sha256": "dd9a815e5ec6d7dc78b16dbad30956c86aedef09ae6f2a3d5ac5fe6579feda8d",
+      "extracted": false
+    },
+    {
+      "module": "UnitFractions.ForMathlib.IntegralRPow",
+      "path": "UnitFractions/ForMathlib/IntegralRPow.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/UnitFractions/ForMathlib/IntegralRPow.lean",
+      "original_sha256": "884ed8b4343eb10c4e5fa123069c9ac584d74123aea3173974bf3afdb6c48134",
+      "verified_sha256": "884ed8b4343eb10c4e5fa123069c9ac584d74123aea3173974bf3afdb6c48134",
+      "extracted": false
+    },
+    {
+      "module": "UnitFractions.ForMathlib.Misc",
+      "path": "UnitFractions/ForMathlib/Misc.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/UnitFractions/ForMathlib/Misc.lean",
+      "original_sha256": "99e31b4fcb5ff24d26b0c9261ca280f4d96aea91e9f1cde7b8ae59a43361f3dd",
+      "verified_sha256": "1594c72f7f4bda6068ed558b5f23bfea7cf36e06d33a68af7ae5113e29ee948e",
+      "extracted": false
+    },
+    {
+      "module": "UnitFractions.Fourier",
+      "path": "UnitFractions/Fourier.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/UnitFractions/Fourier.lean",
+      "original_sha256": "2f2a636eed7f1c7a6db2262edcb3f63d042668193f3d692dbbbb2ec769a59e92",
+      "verified_sha256": "3c559912c932392254c5bf70eeeafc2acae6794684b14bf56ddfcf29682d6860",
+      "extracted": false
+    },
+    {
+      "module": "UnitFractions.MainResults",
+      "path": "UnitFractions/MainResults.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/UnitFractions/MainResults.lean",
+      "original_sha256": "2a53e72f9df89a9afa877936d5b576e92b52955ddfc37e63724a27f9e6174864",
+      "verified_sha256": "2a53e72f9df89a9afa877936d5b576e92b52955ddfc37e63724a27f9e6174864",
+      "extracted": false
+    }
+  ]
+}
