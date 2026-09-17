@@ -1,0 +1,6 @@
+'Erdos832.FiniteHypergraph.exists_spanning_exact_chromatic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos832.construction_not_colorable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos832.construction_strict_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos832.not_erdos_832' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LeanForty.Problem000688.binomial_conjecture_false' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LeanForty.Problem000688.strict_counterexamples' depends on axioms: [propext, Classical.choice, Quot.sound]

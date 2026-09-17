@@ -1,7 +1,7 @@
 {
   "publication_check_date": "2026-09-17",
   "all_current_source_hashes_match": true,
-  "named_axiom_audits": 66,
+  "named_axiom_audits": 72,
   "complete_problems": [
     "JSP-000628",
     "JSP-000640",
@@ -10,6 +10,7 @@
     "JSP-000660",
     "JSP-000665",
     "JSP-000672",
+    "JSP-000688",
     "JSP-000689",
     "JSP-000764"
   ],
@@ -57,13 +58,13 @@
     "log": "evidence/final-local-build.log"
   },
   "restoration": {
-    "restored_downloads": 96,
+    "restored_downloads": 97,
     "generated": 2,
     "all_tested_source_hashes_match": true
   },
   "limitations": [
     "Reuses previous exact-source theorem audits; no full fresh Mathlib rebuild.",
     "Historical verification did not record lock-file hashes; publication check pins and confirms current dependency revisions.",
-    "JSP-000688 scope pending and excluded."
+    "JSP-000688 now uses its official Erdos832 scope after explicit user confirmation; previous pinned commits remain unchanged."
   ]
 }

@@ -1,4 +1,4 @@
-# Attributed Lean evidence for nine completed JSP problems
+# Attributed Lean evidence for ten completed JSP problems
 
 This directory contains original-statement Lean interfaces, exact pinned source restoration and verification evidence. The mathematical discoveries and upstream formalization credits are retained.
 
@@ -11,6 +11,7 @@ This directory contains original-statement Lean interfaces, exact pinned source 
 | [000660](docs/JSP-000660.md) | 803 | Disproof of absolute regularization |
 | [000665](docs/JSP-000665.md) | 808 | Strong sum-product disproof |
 | [000672](docs/JSP-000672.md) | 815 | Arbitrarily large C23-free critical graphs |
+| [000688](docs/JSP-000688.md) | 832 | Eventual binomial hypergraph-bound disproof |
 | [000689](docs/JSP-000689.md) | 833 | Exponential incident-degree bound |
 | [000764](docs/JSP-000764.md) | 920 | Clique-free chromatic lower bound |
 
@@ -28,6 +29,6 @@ Replace all with a six-digit JSP suffix to verify just that complete proof, for 
 
 ## Recorded evidence and limits
 
-All nine local theorem closures compiled and all 66 named-theorem axiom checks succeeded; per-problem logs and structured evidence are under evidence/. The source hashes match the current tested files. The original verifier did not record historical lock-file hashes; current dependency commits were separately confirmed and one final whole-project local build succeeded for publication (3712 jobs). This does not claim a fresh full Mathlib rebuild, independent checker implementation, or independent human review.
+All ten local theorem closures compiled and all 72 named-theorem axiom checks succeeded; per-problem logs and structured evidence are under evidence/. The source hashes match the current tested files. The original verifier did not record historical lock-file hashes; current dependency commits were separately confirmed and one final whole-project local build succeeded for publication (3712 jobs). This does not claim a fresh full Mathlib rebuild, independent checker implementation, or independent human review.
 
 Source restoration is checked against the exact bytes used by those tests. No private attachment, chat, identity/payment information, credential or .lake cache is published. See [ATTRIBUTION.md](ATTRIBUTION.md), [sources.json](sources.json), [expected_sources.json](expected_sources.json), and [problems.json](problems.json). Maintainers decide acceptance, attribution, priority and eligibility.

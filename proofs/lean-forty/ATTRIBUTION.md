@@ -8,4 +8,4 @@ Third-party proof bodies are not redistributed in this package. sources.json pin
 
 Erdos808 retains the complete disproof of the strong conjecture, but omits the separate ancillary incidence lower bound. Its PNT-dependent coarse prime bound is replaced with a proved local Chebyshev bound. Erdos920 retains its complete geometric construction and uses only the proved finite Bernoulli interface from the unrelated large Erdos202 development. Extraction rules are explicit and exact output hashes are checked.
 
-JSP-000688 is excluded while the workbook's fixed-three-color wording and the linked large-k problem remain unresolved.
+JSP-000688 is submitted for its official linked Erdos832 large-k question after explicit scope confirmation. Its precise theorem and distinction from the earlier fixed-three-color title are recorded in docs/JSP-000688.md.

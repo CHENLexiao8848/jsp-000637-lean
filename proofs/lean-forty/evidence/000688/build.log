@@ -1,0 +1,8 @@
+⚠ [1033/1034] Replayed ErdosProblems.Erdos832
+warning: vendor/plby/ErdosProblems/Erdos832.lean:204:15: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: vendor/plby/ErdosProblems/Erdos832.lean:218:15: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: vendor/plby/ErdosProblems/Erdos832.lean:218:27: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: vendor/plby/ErdosProblems/Erdos832.lean:275:27: `if_pos` has been deprecated: Use `ite_eq_left` instead
+info: vendor/plby/ErdosProblems/Erdos832.lean:932:0: 'Erdos832.not_erdos_832' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [1034/1034] Built LeanForty.Problem000688 (9.8s)
+Build completed successfully (1034 jobs).

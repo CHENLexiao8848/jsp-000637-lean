@@ -182,6 +182,30 @@
     "related_prs": []
   },
   {
+    "jsp": "JSP-000688",
+    "erdos": 832,
+    "theorem": "LeanForty.Problem000688.strict_counterexamples",
+    "file": "LeanForty/Problem000688.lean",
+    "scope": "The original eventual binomial lower-bound conjecture is false. For every chromatic threshold K there are k>=K and a finite simple 4-uniform hypergraph H with chromatic number exactly k and fewer than binomial(3(k-1)+1,4) edges. Thus the lower bound itself fails, not merely its equality characterization. The proof preserves the original quantifier order and is not the fixed r=k=3 Fano-plane example.",
+    "mathematical_authors": "Noga Alon",
+    "audit": "audits/Audit000688.lean",
+    "expected_audits": [
+      "Erdos832.FiniteHypergraph.exists_spanning_exact_chromatic",
+      "Erdos832.construction_not_colorable",
+      "Erdos832.construction_strict_bound",
+      "Erdos832.not_erdos_832",
+      "LeanForty.Problem000688.binomial_conjecture_false",
+      "LeanForty.Problem000688.strict_counterexamples"
+    ],
+    "related_prs": [
+      {
+        "number": 716,
+        "url": "https://github.com/TheJustinSunPrize/awards/pull/716",
+        "title": "JSP-000688: Erdos #832 - Fano-plane witness (scoped component)"
+      }
+    ]
+  },
+  {
     "jsp": "JSP-000689",
     "erdos": 833,
     "theorem": "LeanForty.Problem000689.exponential_degree",

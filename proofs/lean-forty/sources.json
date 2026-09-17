@@ -1022,6 +1022,14 @@
       "expected_sha256": "f2694dbbe4b8a71a71b2728cfd54273cf84c35f36cce77b49c133d063d761059",
       "line_edits": [],
       "license_header": "see_upstream"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos832.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos832.lean",
+      "upstream_sha256": "7f8d482cb4f76c96b038d4e5cc56e47ac37cf9489401587e2657e0865a3811c9",
+      "expected_sha256": "7f8d482cb4f76c96b038d4e5cc56e47ac37cf9489401587e2657e0865a3811c9",
+      "line_edits": [],
+      "license_header": "Apache-2.0"
     }
   ],
   "generated": {
