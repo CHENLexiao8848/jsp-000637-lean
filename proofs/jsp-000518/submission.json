@@ -1,0 +1,139 @@
+{
+  "jsp": "JSP-000518",
+  "erdos": 637,
+  "authors": "Boris Bukh and Benny Sudakov; supporting richness results retain the authors credited in their source headers.",
+  "scope": "For every C>0, there are alpha,beta>0 and N such that every C-Ramsey graph G on n>=N vertices has an induced subgraph on at least alpha*n vertices with at least beta*sqrt(n) distinct internal degrees. Both clique and independence bounds and both output lower bounds are retained.",
+  "decls": [
+    "Formalization20.jsp_000518"
+  ],
+  "module": "ErdosProblems.Erdos637",
+  "wrapper": "JSP000518.lean",
+  "source_records": [
+    {
+      "module": "ErdosProblems.Erdos202",
+      "path": "vendor/plby/ErdosProblems/Erdos202.lean",
+      "sha256": "f2694dbbe4b8a71a71b2728cfd54273cf84c35f36cce77b49c133d063d761059",
+      "workspace_sha256": "dda211f9d95ef49c4e8c7c412dd2b7fed973c75eb1abcd4bd60ffa7a6e037367",
+      "bytes": 925177,
+      "upstream_url": "https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos202.lean",
+      "modified": false,
+      "line_endings": "CRLF normalized to LF; proof tokens unchanged."
+    },
+    {
+      "module": "ErdosProblems.Erdos447",
+      "path": "vendor/plby/ErdosProblems/Erdos447.lean",
+      "sha256": "89b4349b92a91c1ce16c820289d6c18fc6de360c32f666bf2ce3f5c09bf55795",
+      "workspace_sha256": "73db1a6d6b03ef24bcfb9ce822317235117394ebad673eeffe302685816ff3e2",
+      "bytes": 188582,
+      "upstream_url": "https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos447.lean",
+      "modified": false,
+      "line_endings": "CRLF normalized to LF; proof tokens unchanged."
+    },
+    {
+      "module": "ErdosProblems.Erdos487",
+      "path": "vendor/plby/ErdosProblems/Erdos487.lean",
+      "sha256": "bfa8a51d8cbf6db7cd61d09f13c611c16a358879e351a085c1a242c027a84323",
+      "workspace_sha256": "5947eaca472c0ffdeec3afea5412345ecb1e1fa73028290493f9217a721b8fde",
+      "bytes": 136483,
+      "upstream_url": "https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos487.lean",
+      "modified": false,
+      "line_endings": "CRLF normalized to LF; proof tokens unchanged."
+    },
+    {
+      "module": "ErdosProblems.Erdos637",
+      "path": "vendor/plby/ErdosProblems/Erdos637.lean",
+      "sha256": "b2243890ae8830c0c65b8f976d8c17c774f2aee59d68bc80607985e7d934509b",
+      "workspace_sha256": "b1f39731afe6eb552d3a839ce0884c732c4fdbdd529052816cd9736289cb8398",
+      "bytes": 49936,
+      "upstream_url": "https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos637.lean",
+      "modified": false,
+      "line_endings": "CRLF normalized to LF; proof tokens unchanged."
+    },
+    {
+      "module": "ErdosProblems.Erdos88.FiniteES",
+      "path": "vendor/plby/ErdosProblems/Erdos88/FiniteES.lean",
+      "sha256": "0e28b209e2c8b7600297aec1d95f027cfa9d434ebe23dde7848f65125bb279d1",
+      "workspace_sha256": "56479046cc437e7b34fa3391b91b2dd9f286d771c42b8e96e54cdca773cb6ab8",
+      "bytes": 49378,
+      "upstream_url": "https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos88/FiniteES.lean",
+      "modified": false,
+      "line_endings": "CRLF normalized to LF; proof tokens unchanged."
+    },
+    {
+      "module": "ErdosProblems.Erdos88.Foundations",
+      "path": "vendor/plby/ErdosProblems/Erdos88/Foundations.lean",
+      "sha256": "275e3a17beec2d6a4c921791bc29629cc367f5d8d17319c95ef59a7b59691d24",
+      "workspace_sha256": "56b120a61845ecf22b5782e54f152072f0e0244c34264a3460e2901e68f844fa",
+      "bytes": 6715,
+      "upstream_url": "https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos88/Foundations.lean",
+      "modified": false,
+      "line_endings": "CRLF normalized to LF; proof tokens unchanged."
+    },
+    {
+      "module": "ErdosProblems.Erdos88.Probability",
+      "path": "vendor/plby/ErdosProblems/Erdos88/Probability.lean",
+      "sha256": "1b64d780d4125cc61346a6f8d96a9571ea24668ec5a42580b58de63a564861f5",
+      "workspace_sha256": "9c4246c8f0eaa967137a069905edf798e00c4d1b82ade2aa314068b286f09efb",
+      "bytes": 26383,
+      "upstream_url": "https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos88/Probability.lean",
+      "modified": false,
+      "line_endings": "CRLF normalized to LF; proof tokens unchanged."
+    },
+    {
+      "module": "ErdosProblems.Erdos88.Richness",
+      "path": "vendor/plby/ErdosProblems/Erdos88/Richness.lean",
+      "sha256": "7918e99ed50e183713efe6c4376737369b111645b8dc007dcbd8eaffaefe065f",
+      "workspace_sha256": "ab010667bb43c1e396fdc7625cd5f8fb92abf6223f038aae360625f1ab8fc18d",
+      "bytes": 71215,
+      "upstream_url": "https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos88/Richness.lean",
+      "modified": false,
+      "line_endings": "CRLF normalized to LF; proof tokens unchanged."
+    },
+    {
+      "module": "ErdosProblems.Erdos920.Averaging",
+      "path": "vendor/plby/ErdosProblems/Erdos920/Averaging.lean",
+      "sha256": "2017ca0a0db00c71b3f4af269ff5d5bbae77a10c6f39123b8a7983867e97c067",
+      "workspace_sha256": "5a4b0a6c8d5ec27301026240eb57eb45481c55218afbde3eac3154dd17be8a93",
+      "bytes": 18066,
+      "upstream_url": "https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos920/Averaging.lean",
+      "modified": false,
+      "line_endings": "CRLF normalized to LF; proof tokens unchanged."
+    },
+    {
+      "module": "ErdosProblems.Erdos920.Sampling",
+      "path": "vendor/plby/ErdosProblems/Erdos920/Sampling.lean",
+      "sha256": "97a847b16043fb1426a9653eeaa56090e846d0b9cc0f623584c97257065802c0",
+      "workspace_sha256": "879e4cdbc6c13b0b819841c157562b9611708dd1832d4d477b21ae29a5bd2f6e",
+      "bytes": 7852,
+      "upstream_url": "https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos920/Sampling.lean",
+      "modified": false,
+      "line_endings": "CRLF normalized to LF; proof tokens unchanged."
+    },
+    {
+      "module": "Util.Ramsey",
+      "path": "vendor/plby/Util/Ramsey.lean",
+      "sha256": "c1269d71fcd105835310b53e87a588fcb5628f87a76c9f16d7a007697f77b82a",
+      "workspace_sha256": "5e191a282cf403a10afc99065915a72ff832113cb46f5de1c3c7933d9716d75e",
+      "bytes": 14293,
+      "upstream_url": "https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/Util/Ramsey.lean",
+      "modified": false,
+      "line_endings": "CRLF normalized to LF; proof tokens unchanged."
+    }
+  ],
+  "local_compile_order": [
+    "ErdosProblems.Erdos202",
+    "ErdosProblems.Erdos447",
+    "ErdosProblems.Erdos487",
+    "ErdosProblems.Erdos88.Foundations",
+    "Util.Ramsey",
+    "ErdosProblems.Erdos88.FiniteES",
+    "ErdosProblems.Erdos88.Richness",
+    "ErdosProblems.Erdos920.Averaging",
+    "ErdosProblems.Erdos88.Probability",
+    "ErdosProblems.Erdos920.Sampling",
+    "ErdosProblems.Erdos637"
+  ],
+  "prior": [
+    287
+  ]
+}

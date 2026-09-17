@@ -1,0 +1,20 @@
+✔ [5406/5435] Built ErdosProblems.Erdos88.Foundations (17s)
+✔ [8707/8713] Built ErdosProblems.Erdos88.FiniteES (64s)
+✔ [8708/8713] Built ErdosProblems.Erdos88.Richness (76s)
+ℹ [8710/8716] Built ErdosProblems.Erdos447 (94s)
+info: ErdosProblems/Erdos447.lean:3122:0: 'Erdos447.erdos_447' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8711/8716] Built ErdosProblems.Erdos202 (260s)
+info: ErdosProblems/Erdos202.lean:21811:0: 'Erdos202.erdos_202' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos202.lean:21813:0: 'Erdos202.ParkPham.park_pham_threshold_not_small_lt_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos202.lean:21816:0: 'Erdos202.ParkPham.spread_disjointness_theorem' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos202.lean:21819:0: 'Erdos202.bfv_pruning_theorem' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos202.lean:21822:0: 'Erdos202.bfv_omega_count_theorem' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos202.lean:21825:0: 'Erdos202.bfv_lower_bound_theorem' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [8712/8716] Built ErdosProblems.Erdos920.Averaging (40s)
+ℹ [8713/8716] Built ErdosProblems.Erdos487 (84s)
+info: ErdosProblems/Erdos487.lean:3066:0: 'Erdos487.erdos_487' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [8714/8716] Built ErdosProblems.Erdos920.Sampling (32s)
+✔ [8715/8716] Built ErdosProblems.Erdos88.Probability (33s)
+ℹ [8716/8716] Built ErdosProblems.Erdos637 (38s)
+info: ErdosProblems/Erdos637.lean:1170:0: 'Erdos637.erdos_637' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (8716 jobs).
