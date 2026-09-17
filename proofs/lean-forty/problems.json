@@ -1,0 +1,227 @@
+[
+  {
+    "jsp": "JSP-000628",
+    "erdos": 767,
+    "theorem": "LeanForty.Problem000628.sharp_bound_and_attainment",
+    "file": "LeanForty/Problem000628.lean",
+    "scope": "For all positive k and n >= 3k+3, the extremal edge count of an n-vertex graph avoiding a cycle with k incident chords is (k+1)n-(k+1)^2. Both upper bound and attainment are proved; the arbitrary cycle vertex formulation is verified equivalent.",
+    "mathematical_authors": "Tao Jiang",
+    "audit": "audits/Audit000628.lean",
+    "expected_audits": [
+      "LeanForty.isChord_rotate_iff",
+      "LeanForty.hasIncidentChords_iff_based",
+      "Erdos58.TwoConnected.exists_twoLinkage",
+      "Erdos767Dirac.diracCircumferencePrinciple",
+      "Erdos767Dirac.exists_nonspanning_longestCycle_lowDegree",
+      "Erdos767.erdos_767",
+      "LeanForty.Problem000628.exact_extremal_number",
+      "LeanForty.Problem000628.sharp_bound_and_attainment"
+    ],
+    "related_prs": [
+      {
+        "number": 573,
+        "title": "JSP-000628: formalize Chen\u2013Ning critical-threshold sharpness (scoped)",
+        "url": "https://github.com/TheJustinSunPrize/awards/pull/573"
+      },
+      {
+        "number": 742,
+        "title": "JSP-000628: add complete Jiang theorem Lean evidence",
+        "url": "https://github.com/TheJustinSunPrize/awards/pull/742"
+      }
+    ]
+  },
+  {
+    "jsp": "JSP-000640",
+    "erdos": 780,
+    "theorem": "LeanForty.Problem000640.distinct_monochromatic_edges",
+    "file": "LeanForty/Problem000640.lean",
+    "scope": "For all n,k and positive r,t, n >= kr+(t-1)(k-1) forces k distinct, pairwise disjoint edges of one color in every t-coloring of all r-subsets. Composite k and threshold equality are included.",
+    "mathematical_authors": "Noga Alon, Peter Frankl, Laszlo Lovasz",
+    "audit": "audits/Audit000640.lean",
+    "expected_audits": [
+      "Erdos780Core.zpTucker_alpha",
+      "PrimeResolutionScratch.primeResolution",
+      "Erdos780.resolution_prime",
+      "Erdos780.erdos_780",
+      "LeanForty.Problem000640.monochromatic_matching",
+      "LeanForty.Problem000640.distinct_monochromatic_edges"
+    ],
+    "related_prs": [
+      {
+        "number": 725,
+        "title": "JSP-000640: complete attributed Lean proof of the monochromatic matching theorem",
+        "url": "https://github.com/TheJustinSunPrize/awards/pull/725"
+      },
+      {
+        "number": 700,
+        "title": "JSP-000640: Erd\u0151s #780 \u2014 sharpness of the Alon\u2013Frankl\u2013Lov\u00e1sz bound (scoped component)",
+        "url": "https://github.com/TheJustinSunPrize/awards/pull/700"
+      }
+    ]
+  },
+  {
+    "jsp": "JSP-000655",
+    "erdos": 797,
+    "theorem": "LeanForty.Problem000655.amr_estimates",
+    "file": "LeanForty/Problem000655.lean",
+    "scope": "Full AMR upper and lower bounds for maximal acyclic chromatic number f(d), in exact cube form, and f(d)=o(d^2). Every sufficiently large d is covered. The coloring predicate is equivalent to proper coloring with every pair of color classes inducing a forest.",
+    "mathematical_authors": "Noga Alon, Colin McDiarmid, Bruce Reed",
+    "audit": "audits/Audit000655.lean",
+    "expected_audits": [
+      "Erdos797.finite_local_lemma",
+      "Erdos797.UpperBound.extremalAcyclicNumber_cube_le",
+      "Erdos797.LowerBound.exists_lower_graph",
+      "Erdos797.LowerBound.fourth_le_log_mul_extremal_cube",
+      "Erdos797.erdos_797",
+      "LeanForty.Problem000655.acyclicColoring_iff_two_color_forests",
+      "LeanForty.Problem000655.amr_estimates",
+      "LeanForty.Problem000655.optimal_palette_exists"
+    ],
+    "related_prs": [
+      {
+        "number": 4,
+        "title": "docs: update problem status and claim eligibility flags",
+        "url": "https://github.com/TheJustinSunPrize/awards/pull/4"
+      }
+    ]
+  },
+  {
+    "jsp": "JSP-000658",
+    "erdos": 801,
+    "theorem": "LeanForty.Problem000658.dense_induced_subgraph",
+    "file": "LeanForty/Problem000658.lean",
+    "scope": "For every n >= 2^(2^11), every n-vertex graph with independence number <= floor(sqrt(n)) contains S with |S| <= floor(sqrt(n)) and floor(sqrt(n))*floor(log_2(n)) <= 2^24*e(G[S]). This gives the original asymptotic result, with explicit constants.",
+    "mathematical_authors": "Noga Alon",
+    "audit": "audits/Audit000658.lean",
+    "expected_audits": [
+      "Erdos801.triangleFree_card_mul_scale_le",
+      "Erdos801.exists_dense_small_set_of_parameters",
+      "Erdos801.erdos_801_explicit",
+      "Erdos801.erdos_801",
+      "LeanForty.Problem000658.indepNum_le_iff",
+      "LeanForty.Problem000658.edgeCountInside_eq_induced",
+      "LeanForty.Problem000658.dense_small_set",
+      "LeanForty.Problem000658.dense_induced_subgraph"
+    ],
+    "related_prs": []
+  },
+  {
+    "jsp": "JSP-000660",
+    "erdos": 803,
+    "theorem": "LeanForty.Problem000660.cofinal_counterexamples",
+    "file": "LeanForty/Problem000660.lean",
+    "scope": "The absolute-constant regularization conjecture is false. For any proposed epsilon>0 and D>=1, some fixed m admits counterexamples of arbitrarily large n with at least n log n edges; every balanced m-vertex subgraph fails the epsilon*m*log(m) bound. Arbitrary subgraphs are quantified.",
+    "mathematical_authors": "Noga Alon",
+    "audit": "audits/Audit000660.lean",
+    "expected_audits": [
+      "Erdos803.exists_good_edge_set_six",
+      "Erdos803.subgraph_edge_ncard_lt_of_good",
+      "Erdos803.host_many_edges",
+      "Erdos803.not_erdos_803",
+      "LeanForty.Problem000660.not_absolute_regularization",
+      "LeanForty.Problem000660.cofinal_counterexamples"
+    ],
+    "related_prs": [
+      {
+        "number": 171,
+        "title": "JSP-000660: add Lean formalization",
+        "url": "https://github.com/TheJustinSunPrize/awards/pull/171"
+      },
+      {
+        "number": 176,
+        "title": "JSP-000660: submit Lean formalization of Alon's balanced-subgraph construction (Erd\u0151s #803)",
+        "url": "https://github.com/TheJustinSunPrize/awards/pull/176"
+      }
+    ]
+  },
+  {
+    "jsp": "JSP-000665",
+    "erdos": 808,
+    "theorem": "LeanForty.Problem000665.explicit_counterexamples",
+    "file": "LeanForty/Problem000665.lean",
+    "scope": "The strong graph-restricted sum-product conjecture is false. For c=29/34 and epsilon=1/68 there are arbitrarily large finite sets of distinct positive natural labels with at least n^(63/34) edges but restricted sum/product cardinalities below n^(125/68). A Chebyshev prime-block lemma replaces the external PNT dependency. The separate background incidence lower bound is not claimed.",
+    "mathematical_authors": "Noga Alon, Imre Ruzsa, Jozsef Solymosi",
+    "audit": "audits/Audit000665.lean",
+    "expected_audits": [
+      "LeanForty.prime_block_le_seventh",
+      "Erdos808.blockPrime_le_seventh_eventually",
+      "Erdos808.counterLabel_injective",
+      "Erdos808.counterGraph_edge_threshold_eventually",
+      "Erdos808.counterGraph_output_small_eventually",
+      "Erdos808.erdos808_disproved",
+      "LeanForty.Problem000665.strong_sum_product_false",
+      "LeanForty.Problem000665.explicit_counterexamples",
+      "LeanForty.Problem000665.positive_injective_labels"
+    ],
+    "related_prs": [
+      {
+        "number": 551,
+        "title": "[Formalization] JSP-000665 / Erdos 808: complete graph sum-product counterexamples",
+        "url": "https://github.com/TheJustinSunPrize/awards/pull/551"
+      }
+    ]
+  },
+  {
+    "jsp": "JSP-000672",
+    "erdos": 815,
+    "theorem": "LeanForty.Problem000672.arbitrarily_large_counterexamples",
+    "file": "LeanForty/Problem000672.lean",
+    "scope": "Arbitrarily large n-vertex graphs have exactly 2n-2 edges and every proper induced subgraph has minimum degree <=2, yet have no 23-cycle. This fully negates the eventual all-cycle-length conjecture; the open even-length variant is not claimed.",
+    "mathematical_authors": "Lothar Narins, Alexey Pokrovskiy, Tibor Szabo",
+    "audit": "audits/Audit000672.lean",
+    "expected_audits": [
+      "Erdos815.avoidingValue_avoid20",
+      "Erdos815.npsGraph_degreeThreeCritical",
+      "Erdos815.npsGraph_cycleGraph_23_free",
+      "Erdos815.nps_arbitrarily_large_counterexamples",
+      "Erdos815.not_erdos_815",
+      "LeanForty.Problem000672.eventual_all_cycles_false",
+      "LeanForty.Problem000672.arbitrarily_large_counterexamples",
+      "LeanForty.Problem000672.proper_subset_low_degree"
+    ],
+    "related_prs": []
+  },
+  {
+    "jsp": "JSP-000689",
+    "erdos": 833,
+    "theorem": "LeanForty.Problem000689.exponential_degree",
+    "file": "LeanForty/Problem000689.lean",
+    "scope": "For every r>=2, every finite r-uniform hypergraph of chromatic number exactly three has a vertex incident to at least (10/9)^r distinct edges. The Erdos-Lovasz bound 2^(r-1)/(4r) is also proved for all non-two-colorable such hypergraphs, including small ranks.",
+    "mathematical_authors": "Paul Erdos, Laszlo Lovasz",
+    "audit": "audits/Audit000689.lean",
+    "expected_audits": [
+      "Erdos833.finite_symmetric_local_lemma",
+      "Erdos833.erdos_lovasz_degree_bound",
+      "Erdos833.erdos_833",
+      "LeanForty.Problem000689.exponential_degree",
+      "LeanForty.Problem000689.erdos_lovasz_bound",
+      "LeanForty.Problem000689.explicit_incident_edge_count"
+    ],
+    "related_prs": [
+      {
+        "number": 163,
+        "title": "JSP-000689: independent alternative counting formalization of Erd\u0151s 833",
+        "url": "https://github.com/TheJustinSunPrize/awards/pull/163"
+      }
+    ]
+  },
+  {
+    "jsp": "JSP-000764",
+    "erdos": 920,
+    "theorem": "LeanForty.Problem000764.chromatic_lower_bound",
+    "file": "LeanForty/Problem000764.lean",
+    "scope": "For every k>=4, n^(1-1/(k-1))/(log n)^2 = O(f_k(n)) for the maximum chromatic number of a K_k-free n-vertex graph, eventually for all n. Projective construction, container bound, sampling, Ramsey bridge and inversion are discharged; the real-exponent interface is explicit. Exact finite values and stronger background variants are not claimed.",
+    "mathematical_authors": "D. Bradac, Sam Mattheus, Jacques Verstraete",
+    "audit": "audits/Audit000764.lean",
+    "expected_audits": [
+      "Erdos202.ParkPham.muP_upClosure_single",
+      "Erdos920.ForwardBound.exists_forwardConstant",
+      "Erdos920.Construction.dStarFamily",
+      "Erdos920.erdos_920",
+      "LeanForty.Problem000764.chromatic_lower_bound",
+      "LeanForty.Problem000764.logarithmic_exponent_two",
+      "LeanForty.Problem000764.extremal_number_bounds"
+    ],
+    "related_prs": []
+  }
+]

@@ -1,0 +1,171 @@
+⚠ [3146/3150] Replayed ErdosProblems.Erdos767.Aligned
+warning: vendor/plby/ErdosProblems/Erdos767/Aligned.lean:115:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: vendor/plby/ErdosProblems/Erdos767/Aligned.lean:164:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: vendor/plby/ErdosProblems/Erdos767/Aligned.lean:164:26: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: vendor/plby/ErdosProblems/Erdos767/Aligned.lean:200:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: vendor/plby/ErdosProblems/Erdos767/Aligned.lean:228:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: vendor/plby/ErdosProblems/Erdos767/Aligned.lean:378:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: vendor/plby/ErdosProblems/Erdos767/Aligned.lean:402:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: vendor/plby/ErdosProblems/Erdos767/Aligned.lean:438:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+info: vendor/plby/ErdosProblems/Erdos767/Aligned.lean:1050:0: 'E767AlignedAlt.exists_alignedFan' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3161/3165] Replayed ErdosProblems.Erdos767.Dirac
+info: vendor/plby/ErdosProblems/Erdos767/Dirac.lean:118:0: 'Erdos767Dirac.diracCircumferencePrinciple' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: vendor/plby/ErdosProblems/Erdos767/Dirac.lean:119:0: 'Erdos767Dirac.erdosGallai_cycle' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: vendor/plby/ErdosProblems/Erdos767/Dirac.lean:120:0: 'Erdos767Dirac.exists_nonspanning_longestCycle_lowDegree' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: vendor/plby/ErdosProblems/Erdos767/Dirac.lean:121:0: 'Erdos767Dirac.exists_cycle_length_ge_min_card_two_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3162/3165] Replayed ErdosProblems.Erdos767
+info: vendor/plby/ErdosProblems/Erdos767.lean:1581:0: 'Erdos767.erdos_767' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3202/3212] Replayed ErdosProblems.Erdos95.External.Chapter39
+warning: vendor/plby/ErdosProblems/Erdos95/External/Chapter39.lean:971:8: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+warning: vendor/plby/ErdosProblems/Erdos95/External/Chapter39.lean:971:24: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+warning: vendor/plby/ErdosProblems/Erdos95/External/Chapter39.lean:978:8: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+warning: vendor/plby/ErdosProblems/Erdos95/External/Chapter39.lean:978:24: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+⚠ [3206/3213] Replayed ErdosProblems.Erdos95.External.Tucker
+warning: vendor/plby/ErdosProblems/Erdos95/External/Tucker.lean:530:9: `StrictMono.range_inj` has been deprecated: Use `StrictMono.range_inj_of_wellFoundedLT` instead
+warning: vendor/plby/ErdosProblems/Erdos95/External/Tucker.lean:561:9: `StrictMono.range_inj` has been deprecated: Use `StrictMono.range_inj_of_wellFoundedLT` instead
+warning: vendor/plby/ErdosProblems/Erdos95/External/Tucker.lean:1090:33: `StrictMono.range_inj` has been deprecated: Use `StrictMono.range_inj_of_wellFoundedLT` instead
+warning: vendor/plby/ErdosProblems/Erdos95/External/Tucker.lean:1150:33: `StrictMono.range_inj` has been deprecated: Use `StrictMono.range_inj_of_wellFoundedLT` instead
+warning: vendor/plby/ErdosProblems/Erdos95/External/Tucker.lean:2313:16: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: vendor/plby/ErdosProblems/Erdos95/External/Tucker.lean:2315:16: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: vendor/plby/ErdosProblems/Erdos95/External/Tucker.lean:2333:16: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: vendor/plby/ErdosProblems/Erdos95/External/Tucker.lean:2335:16: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: vendor/plby/ErdosProblems/Erdos95/External/Tucker.lean:3643:43: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: vendor/plby/ErdosProblems/Erdos95/External/Tucker.lean:3643:54: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: vendor/plby/ErdosProblems/Erdos95/External/Tucker.lean:3645:43: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: vendor/plby/ErdosProblems/Erdos95/External/Tucker.lean:3645:54: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: vendor/plby/ErdosProblems/Erdos95/External/Tucker.lean:3654:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: vendor/plby/ErdosProblems/Erdos95/External/Tucker.lean:3656:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+⚠ [3207/3213] Replayed ErdosProblems.Erdos780.External.SignedSphere
+warning: vendor/plby/ErdosProblems/Erdos780/External/SignedSphere.lean:569:20: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: vendor/plby/ErdosProblems/Erdos780/External/SignedSphere.lean:571:20: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: vendor/plby/ErdosProblems/Erdos780/External/SignedSphere.lean:580:20: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: vendor/plby/ErdosProblems/Erdos780/External/SignedSphere.lean:580:64: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: vendor/plby/ErdosProblems/Erdos780/External/SignedSphere.lean:583:20: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: vendor/plby/ErdosProblems/Erdos780/External/SignedSphere.lean:583:65: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: vendor/plby/ErdosProblems/Erdos780/External/SignedSphere.lean:633:22: `if_pos` has been deprecated: Use `ite_eq_left` instead
+⚠ [3209/3217] Replayed ErdosProblems.Erdos780.External.SignedSphereLength
+warning: vendor/plby/ErdosProblems/Erdos780/External/SignedSphereLength.lean:157:20: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: vendor/plby/ErdosProblems/Erdos780/External/SignedSphereLength.lean:159:20: `if_neg` has been deprecated: Use `ite_eq_right` instead
+⚠ [3226/3236] Replayed ErdosProblems.Erdos780.External.Erdos780Core
+warning: vendor/plby/ErdosProblems/Erdos780/External/Erdos780Core.lean:153:34: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: vendor/plby/ErdosProblems/Erdos780/External/Erdos780Core.lean:154:31: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: vendor/plby/ErdosProblems/Erdos780/External/Erdos780Core.lean:156:34: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: vendor/plby/ErdosProblems/Erdos780/External/Erdos780Core.lean:157:31: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: vendor/plby/ErdosProblems/Erdos780/External/Erdos780Core.lean:210:30: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+warning: vendor/plby/ErdosProblems/Erdos780/External/Erdos780Core.lean:213:30: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+warning: vendor/plby/ErdosProblems/Erdos780/External/Erdos780Core.lean:218:30: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+warning: vendor/plby/ErdosProblems/Erdos780/External/Erdos780Core.lean:225:36: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+warning: vendor/plby/ErdosProblems/Erdos780/External/Erdos780Core.lean:228:34: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+warning: vendor/plby/ErdosProblems/Erdos780/External/Erdos780Core.lean:241:28: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+info: vendor/plby/ErdosProblems/Erdos780/External/Erdos780Core.lean:322:0: 'Erdos780Core.zpTucker_alpha' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3229/3238] Replayed ErdosProblems.Erdos780.External.PrimeResolution
+warning: vendor/plby/ErdosProblems/Erdos780/External/PrimeResolution.lean:207:27: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+warning: vendor/plby/ErdosProblems/Erdos780/External/PrimeResolution.lean:207:41: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+warning: vendor/plby/ErdosProblems/Erdos780/External/PrimeResolution.lean:213:27: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+warning: vendor/plby/ErdosProblems/Erdos780/External/PrimeResolution.lean:213:41: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+info: vendor/plby/ErdosProblems/Erdos780/External/PrimeResolution.lean:349:0: PrimeResolutionScratch.primeResolution (tucker : TuckerAlphaStatement) {p : ℕ} : Nat.Prime p → ResolutionStatement p
+info: vendor/plby/ErdosProblems/Erdos780/External/PrimeResolution.lean:350:0: 'PrimeResolutionScratch.primeResolution' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3231/3241] Replayed ErdosProblems.Erdos780
+info: vendor/plby/ErdosProblems/Erdos780.lean:350:0: 'Erdos780.erdos_780' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3233/3241] Replayed ErdosProblems.Erdos797
+warning: vendor/plby/ErdosProblems/Erdos797.lean:39:0: 'Mathlib.Data.Real.Basic' has been deprecated: please replace this import by
+
+import Mathlib.Basic.Real.Basic
+warning: vendor/plby/ErdosProblems/Erdos797.lean:1825:65: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: vendor/plby/ErdosProblems/Erdos797.lean:1825:77: `if_true` has been deprecated: Use `ite_true` instead
+warning: vendor/plby/ErdosProblems/Erdos797.lean:1830:65: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: vendor/plby/ErdosProblems/Erdos797.lean:1830:77: `if_true` has been deprecated: Use `ite_true` instead
+warning: vendor/plby/ErdosProblems/Erdos797.lean:1831:16: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: vendor/plby/ErdosProblems/Erdos797.lean:1835:65: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: vendor/plby/ErdosProblems/Erdos797.lean:1836:16: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: vendor/plby/ErdosProblems/Erdos797.lean:1836:28: `if_true` has been deprecated: Use `ite_true` instead
+warning: vendor/plby/ErdosProblems/Erdos797.lean:1840:65: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: vendor/plby/ErdosProblems/Erdos797.lean:1841:16: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: vendor/plby/ErdosProblems/Erdos797.lean:2048:68: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: vendor/plby/ErdosProblems/Erdos797.lean:2049:16: `if_true` has been deprecated: Use `ite_true` instead
+warning: vendor/plby/ErdosProblems/Erdos797.lean:2054:68: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: vendor/plby/ErdosProblems/Erdos797.lean:2055:16: `if_true` has been deprecated: Use `ite_true` instead
+warning: vendor/plby/ErdosProblems/Erdos797.lean:2055:25: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: vendor/plby/ErdosProblems/Erdos797.lean:2059:68: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: vendor/plby/ErdosProblems/Erdos797.lean:2060:16: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: vendor/plby/ErdosProblems/Erdos797.lean:2060:28: `if_true` has been deprecated: Use `ite_true` instead
+warning: vendor/plby/ErdosProblems/Erdos797.lean:2064:68: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: vendor/plby/ErdosProblems/Erdos797.lean:2065:16: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: vendor/plby/ErdosProblems/Erdos797.lean:2885:10: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+warning: vendor/plby/ErdosProblems/Erdos797.lean:3655:32: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+warning: vendor/plby/ErdosProblems/Erdos797.lean:3655:44: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+warning: vendor/plby/ErdosProblems/Erdos797.lean:3660:32: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+warning: vendor/plby/ErdosProblems/Erdos797.lean:3660:44: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+warning: vendor/plby/ErdosProblems/Erdos797.lean:3680:30: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+warning: vendor/plby/ErdosProblems/Erdos797.lean:3680:43: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+warning: vendor/plby/ErdosProblems/Erdos797.lean:3684:30: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+warning: vendor/plby/ErdosProblems/Erdos797.lean:3684:43: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+info: vendor/plby/ErdosProblems/Erdos797.lean:4002:0: 'Erdos797.erdos_797' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3234/3241] Replayed ErdosProblems.Erdos801
+info: vendor/plby/ErdosProblems/Erdos801.lean:1852:0: 'Erdos801.erdos_801' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3238/3241] Replayed ErdosProblems.Erdos1077
+info: vendor/plby/ErdosProblems/Erdos1077.lean:332:0: 'Erdos1077.not_erdos_1077' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3239/3241] Replayed ErdosProblems.Erdos803
+info: vendor/plby/ErdosProblems/Erdos803.lean:523:0: 'Erdos803.not_erdos_803' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3240/3242] Replayed LeanForty.Problem000660
+warning: LeanForty/Problem000660.lean:23:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+⚠ [3640/3643] Replayed LeanForty.PrimeBlockBound
+warning: LeanForty/PrimeBlockBound.lean:57:39: Variable name `q` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _q
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+ℹ [3641/3643] Replayed ErdosProblems.Erdos808Disproof
+info: vendor/plby/ErdosProblems/Erdos808Disproof.lean:787:0: 'Erdos808.not_erdos_808' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3652/3658] Replayed ErdosProblems.Erdos815
+warning: vendor/plby/ErdosProblems/Erdos815.lean:1001:24: `if_true` has been deprecated: Use `ite_true` instead
+warning: vendor/plby/ErdosProblems/Erdos815.lean:1001:40: `if_false` has been deprecated: Use `ite_false` instead
+warning: vendor/plby/ErdosProblems/Erdos815.lean:1217:27: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: vendor/plby/ErdosProblems/Erdos815.lean:1235:29: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: vendor/plby/ErdosProblems/Erdos815.lean:1251:29: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: vendor/plby/ErdosProblems/Erdos815.lean:1272:19: `if_false` has been deprecated: Use `ite_false` instead
+info: vendor/plby/ErdosProblems/Erdos815.lean:2081:0: 'Erdos815.not_erdos_815' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3653/3658] Replayed ErdosProblems.Erdos832
+warning: vendor/plby/ErdosProblems/Erdos832.lean:204:15: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: vendor/plby/ErdosProblems/Erdos832.lean:218:15: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: vendor/plby/ErdosProblems/Erdos832.lean:218:27: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: vendor/plby/ErdosProblems/Erdos832.lean:275:27: `if_pos` has been deprecated: Use `ite_eq_left` instead
+info: vendor/plby/ErdosProblems/Erdos832.lean:932:0: 'Erdos832.not_erdos_832' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3654/3658] Replayed ErdosProblems.Erdos833
+info: vendor/plby/ErdosProblems/Erdos833.lean:696:0: 'Erdos833.erdos_833_degree_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: vendor/plby/ErdosProblems/Erdos833.lean:697:0: 'Erdos833.erdos_833' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3656/3662] Replayed LeanForty.Problem000672
+warning: LeanForty/Problem000672.lean:36:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [3675/3682] Replayed ErdosProblems.Erdos920.Mixing
+warning: vendor/plby/ErdosProblems/Erdos920/Mixing.lean:103:16: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: vendor/plby/ErdosProblems/Erdos920/Mixing.lean:107:16: `if_pos` has been deprecated: Use `ite_eq_left` instead
+ℹ [3678/3682] Replayed ErdosProblems.Erdos920.RamseyPackaging
+info: vendor/plby/ErdosProblems/Erdos920/RamseyPackaging.lean:336:0: 'Erdos920.RamseyPackaging.bradac_ramsey_lower_bound_eventually_of_construction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+⚠ [3684/3689] Replayed ErdosProblems.Erdos920.Container
+warning: vendor/plby/ErdosProblems/Erdos920/Container.lean:328:52: `if_true` has been deprecated: Use `ite_true` instead
+warning: vendor/plby/ErdosProblems/Erdos920/Container.lean:485:56: `if_true` has been deprecated: Use `ite_true` instead
+warning: vendor/plby/ErdosProblems/Erdos920/Container.lean:705:38: `if_false` has been deprecated: Use `ite_false` instead
+ℹ [3708/3712] Replayed ErdosProblems.Erdos920.Construction
+info: vendor/plby/ErdosProblems/Erdos920/Construction.lean:169:0: 'Erdos920.Construction.bradacRamseyLowerBoundOfBuild' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: vendor/plby/ErdosProblems/Erdos920/Construction.lean:170:0: 'Erdos920.Construction.dStarFamily' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3709/3712] Replayed ErdosProblems.Erdos920
+info: vendor/plby/ErdosProblems/Erdos920.lean:84:0: 'Erdos920.erdos_920_of_dStarFamilies' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: vendor/plby/ErdosProblems/Erdos920.lean:85:0: 'Erdos920.erdos_920' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [3711/3712] Built LeanForty (24s)
+Build completed successfully (3712 jobs).

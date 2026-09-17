@@ -1,0 +1,80 @@
+{
+  "checked_at": "2026-09-17T12:47:16.408069+00:00",
+  "toolchain": "leanprover/lean4:v4.34.0",
+  "commands": [
+    {
+      "command": [
+        "lake",
+        "build",
+        "LeanForty.Problem000665"
+      ],
+      "returncode": 0,
+      "log": "evidence/000665/build.log"
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "scripts/Audit000665.lean"
+      ],
+      "returncode": 0,
+      "log": "evidence/000665/axioms.log"
+    }
+  ],
+  "audits": {
+    "LeanForty.prime_block_le_seventh": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Erdos808.blockPrime_le_seventh_eventually": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Erdos808.counterLabel_injective": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Erdos808.counterGraph_edge_threshold_eventually": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Erdos808.counterGraph_output_small_eventually": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Erdos808.erdos808_disproved": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "LeanForty.Problem000665.strong_sum_product_false": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "LeanForty.Problem000665.explicit_counterexamples": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "LeanForty.Problem000665.positive_injective_labels": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "scope": "The strong graph-restricted sum-product conjecture is false. For c=29/34 and epsilon=1/68 there are arbitrarily large finite sets of distinct positive natural labels with at least n^(63/34) edges but restricted sum/product cardinalities below n^(125/68). A Chebyshev prime-block lemma replaces the external PNT dependency. The separate background incidence lower bound is not claimed.",
+  "verification_reuse": "Existing identical-source local compile and recursive axiom checks. Final whole-project build additionally succeeded for publication. No fresh full Mathlib rebuild or independent human audit is claimed.",
+  "current_environment_sha256": {
+    "lakefile.toml": "8e0d158048010730f9381862c36b521c3de7fc6741979bfd69c5e7a0741c677e",
+    "lake-manifest.json": "0a058816fc85a2db5dd6bdae9bc9fea01022ecbe924e800619703dbb49d15c81",
+    "lean-toolchain": "8733782dc070a99b312039cda424f601b80f3be6f6f512627da5ba25adc27632"
+  },
+  "historical_environment_hashes": "Not recorded by the original verifier; current locked dependency revisions confirmed before the final publication build."
+}

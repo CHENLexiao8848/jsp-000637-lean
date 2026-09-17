@@ -1,0 +1,7 @@
+'Erdos202.ParkPham.muP_upClosure_single' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos920.ForwardBound.exists_forwardConstant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos920.Construction.dStarFamily' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos920.erdos_920' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LeanForty.Problem000764.chromatic_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LeanForty.Problem000764.logarithmic_exponent_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LeanForty.Problem000764.extremal_number_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]

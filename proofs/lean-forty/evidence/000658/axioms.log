@@ -1,0 +1,8 @@
+'Erdos801.triangleFree_card_mul_scale_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos801.exists_dense_small_set_of_parameters' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos801.erdos_801_explicit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos801.erdos_801' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LeanForty.Problem000658.indepNum_le_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LeanForty.Problem000658.edgeCountInside_eq_induced' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LeanForty.Problem000658.dense_small_set' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LeanForty.Problem000658.dense_induced_subgraph' depends on axioms: [propext, Classical.choice, Quot.sound]

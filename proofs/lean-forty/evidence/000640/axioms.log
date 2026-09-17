@@ -1,0 +1,6 @@
+'Erdos780Core.zpTucker_alpha' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeResolutionScratch.primeResolution' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos780.resolution_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos780.erdos_780' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LeanForty.Problem000640.monochromatic_matching' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LeanForty.Problem000640.distinct_monochromatic_edges' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,18 @@
+⚠ [1216/1217] Replayed ErdosProblems.Erdos815
+warning: vendor/plby/ErdosProblems/Erdos815.lean:1001:24: `if_true` has been deprecated: Use `ite_true` instead
+warning: vendor/plby/ErdosProblems/Erdos815.lean:1001:40: `if_false` has been deprecated: Use `ite_false` instead
+warning: vendor/plby/ErdosProblems/Erdos815.lean:1217:27: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: vendor/plby/ErdosProblems/Erdos815.lean:1235:29: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: vendor/plby/ErdosProblems/Erdos815.lean:1251:29: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: vendor/plby/ErdosProblems/Erdos815.lean:1272:19: `if_false` has been deprecated: Use `ite_false` instead
+info: vendor/plby/ErdosProblems/Erdos815.lean:2081:0: 'Erdos815.not_erdos_815' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [1217/1217] Built LeanForty.Problem000672 (8.5s)
+warning: LeanForty/Problem000672.lean:36:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+Build completed successfully (1217 jobs).

@@ -1,0 +1,74 @@
+{
+  "checked_at": "2026-09-17T11:41:57.881401+00:00",
+  "toolchain": "leanprover/lean4:v4.34.0",
+  "commands": [
+    {
+      "command": [
+        "lake",
+        "build"
+      ],
+      "returncode": 0,
+      "log": "evidence/000628/build.log"
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "scripts/Audit.lean"
+      ],
+      "returncode": 0,
+      "log": "evidence/000628/axioms.log"
+    }
+  ],
+  "audits": {
+    "LeanForty.isChord_rotate_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "LeanForty.hasIncidentChords_iff_based": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Erdos58.TwoConnected.exists_twoLinkage": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Erdos767Dirac.diracCircumferencePrinciple": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Erdos767Dirac.exists_nonspanning_longestCycle_lowDegree": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Erdos767.erdos_767": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "LeanForty.Problem000628.exact_extremal_number": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "LeanForty.Problem000628.sharp_bound_and_attainment": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "scope": "For all positive k and n >= 3k+3, the extremal edge count of an n-vertex graph avoiding a cycle with k incident chords is (k+1)n-(k+1)^2. Both upper bound and attainment are proved; the arbitrary cycle vertex formulation is verified equivalent.",
+  "verification_reuse": "Existing identical-source local compile and recursive axiom checks. Final whole-project build additionally succeeded for publication. No fresh full Mathlib rebuild or independent human audit is claimed.",
+  "current_environment_sha256": {
+    "lakefile.toml": "8e0d158048010730f9381862c36b521c3de7fc6741979bfd69c5e7a0741c677e",
+    "lake-manifest.json": "0a058816fc85a2db5dd6bdae9bc9fea01022ecbe924e800619703dbb49d15c81",
+    "lean-toolchain": "8733782dc070a99b312039cda424f601b80f3be6f6f512627da5ba25adc27632"
+  },
+  "historical_environment_hashes": "Not recorded by the original verifier; current locked dependency revisions confirmed before the final publication build."
+}

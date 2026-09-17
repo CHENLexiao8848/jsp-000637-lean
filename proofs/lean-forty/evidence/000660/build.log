@@ -1,0 +1,13 @@
+ℹ [2073/2075] Replayed ErdosProblems.Erdos1077
+info: vendor/plby/ErdosProblems/Erdos1077.lean:332:0: 'Erdos1077.not_erdos_1077' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [2074/2075] Replayed ErdosProblems.Erdos803
+info: vendor/plby/ErdosProblems/Erdos803.lean:523:0: 'Erdos803.not_erdos_803' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [2075/2075] Built LeanForty.Problem000660 (7.6s)
+warning: LeanForty/Problem000660.lean:23:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+Build completed successfully (2075 jobs).

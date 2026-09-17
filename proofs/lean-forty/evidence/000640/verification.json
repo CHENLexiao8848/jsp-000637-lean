@@ -1,0 +1,65 @@
+{
+  "checked_at": "2026-09-17T12:00:50.535845+00:00",
+  "toolchain": "leanprover/lean4:v4.34.0",
+  "commands": [
+    {
+      "command": [
+        "lake",
+        "build",
+        "LeanForty.Problem000640"
+      ],
+      "returncode": 0,
+      "log": "evidence/000640/build.log"
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "scripts/Audit000640.lean"
+      ],
+      "returncode": 0,
+      "log": "evidence/000640/axioms.log"
+    }
+  ],
+  "audits": {
+    "Erdos780Core.zpTucker_alpha": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeResolutionScratch.primeResolution": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Erdos780.resolution_prime": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Erdos780.erdos_780": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "LeanForty.Problem000640.monochromatic_matching": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "LeanForty.Problem000640.distinct_monochromatic_edges": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "scope": "For all n,k and positive r,t, n >= kr+(t-1)(k-1) forces k distinct, pairwise disjoint edges of one color in every t-coloring of all r-subsets. Composite k and threshold equality are included.",
+  "verification_reuse": "Existing identical-source local compile and recursive axiom checks. Final whole-project build additionally succeeded for publication. No fresh full Mathlib rebuild or independent human audit is claimed.",
+  "current_environment_sha256": {
+    "lakefile.toml": "8e0d158048010730f9381862c36b521c3de7fc6741979bfd69c5e7a0741c677e",
+    "lake-manifest.json": "0a058816fc85a2db5dd6bdae9bc9fea01022ecbe924e800619703dbb49d15c81",
+    "lean-toolchain": "8733782dc070a99b312039cda424f601b80f3be6f6f512627da5ba25adc27632"
+  },
+  "historical_environment_hashes": "Not recorded by the original verifier; current locked dependency revisions confirmed before the final publication build."
+}

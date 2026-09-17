@@ -1,0 +1,74 @@
+{
+  "checked_at": "2026-09-17T12:06:42.115731+00:00",
+  "toolchain": "leanprover/lean4:v4.34.0",
+  "commands": [
+    {
+      "command": [
+        "lake",
+        "build",
+        "LeanForty.Problem000655"
+      ],
+      "returncode": 0,
+      "log": "evidence/000655/build.log"
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "scripts/Audit000655.lean"
+      ],
+      "returncode": 0,
+      "log": "evidence/000655/axioms.log"
+    }
+  ],
+  "audits": {
+    "Erdos797.finite_local_lemma": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Erdos797.UpperBound.extremalAcyclicNumber_cube_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Erdos797.LowerBound.exists_lower_graph": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Erdos797.LowerBound.fourth_le_log_mul_extremal_cube": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Erdos797.erdos_797": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "LeanForty.Problem000655.acyclicColoring_iff_two_color_forests": [
+      "Quot.sound",
+      "propext"
+    ],
+    "LeanForty.Problem000655.amr_estimates": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "LeanForty.Problem000655.optimal_palette_exists": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "scope": "Full AMR upper and lower bounds for maximal acyclic chromatic number f(d), in exact cube form, and f(d)=o(d^2). Every sufficiently large d is covered. The coloring predicate is equivalent to proper coloring with every pair of color classes inducing a forest.",
+  "verification_reuse": "Existing identical-source local compile and recursive axiom checks. Final whole-project build additionally succeeded for publication. No fresh full Mathlib rebuild or independent human audit is claimed.",
+  "current_environment_sha256": {
+    "lakefile.toml": "8e0d158048010730f9381862c36b521c3de7fc6741979bfd69c5e7a0741c677e",
+    "lake-manifest.json": "0a058816fc85a2db5dd6bdae9bc9fea01022ecbe924e800619703dbb49d15c81",
+    "lean-toolchain": "8733782dc070a99b312039cda424f601b80f3be6f6f512627da5ba25adc27632"
+  },
+  "historical_environment_hashes": "Not recorded by the original verifier; current locked dependency revisions confirmed before the final publication build."
+}

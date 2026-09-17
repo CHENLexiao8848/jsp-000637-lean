@@ -1,0 +1,5 @@
+ℹ [3135/3136] Replayed ErdosProblems.Erdos833
+info: vendor/plby/ErdosProblems/Erdos833.lean:696:0: 'Erdos833.erdos_833_degree_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: vendor/plby/ErdosProblems/Erdos833.lean:697:0: 'Erdos833.erdos_833' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [3136/3136] Built LeanForty.Problem000689 (22s)
+Build completed successfully (3136 jobs).

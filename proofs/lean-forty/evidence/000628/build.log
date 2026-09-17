@@ -1,0 +1,21 @@
+⚠ [3146/3166] Replayed ErdosProblems.Erdos767.Aligned
+warning: vendor/plby/ErdosProblems/Erdos767/Aligned.lean:115:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: vendor/plby/ErdosProblems/Erdos767/Aligned.lean:164:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: vendor/plby/ErdosProblems/Erdos767/Aligned.lean:164:26: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: vendor/plby/ErdosProblems/Erdos767/Aligned.lean:200:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: vendor/plby/ErdosProblems/Erdos767/Aligned.lean:228:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: vendor/plby/ErdosProblems/Erdos767/Aligned.lean:378:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: vendor/plby/ErdosProblems/Erdos767/Aligned.lean:402:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: vendor/plby/ErdosProblems/Erdos767/Aligned.lean:438:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+info: vendor/plby/ErdosProblems/Erdos767/Aligned.lean:1050:0: 'E767AlignedAlt.exists_alignedFan' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3161/3166] Replayed ErdosProblems.Erdos767.Dirac
+info: vendor/plby/ErdosProblems/Erdos767/Dirac.lean:118:0: 'Erdos767Dirac.diracCircumferencePrinciple' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: vendor/plby/ErdosProblems/Erdos767/Dirac.lean:119:0: 'Erdos767Dirac.erdosGallai_cycle' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: vendor/plby/ErdosProblems/Erdos767/Dirac.lean:120:0: 'Erdos767Dirac.exists_nonspanning_longestCycle_lowDegree' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: vendor/plby/ErdosProblems/Erdos767/Dirac.lean:121:0: 'Erdos767Dirac.exists_cycle_length_ge_min_card_two_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [3162/3166] Built LeanForty.ChordSemantics (25s)
+ℹ [3163/3166] Built ErdosProblems.Erdos767 (33s)
+info: vendor/plby/ErdosProblems/Erdos767.lean:1581:0: 'Erdos767.erdos_767' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [3164/3166] Built LeanForty.Problem000628 (15s)
+✔ [3165/3166] Built LeanForty (14s)
+Build completed successfully (3166 jobs).

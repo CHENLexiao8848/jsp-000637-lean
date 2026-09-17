@@ -1,0 +1,6 @@
+'Erdos833.finite_symmetric_local_lemma' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos833.erdos_lovasz_degree_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos833.erdos_833' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LeanForty.Problem000689.exponential_degree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LeanForty.Problem000689.erdos_lovasz_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LeanForty.Problem000689.explicit_incident_edge_count' depends on axioms: [propext, Classical.choice, Quot.sound]

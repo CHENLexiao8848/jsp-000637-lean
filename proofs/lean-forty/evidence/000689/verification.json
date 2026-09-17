@@ -1,0 +1,65 @@
+{
+  "checked_at": "2026-09-17T13:13:33.992384+00:00",
+  "toolchain": "leanprover/lean4:v4.34.0",
+  "commands": [
+    {
+      "command": [
+        "lake",
+        "build",
+        "LeanForty.Problem000689"
+      ],
+      "returncode": 0,
+      "log": "evidence/000689/build.log"
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "scripts/Audit000689.lean"
+      ],
+      "returncode": 0,
+      "log": "evidence/000689/axioms.log"
+    }
+  ],
+  "audits": {
+    "Erdos833.finite_symmetric_local_lemma": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Erdos833.erdos_lovasz_degree_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Erdos833.erdos_833": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "LeanForty.Problem000689.exponential_degree": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "LeanForty.Problem000689.erdos_lovasz_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "LeanForty.Problem000689.explicit_incident_edge_count": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "scope": "For every r>=2, every finite r-uniform hypergraph of chromatic number exactly three has a vertex incident to at least (10/9)^r distinct edges. The Erdos-Lovasz bound 2^(r-1)/(4r) is also proved for all non-two-colorable such hypergraphs, including small ranks.",
+  "verification_reuse": "Existing identical-source local compile and recursive axiom checks. Final whole-project build additionally succeeded for publication. No fresh full Mathlib rebuild or independent human audit is claimed.",
+  "current_environment_sha256": {
+    "lakefile.toml": "8e0d158048010730f9381862c36b521c3de7fc6741979bfd69c5e7a0741c677e",
+    "lake-manifest.json": "0a058816fc85a2db5dd6bdae9bc9fea01022ecbe924e800619703dbb49d15c81",
+    "lean-toolchain": "8733782dc070a99b312039cda424f601b80f3be6f6f512627da5ba25adc27632"
+  },
+  "historical_environment_hashes": "Not recorded by the original verifier; current locked dependency revisions confirmed before the final publication build."
+}

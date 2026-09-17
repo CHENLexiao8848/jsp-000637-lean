@@ -1,0 +1,65 @@
+{
+  "checked_at": "2026-09-17T12:37:04.149630+00:00",
+  "toolchain": "leanprover/lean4:v4.34.0",
+  "commands": [
+    {
+      "command": [
+        "lake",
+        "build",
+        "LeanForty.Problem000660"
+      ],
+      "returncode": 0,
+      "log": "evidence/000660/build.log"
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "scripts/Audit000660.lean"
+      ],
+      "returncode": 0,
+      "log": "evidence/000660/axioms.log"
+    }
+  ],
+  "audits": {
+    "Erdos803.exists_good_edge_set_six": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Erdos803.subgraph_edge_ncard_lt_of_good": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Erdos803.host_many_edges": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Erdos803.not_erdos_803": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "LeanForty.Problem000660.not_absolute_regularization": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "LeanForty.Problem000660.cofinal_counterexamples": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "scope": "The absolute-constant regularization conjecture is false. For any proposed epsilon>0 and D>=1, some fixed m admits counterexamples of arbitrarily large n with at least n log n edges; every balanced m-vertex subgraph fails the epsilon*m*log(m) bound. Arbitrary subgraphs are quantified.",
+  "verification_reuse": "Existing identical-source local compile and recursive axiom checks. Final whole-project build additionally succeeded for publication. No fresh full Mathlib rebuild or independent human audit is claimed.",
+  "current_environment_sha256": {
+    "lakefile.toml": "8e0d158048010730f9381862c36b521c3de7fc6741979bfd69c5e7a0741c677e",
+    "lake-manifest.json": "0a058816fc85a2db5dd6bdae9bc9fea01022ecbe924e800619703dbb49d15c81",
+    "lean-toolchain": "8733782dc070a99b312039cda424f601b80f3be6f6f512627da5ba25adc27632"
+  },
+  "historical_environment_hashes": "Not recorded by the original verifier; current locked dependency revisions confirmed before the final publication build."
+}

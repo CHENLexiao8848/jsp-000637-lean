@@ -1,0 +1,75 @@
+{
+  "checked_at": "2026-09-17T12:11:48.154785+00:00",
+  "toolchain": "leanprover/lean4:v4.34.0",
+  "commands": [
+    {
+      "command": [
+        "lake",
+        "build",
+        "LeanForty.Problem000658"
+      ],
+      "returncode": 0,
+      "log": "evidence/000658/build.log"
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "scripts/Audit000658.lean"
+      ],
+      "returncode": 0,
+      "log": "evidence/000658/axioms.log"
+    }
+  ],
+  "audits": {
+    "Erdos801.triangleFree_card_mul_scale_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Erdos801.exists_dense_small_set_of_parameters": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Erdos801.erdos_801_explicit": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Erdos801.erdos_801": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "LeanForty.Problem000658.indepNum_le_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "LeanForty.Problem000658.edgeCountInside_eq_induced": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "LeanForty.Problem000658.dense_small_set": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "LeanForty.Problem000658.dense_induced_subgraph": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "scope": "For every n >= 2^(2^11), every n-vertex graph with independence number <= floor(sqrt(n)) contains S with |S| <= floor(sqrt(n)) and floor(sqrt(n))*floor(log_2(n)) <= 2^24*e(G[S]). This gives the original asymptotic result, with explicit constants.",
+  "verification_reuse": "Existing identical-source local compile and recursive axiom checks. Final whole-project build additionally succeeded for publication. No fresh full Mathlib rebuild or independent human audit is claimed.",
+  "current_environment_sha256": {
+    "lakefile.toml": "8e0d158048010730f9381862c36b521c3de7fc6741979bfd69c5e7a0741c677e",
+    "lake-manifest.json": "0a058816fc85a2db5dd6bdae9bc9fea01022ecbe924e800619703dbb49d15c81",
+    "lean-toolchain": "8733782dc070a99b312039cda424f601b80f3be6f6f512627da5ba25adc27632"
+  },
+  "historical_environment_hashes": "Not recorded by the original verifier; current locked dependency revisions confirmed before the final publication build."
+}

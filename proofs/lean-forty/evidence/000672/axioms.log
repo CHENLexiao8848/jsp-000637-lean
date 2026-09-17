@@ -1,0 +1,8 @@
+'Erdos815.avoidingValue_avoid20' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos815.npsGraph_degreeThreeCritical' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos815.npsGraph_cycleGraph_23_free' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos815.nps_arbitrarily_large_counterexamples' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos815.not_erdos_815' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LeanForty.Problem000672.eventual_all_cycles_false' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LeanForty.Problem000672.arbitrarily_large_counterexamples' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LeanForty.Problem000672.proper_subset_low_degree' depends on axioms: [propext, Classical.choice, Quot.sound]

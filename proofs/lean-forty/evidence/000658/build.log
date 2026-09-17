@@ -1,0 +1,4 @@
+ℹ [1280/1281] Replayed ErdosProblems.Erdos801
+info: vendor/plby/ErdosProblems/Erdos801.lean:1852:0: 'Erdos801.erdos_801' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [1281/1281] Built LeanForty.Problem000658 (21s)
+Build completed successfully (1281 jobs).

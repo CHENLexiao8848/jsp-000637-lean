@@ -1,0 +1,6 @@
+'Erdos803.exists_good_edge_set_six' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos803.subgraph_edge_ncard_lt_of_good' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos803.host_many_edges' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos803.not_erdos_803' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LeanForty.Problem000660.not_absolute_regularization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LeanForty.Problem000660.cofinal_counterexamples' depends on axioms: [propext, Classical.choice, Quot.sound]

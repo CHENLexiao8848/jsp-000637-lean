@@ -1,0 +1,8 @@
+'Erdos797.finite_local_lemma' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos797.UpperBound.extremalAcyclicNumber_cube_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos797.LowerBound.exists_lower_graph' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos797.LowerBound.fourth_le_log_mul_extremal_cube' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos797.erdos_797' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LeanForty.Problem000655.acyclicColoring_iff_two_color_forests' depends on axioms: [propext, Quot.sound]
+'LeanForty.Problem000655.amr_estimates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LeanForty.Problem000655.optimal_palette_exists' depends on axioms: [propext, Classical.choice, Quot.sound]

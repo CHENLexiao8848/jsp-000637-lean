@@ -1,0 +1,70 @@
+{
+  "checked_at": "2026-09-17T14:10:24.192299+00:00",
+  "toolchain": "leanprover/lean4:v4.34.0",
+  "commands": [
+    {
+      "command": [
+        "lake",
+        "build",
+        "LeanForty.Problem000764"
+      ],
+      "returncode": 0,
+      "log": "evidence/000764/build.log"
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "scripts/Audit000764.lean"
+      ],
+      "returncode": 0,
+      "log": "evidence/000764/axioms.log"
+    }
+  ],
+  "audits": {
+    "Erdos202.ParkPham.muP_upClosure_single": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Erdos920.ForwardBound.exists_forwardConstant": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Erdos920.Construction.dStarFamily": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Erdos920.erdos_920": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "LeanForty.Problem000764.chromatic_lower_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "LeanForty.Problem000764.logarithmic_exponent_two": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "LeanForty.Problem000764.extremal_number_bounds": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "scope": "For every k>=4, n^(1-1/(k-1))/(log n)^2 = O(f_k(n)) for the maximum chromatic number of a K_k-free n-vertex graph, eventually for all n. Projective construction, container bound, sampling, Ramsey bridge and inversion are discharged; the real-exponent interface is explicit. Exact finite values and stronger background variants are not claimed.",
+  "verification_reuse": "Existing identical-source local compile and recursive axiom checks. Final whole-project build additionally succeeded for publication. No fresh full Mathlib rebuild or independent human audit is claimed.",
+  "current_environment_sha256": {
+    "lakefile.toml": "8e0d158048010730f9381862c36b521c3de7fc6741979bfd69c5e7a0741c677e",
+    "lake-manifest.json": "0a058816fc85a2db5dd6bdae9bc9fea01022ecbe924e800619703dbb49d15c81",
+    "lean-toolchain": "8733782dc070a99b312039cda424f601b80f3be6f6f512627da5ba25adc27632"
+  },
+  "historical_environment_hashes": "Not recorded by the original verifier; current locked dependency revisions confirmed before the final publication build."
+}

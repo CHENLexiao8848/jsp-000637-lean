@@ -1,0 +1,10 @@
+import LeanForty.Problem000672
+
+#print axioms Erdos815.avoidingValue_avoid20
+#print axioms Erdos815.npsGraph_degreeThreeCritical
+#print axioms Erdos815.npsGraph_cycleGraph_23_free
+#print axioms Erdos815.nps_arbitrarily_large_counterexamples
+#print axioms Erdos815.not_erdos_815
+#print axioms LeanForty.Problem000672.eventual_all_cycles_false
+#print axioms LeanForty.Problem000672.arbitrarily_large_counterexamples
+#print axioms LeanForty.Problem000672.proper_subset_low_degree

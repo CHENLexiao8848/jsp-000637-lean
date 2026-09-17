@@ -1,0 +1,11 @@
+⚠ [3494/3525] Replayed LeanForty.PrimeBlockBound
+warning: LeanForty/PrimeBlockBound.lean:57:39: Variable name `q` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _q
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+ℹ [3540/3541] Replayed ErdosProblems.Erdos808Disproof
+info: vendor/plby/ErdosProblems/Erdos808Disproof.lean:787:0: 'Erdos808.not_erdos_808' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [3541/3541] Built LeanForty.Problem000665 (12s)
+Build completed successfully (3541 jobs).

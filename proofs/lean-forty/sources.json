@@ -1,0 +1,1031 @@
+{
+  "repository": "https://github.com/plby/lean-proofs",
+  "branch": "main",
+  "commit": "8822f7ddef30fadbd92e1c6ab4ed897af356af5e",
+  "files": [
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos1077.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos1077.lean",
+      "upstream_sha256": "2694fd6dc6117ecb4524523892ed56625d60245a4ea6aec57944627a892bae8f",
+      "expected_sha256": "2694fd6dc6117ecb4524523892ed56625d60245a4ea6aec57944627a892bae8f",
+      "line_edits": [],
+      "license_header": "Apache-2.0"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos58/Basic.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos58/Basic.lean",
+      "upstream_sha256": "257454c90f3e190e7ae2451ee20b65ed7d9523f5c5aedcc0e73b0af913f52b9e",
+      "expected_sha256": "257454c90f3e190e7ae2451ee20b65ed7d9523f5c5aedcc0e73b0af913f52b9e",
+      "line_edits": [],
+      "license_header": "Apache-2.0"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos58/CycleArcs.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos58/CycleArcs.lean",
+      "upstream_sha256": "0ae0be796674aa355987610e23ca3653f20c5cf01bb415d244c739f476bd3b02",
+      "expected_sha256": "0ae0be796674aa355987610e23ca3653f20c5cf01bb415d244c739f476bd3b02",
+      "line_edits": [],
+      "license_header": "Apache-2.0"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos58/Linkage.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos58/Linkage.lean",
+      "upstream_sha256": "31c419daa9d4ae5ff110f1771428be5a3dfd8335331a9f45a558655c591dda84",
+      "expected_sha256": "5cca864da801f961bae88383c5072db95999c639492395443890bb7415bf697c",
+      "line_edits": [
+        {
+          "start": 0,
+          "end": 0,
+          "replacement": "/- Local adaptation: narrowed broad Mathlib import for Lean 4.34.0 verification. -/\n"
+        },
+        {
+          "start": 2,
+          "end": 3,
+          "replacement": "import LeanForty.GraphImports\n"
+        }
+      ],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos58/Menger.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos58/Menger.lean",
+      "upstream_sha256": "a94c201065502712219d4ffd1d94fe257894d6d6832b11be2fd54a11bb477fb7",
+      "expected_sha256": "a94c201065502712219d4ffd1d94fe257894d6d6832b11be2fd54a11bb477fb7",
+      "line_edits": [],
+      "license_header": "Apache-2.0"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos58/Structural/TwoLinkage.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos58/Structural/TwoLinkage.lean",
+      "upstream_sha256": "3669b5dbc18b8bcbdd8fa17ab2e1639d23f04aacc100121ef5e2618fd07977af",
+      "expected_sha256": "3669b5dbc18b8bcbdd8fa17ab2e1639d23f04aacc100121ef5e2618fd07977af",
+      "line_edits": [],
+      "license_header": "Apache-2.0"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos767.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos767.lean",
+      "upstream_sha256": "45cefec4194a1369cde8bde6b1f69e944b220e8124bd912a220690e420936f4d",
+      "expected_sha256": "f1e2056508f6be09fad37c426bcef0118ff4bfb5f134ffa00f0aaec5976679dd",
+      "line_edits": [
+        {
+          "start": 0,
+          "end": 0,
+          "replacement": "/- Local adaptation: narrowed broad Mathlib import for Lean 4.34.0 verification. -/\n"
+        },
+        {
+          "start": 31,
+          "end": 32,
+          "replacement": "import LeanForty.GraphImports\nimport Mathlib.Combinatorics.SimpleGraph.Density\n"
+        }
+      ],
+      "license_header": "Apache-2.0"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos767/Aligned.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos767/Aligned.lean",
+      "upstream_sha256": "16614b581420e6b52d87f70ad26b3c7cb6af02adc3176e276264c22d8a56047a",
+      "expected_sha256": "16614b581420e6b52d87f70ad26b3c7cb6af02adc3176e276264c22d8a56047a",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos767/Build.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos767/Build.lean",
+      "upstream_sha256": "3fc85fca247fa045638b8d0890a2fcf90409066b2bd616a8f2e10878e2a43b99",
+      "expected_sha256": "3fc85fca247fa045638b8d0890a2fcf90409066b2bd616a8f2e10878e2a43b99",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos767/Case1.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos767/Case1.lean",
+      "upstream_sha256": "4f3a0a1c9677e3f2e328fc5a1d14794f22d285dcfb6c7634cafdfb6944c64ac6",
+      "expected_sha256": "4f3a0a1c9677e3f2e328fc5a1d14794f22d285dcfb6c7634cafdfb6944c64ac6",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos767/Case1Core.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos767/Case1Core.lean",
+      "upstream_sha256": "97c8136245762a4cc15b49b97e02d8016a9b14e2c1fa8b09372d77436c984689",
+      "expected_sha256": "999fdaf107f88b3f78684c84bd7b35dbbbecdeb4c3b503f2773c77308e8be729",
+      "line_edits": [
+        {
+          "start": 0,
+          "end": 1,
+          "replacement": "/- Local adaptation: narrowed broad Mathlib import for Lean 4.34.0 verification. -/\nimport LeanForty.GraphImports\n"
+        }
+      ],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos767/Case1Count.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos767/Case1Count.lean",
+      "upstream_sha256": "dac892c84d51aafafb71131e25289bd4d18df652d0d14bd06c325a51b14b06ad",
+      "expected_sha256": "dac892c84d51aafafb71131e25289bd4d18df652d0d14bd06c325a51b14b06ad",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos767/Case1Geometry.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos767/Case1Geometry.lean",
+      "upstream_sha256": "951e45831da09441b2c6f29a2e1cdcf86313d8e19e13179b0439493c81a07f57",
+      "expected_sha256": "951e45831da09441b2c6f29a2e1cdcf86313d8e19e13179b0439493c81a07f57",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos767/Case2Assembly.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos767/Case2Assembly.lean",
+      "upstream_sha256": "1041fffd2e0ba546aa673f71dc63c38b7dc1ee89d6680f981a120e4321559cb6",
+      "expected_sha256": "1041fffd2e0ba546aa673f71dc63c38b7dc1ee89d6680f981a120e4321559cb6",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos767/Case2Body.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos767/Case2Body.lean",
+      "upstream_sha256": "2204851d449aeb8c332e03481e19c69f28a05c7ce9a69e038082bb816e026f20",
+      "expected_sha256": "2204851d449aeb8c332e03481e19c69f28a05c7ce9a69e038082bb816e026f20",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos767/Case2EqualA.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos767/Case2EqualA.lean",
+      "upstream_sha256": "582d18a6d60ddb2cb8a54e6c42931099f3d54dd959962e245f24399b174ff30e",
+      "expected_sha256": "582d18a6d60ddb2cb8a54e6c42931099f3d54dd959962e245f24399b174ff30e",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos767/Case2LongArc.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos767/Case2LongArc.lean",
+      "upstream_sha256": "de584d4e2f39b857a4edc635893073607b8b8e9c00f5e4161d3a580b01ac453d",
+      "expected_sha256": "de584d4e2f39b857a4edc635893073607b8b8e9c00f5e4161d3a580b01ac453d",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos767/Case2Splice.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos767/Case2Splice.lean",
+      "upstream_sha256": "94f741ef5681ff9cf20ce814a7ca4450dca00191b4c9f88e91022356d1aca5a2",
+      "expected_sha256": "92b6893806270688912ce403db3d712264b3f969f9130e819d29cf4f58c570af",
+      "line_edits": [
+        {
+          "start": 0,
+          "end": 1,
+          "replacement": "/- Local adaptation: narrowed broad Mathlib import for Lean 4.34.0 verification. -/\nimport LeanForty.GraphImports\n"
+        }
+      ],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos767/Case2TailData.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos767/Case2TailData.lean",
+      "upstream_sha256": "26c9aa2c6ccb1c67ea1544bab8abdd18c0943f5ababae6165b3faea7868d6e1d",
+      "expected_sha256": "26c9aa2c6ccb1c67ea1544bab8abdd18c0943f5ababae6165b3faea7868d6e1d",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos767/Dirac.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos767/Dirac.lean",
+      "upstream_sha256": "5616d24000b3372c0344e6779ab59da45bec8c777f39b419e0ef71af7976227e",
+      "expected_sha256": "5616d24000b3372c0344e6779ab59da45bec8c777f39b419e0ef71af7976227e",
+      "line_edits": [],
+      "license_header": "Apache-2.0"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos767/EGApi.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos767/EGApi.lean",
+      "upstream_sha256": "e452489ca1f08513d886c56b581e861f4a4fae2bf2998718a87c47548d150bcd",
+      "expected_sha256": "8fff144bf5f680dead6125c2bb906a478fcce27b58b1ab3038d1ec42430b3901",
+      "line_edits": [
+        {
+          "start": 0,
+          "end": 1,
+          "replacement": "/- Local adaptation: narrowed broad Mathlib import for Lean 4.34.0 verification. -/\nimport LeanForty.GraphImports\n"
+        }
+      ],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos767/ErdosGallai.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos767/ErdosGallai.lean",
+      "upstream_sha256": "dd92dac08d8cb76167da86cad3c572eb8bf98be7e8ec9eadeee5104ce808893b",
+      "expected_sha256": "dd92dac08d8cb76167da86cad3c572eb8bf98be7e8ec9eadeee5104ce808893b",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos767/Lollipop.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos767/Lollipop.lean",
+      "upstream_sha256": "a985c8e88026787d23300f9cabe3033e29b7a6bda71c6dfe30f66ed8857ef3cf",
+      "expected_sha256": "a985c8e88026787d23300f9cabe3033e29b7a6bda71c6dfe30f66ed8857ef3cf",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos767/LongestCycle.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos767/LongestCycle.lean",
+      "upstream_sha256": "27f3a690bc7dc690b56f24ed5c37c9a79e9923b2a7e24586895c8bb5d83b6395",
+      "expected_sha256": "acf59497668ab6b2e7832c85a416e9a16392f7e0fb713114ec131de3f2b61c64",
+      "line_edits": [
+        {
+          "start": 0,
+          "end": 0,
+          "replacement": "/- Local adaptation: narrowed broad Mathlib import for Lean 4.34.0 verification. -/\n"
+        },
+        {
+          "start": 15,
+          "end": 16,
+          "replacement": "import LeanForty.GraphImports\n"
+        }
+      ],
+      "license_header": "Apache-2.0"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos767/NoConsecutive.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos767/NoConsecutive.lean",
+      "upstream_sha256": "4cc50bdd6cc69ed78b896425eb182f4f556fc1ca55c87821eab1d3d8dabe566b",
+      "expected_sha256": "672e08bfd79b2b331d05d38073c124325299df3bd5275e74bd6953e80ce37651",
+      "line_edits": [
+        {
+          "start": 0,
+          "end": 1,
+          "replacement": "/- Local adaptation: narrowed broad Mathlib import for Lean 4.34.0 verification. -/\nimport LeanForty.GraphImports\n"
+        }
+      ],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos767/RelativeLowDegree.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos767/RelativeLowDegree.lean",
+      "upstream_sha256": "5978e9256593e1ec4af238199b38e60b332c695e7d205b17c78a429a8be107b3",
+      "expected_sha256": "5978e9256593e1ec4af238199b38e60b332c695e7d205b17c78a429a8be107b3",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos767/SplicePath.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos767/SplicePath.lean",
+      "upstream_sha256": "7a0af5337780a0bca5fe949cc2e6636ef944dd96a3e6b7221524c808534cba7c",
+      "expected_sha256": "7a0af5337780a0bca5fe949cc2e6636ef944dd96a3e6b7221524c808534cba7c",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos767/WalkIndex.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos767/WalkIndex.lean",
+      "upstream_sha256": "ba47272b625c71615e638a350c09f55a300a43d34dbfb90132360ef07202c588",
+      "expected_sha256": "7abe8a5cea5d3a05e558216153b51edef0f3ee05f37976d5e8dbed7dc5ed66f7",
+      "line_edits": [
+        {
+          "start": 0,
+          "end": 1,
+          "replacement": "/- Local adaptation: narrowed broad Mathlib import for Lean 4.34.0 verification. -/\nimport LeanForty.GraphImports\n"
+        }
+      ],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos780.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos780.lean",
+      "upstream_sha256": "f64e353fd9bacb3f91501805ad73306b3a04c4a67555c8010d4f1f68f7822ef3",
+      "expected_sha256": "f64e353fd9bacb3f91501805ad73306b3a04c4a67555c8010d4f1f68f7822ef3",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos780/External/AllowedComplex.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos780/External/AllowedComplex.lean",
+      "upstream_sha256": "0ed59ac5f18213c3be0f3f17ab70cefd418d35edcdd9777dbc2cd721c4c21712",
+      "expected_sha256": "0ed59ac5f18213c3be0f3f17ab70cefd418d35edcdd9777dbc2cd721c4c21712",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos780/External/AllowedDescent.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos780/External/AllowedDescent.lean",
+      "upstream_sha256": "bea4326ca74c87356e8833d9ee6dfa782381743651fb6f1ca4e23b45dd004461",
+      "expected_sha256": "59e00dfe5e567d3db2f1fb45bd49fbe24c33d683d122a261f8b56f1e9eed8fe8",
+      "line_edits": [
+        {
+          "start": 100,
+          "end": 101,
+          "replacement": "    rw [\u2190 hs, Finsupp.mapDomain_apply_of_injective\n"
+        }
+      ],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos780/External/AllowedFaces.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos780/External/AllowedFaces.lean",
+      "upstream_sha256": "89210004c21ce7d549bb94207e4300ef68d02b384a0f8139e990eadeb7f6b8f3",
+      "expected_sha256": "89210004c21ce7d549bb94207e4300ef68d02b384a0f8139e990eadeb7f6b8f3",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos780/External/CyclicAlgebra.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos780/External/CyclicAlgebra.lean",
+      "upstream_sha256": "b5f32cd9a81317ab067a5edf980e40ac62addfd736cfc58d1cb9533b01603fc1",
+      "expected_sha256": "0beb554718bd19562255670c2cdf16ea3f71714266cf15f3c4096ebbe53496d4",
+      "line_edits": [
+        {
+          "start": 0,
+          "end": 1,
+          "replacement": "/- Local adaptation: narrowed Mathlib imports for Lean 4.34.0 verification; mathematical body unchanged. -/\nimport LeanForty.HypergraphImports\n"
+        }
+      ],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos780/External/CyclicExactness.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos780/External/CyclicExactness.lean",
+      "upstream_sha256": "1a47dfd7003c889167f02976606e5c5eb5133731ef0ee0bd0e171feae2c10c0c",
+      "expected_sha256": "1a47dfd7003c889167f02976606e5c5eb5133731ef0ee0bd0e171feae2c10c0c",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos780/External/Erdos780Core.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos780/External/Erdos780Core.lean",
+      "upstream_sha256": "6d61047b5deacd28818b41504a4582234aca543ca61a34292927271ed9d31759",
+      "expected_sha256": "6d61047b5deacd28818b41504a4582234aca543ca61a34292927271ed9d31759",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos780/External/Erdos780Helpers.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos780/External/Erdos780Helpers.lean",
+      "upstream_sha256": "dde939ad3002522e312e8c307e274934ccb8244bca8477f77170fb56f6284676",
+      "expected_sha256": "f9e00dbfdcc74583eb3c166d67f2ed544f887abc2efdabd45d1dcc71c03a1bd0",
+      "line_edits": [
+        {
+          "start": 0,
+          "end": 1,
+          "replacement": "/- Local adaptation: narrowed Mathlib imports for Lean 4.34.0 verification; mathematical body unchanged. -/\nimport LeanForty.HypergraphImports\nimport Mathlib.Combinatorics.Pigeonhole\n"
+        }
+      ],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos780/External/FinsetOrientation.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos780/External/FinsetOrientation.lean",
+      "upstream_sha256": "412ce9d6082985d91b89534f1413badf5ef6456e62de818d2261165ba6ea9cbc",
+      "expected_sha256": "0dc8087868ae60b304a74537c340c395e140b07927078d6606b0d5afed044ed1",
+      "line_edits": [
+        {
+          "start": 0,
+          "end": 1,
+          "replacement": "/- Local adaptation: narrowed Mathlib imports for Lean 4.34.0 verification; mathematical body unchanged. -/\nimport LeanForty.HypergraphImports\n"
+        }
+      ],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos780/External/LabelAllowed.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos780/External/LabelAllowed.lean",
+      "upstream_sha256": "181cd2480b1563c7d1c7206802203be3bd00abb670d65d33ac8cb3abcbdeaace",
+      "expected_sha256": "181cd2480b1563c7d1c7206802203be3bd00abb670d65d33ac8cb3abcbdeaace",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos780/External/LabelChainMap.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos780/External/LabelChainMap.lean",
+      "upstream_sha256": "55579db11aaddc29cf8ccafc13e0c614ea21890240d85b487c12dd965c2fb1d4",
+      "expected_sha256": "55579db11aaddc29cf8ccafc13e0c614ea21890240d85b487c12dd965c2fb1d4",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos780/External/PeriodicDescent.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos780/External/PeriodicDescent.lean",
+      "upstream_sha256": "fc11a7c9d583ed3a08d0d6117642c45ff7c203cb06988fa1d8a209780703a6c1",
+      "expected_sha256": "c88cc39b260d5553142c1010a5de2e04cbf0135e9b77aa76519a5c48104d0b3d",
+      "line_edits": [
+        {
+          "start": 0,
+          "end": 1,
+          "replacement": "/- Local adaptation: narrowed Mathlib imports for Lean 4.34.0 verification; mathematical body unchanged. -/\nimport LeanForty.HypergraphImports\n"
+        }
+      ],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos780/External/PositiveAllowed.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos780/External/PositiveAllowed.lean",
+      "upstream_sha256": "06f00445b89d476c8ee753d32555d9c3e5165808883ae1ac6a9e30eef9c50cfa",
+      "expected_sha256": "510722fabcf0c57ea030b957f93d7be098abf00324c96cfb9b1f58b55988c05b",
+      "line_edits": [
+        {
+          "start": 341,
+          "end": 343,
+          "replacement": "    -- Local Lean 4.34 adaptation: keep the get-equality from being simplified to index equality.\n    exact hget (show l.get i = l.get j from hij)\n"
+        }
+      ],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos780/External/PositiveTarget.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos780/External/PositiveTarget.lean",
+      "upstream_sha256": "aed1e5906524aa4fa7632d2d92f66a61eb6c65de12635f0b9c20c29defccf7cf",
+      "expected_sha256": "aed1e5906524aa4fa7632d2d92f66a61eb6c65de12635f0b9c20c29defccf7cf",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos780/External/PrimeResolution.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos780/External/PrimeResolution.lean",
+      "upstream_sha256": "84849421c5e929ffcdd0abdde0ac73849319ef490a779d1cdd73be38c496d78e",
+      "expected_sha256": "84849421c5e929ffcdd0abdde0ac73849319ef490a779d1cdd73be38c496d78e",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos780/External/ReducedLabelEquivariance.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos780/External/ReducedLabelEquivariance.lean",
+      "upstream_sha256": "11553a6eb7c67cd7e43bb5219574a2a7d6ee18b8c9169ec2a5fda75b1e7178e9",
+      "expected_sha256": "11553a6eb7c67cd7e43bb5219574a2a7d6ee18b8c9169ec2a5fda75b1e7178e9",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos780/External/SignedMap.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos780/External/SignedMap.lean",
+      "upstream_sha256": "218eaa234d9aba53d3d21a72008cb51db2416f6171071269e581549e3ca80d82",
+      "expected_sha256": "218eaa234d9aba53d3d21a72008cb51db2416f6171071269e581549e3ca80d82",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos780/External/SignedSphere.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos780/External/SignedSphere.lean",
+      "upstream_sha256": "8f14643ec455db727b88ce7cf03ccb2b793bd00e2830601995996ee8e3e9ccb9",
+      "expected_sha256": "8f14643ec455db727b88ce7cf03ccb2b793bd00e2830601995996ee8e3e9ccb9",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos780/External/SignedSphereLength.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos780/External/SignedSphereLength.lean",
+      "upstream_sha256": "d6d434b0279e870898af9636386d434487b6eedaa7ee168611ebfa115e4a364d",
+      "expected_sha256": "d6d434b0279e870898af9636386d434487b6eedaa7ee168611ebfa115e4a364d",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos780/External/SignedTargetOrbits.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos780/External/SignedTargetOrbits.lean",
+      "upstream_sha256": "1cbd45b32b048aa08f96ce142f8b566de153870b6778d8a953f7f5f5e2064566",
+      "expected_sha256": "1cbd45b32b048aa08f96ce142f8b566de153870b6778d8a953f7f5f5e2064566",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos780/External/SourceFlags.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos780/External/SourceFlags.lean",
+      "upstream_sha256": "3124e1a864af16b0f6e7649eb162fc603df1683b59644fbc73adff244efb2cbb",
+      "expected_sha256": "6a7ecd4a4e03939b8f4b1c38b41e453b4ff9d0e7688864c97265fa20e59803c2",
+      "line_edits": [
+        {
+          "start": 0,
+          "end": 1,
+          "replacement": "/- Local adaptation: narrowed Mathlib imports for Lean 4.34.0 verification; mathematical body unchanged. -/\nimport LeanForty.HypergraphImports\n"
+        }
+      ],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos780/External/TargetBridge.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos780/External/TargetBridge.lean",
+      "upstream_sha256": "ee6f3d10101104cbc5e41a856309dfc19bf556843a62e861f382288513ec96a2",
+      "expected_sha256": "ee6f3d10101104cbc5e41a856309dfc19bf556843a62e861f382288513ec96a2",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos780/External/TargetChains.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos780/External/TargetChains.lean",
+      "upstream_sha256": "661345151ea8aa4f9cec5dc7cc50c92374c30f83940e799f1c723f384e50874c",
+      "expected_sha256": "661345151ea8aa4f9cec5dc7cc50c92374c30f83940e799f1c723f384e50874c",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos780/External/TargetOrbits.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos780/External/TargetOrbits.lean",
+      "upstream_sha256": "a2dc5fa6dbd01c367afcac9128b8be58fec8139d3ff33829e02dd774e3b8818a",
+      "expected_sha256": "a2dc5fa6dbd01c367afcac9128b8be58fec8139d3ff33829e02dd774e3b8818a",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos780/External/TargetOrientation.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos780/External/TargetOrientation.lean",
+      "upstream_sha256": "a39a8faf1c85200d7d759b9813a8db7e0f017d2bfaf8ff126ea4d283877ed194",
+      "expected_sha256": "a39a8faf1c85200d7d759b9813a8db7e0f017d2bfaf8ff126ea4d283877ed194",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos780/External/ZpTuckerDefs.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos780/External/ZpTuckerDefs.lean",
+      "upstream_sha256": "35d0e634fcecb9dcce86f6dd13a5fb1845ae0a98d4ba0f84d2c11a83ceb758af",
+      "expected_sha256": "c3fcd29cf8ab7da9a86e940d9f6a560c6e310cb3f6a7b220640bc588c7b34689",
+      "line_edits": [
+        {
+          "start": 0,
+          "end": 1,
+          "replacement": "/- Local adaptation: narrowed Mathlib imports for Lean 4.34.0 verification; mathematical body unchanged. -/\nimport LeanForty.HypergraphImports\n"
+        }
+      ],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos797.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos797.lean",
+      "upstream_sha256": "069c7310c36492867fdc8492041022a2b5d64f366db29cea253edb22025317a5",
+      "expected_sha256": "2f4b2f8fc9f1dd150cce912e3ce2842b78d271abfb34da1fddd339eb64f63e51",
+      "line_edits": [
+        {
+          "start": 407,
+          "end": 408,
+          "replacement": "          apply Finset.prod_le_prod_of_subset_of_le_one\u2080\n"
+        }
+      ],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos801.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos801.lean",
+      "upstream_sha256": "18372cda6179febbcc2b09e4dae158388276ef7f1692094b4b4ba252cb7158cf",
+      "expected_sha256": "18372cda6179febbcc2b09e4dae158388276ef7f1692094b4b4ba252cb7158cf",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos803.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos803.lean",
+      "upstream_sha256": "760348fe8cc39c9ae83a3a546022bb7c76d95677eae3abd791c0c88e7980c5bf",
+      "expected_sha256": "760348fe8cc39c9ae83a3a546022bb7c76d95677eae3abd791c0c88e7980c5bf",
+      "line_edits": [],
+      "license_header": "Apache-2.0"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos815.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos815.lean",
+      "upstream_sha256": "737cf3d2a181695d3b85a93ebeb9e2d4fd71c5184c4a567baa4c39004139c935",
+      "expected_sha256": "737cf3d2a181695d3b85a93ebeb9e2d4fd71c5184c4a567baa4c39004139c935",
+      "line_edits": [],
+      "license_header": "Apache-2.0"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos833.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos833.lean",
+      "upstream_sha256": "5cad260bdd589d4be977765c3934f8389395c6e6b480efee4dd8e325a7bf7cdb",
+      "expected_sha256": "086afba65d6b111176db556fca6afcead919e0e91ab1a045662f72234c7b0cb1",
+      "line_edits": [
+        {
+          "start": 0,
+          "end": 0,
+          "replacement": "/- Local adaptation: narrowed Mathlib imports for Lean 4.34.0 verification; mathematical body unchanged. -/\n"
+        },
+        {
+          "start": 33,
+          "end": 34,
+          "replacement": "import LeanForty.GraphImports\n"
+        }
+      ],
+      "license_header": "Apache-2.0"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos920.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos920.lean",
+      "upstream_sha256": "f0a7b18ad42125d26796c878e3cf7285a5425b85a1217a0f621389738d31b91b",
+      "expected_sha256": "f0a7b18ad42125d26796c878e3cf7285a5425b85a1217a0f621389738d31b91b",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos920/Averaging.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos920/Averaging.lean",
+      "upstream_sha256": "2017ca0a0db00c71b3f4af269ff5d5bbae77a10c6f39123b8a7983867e97c067",
+      "expected_sha256": "f58a7bc0e6c09efe00b8e2ec4e30e3eea6263de8c31bfb4db4ba4cbbecd27739",
+      "line_edits": [
+        {
+          "start": 0,
+          "end": 1,
+          "replacement": "/- Local adaptation: narrowed Mathlib imports for Lean 4.34.0 verification; mathematical body unchanged. -/\nimport LeanForty.RamseyImports\n"
+        },
+        {
+          "start": 2,
+          "end": 3,
+          "replacement": "import ErdosProblems.Erdos920.Bernoulli\n"
+        }
+      ],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos920/Bridge.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos920/Bridge.lean",
+      "upstream_sha256": "7a727846b1a90bac85df847ceb9de8508106376b39fe8a39cd004d71dc931050",
+      "expected_sha256": "7a727846b1a90bac85df847ceb9de8508106376b39fe8a39cd004d71dc931050",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos920/ConcreteWitness.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos920/ConcreteWitness.lean",
+      "upstream_sha256": "d117e75922ccdfbcbee4fde1cfc02e43b79aab271e2f6eb8b9ec38beebf31476",
+      "expected_sha256": "d117e75922ccdfbcbee4fde1cfc02e43b79aab271e2f6eb8b9ec38beebf31476",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos920/Construction.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos920/Construction.lean",
+      "upstream_sha256": "a7610ae1a88b4de368a528501006123bf812c58a5098ce9455002172535e1f3f",
+      "expected_sha256": "a7610ae1a88b4de368a528501006123bf812c58a5098ce9455002172535e1f3f",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos920/Container.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos920/Container.lean",
+      "upstream_sha256": "5159af425ccf21d907481c408e3abaad459d9a8987684d0fed5f6f5c7f521015",
+      "expected_sha256": "e9a04de83a90ec9d713d713c0f0d92bcb63aece568ab0b4c84cdde951e1f4eb8",
+      "line_edits": [
+        {
+          "start": 0,
+          "end": 1,
+          "replacement": "/- Local adaptation: narrowed Mathlib imports for Lean 4.34.0 verification; mathematical body unchanged. -/\nimport LeanForty.RamseyImports\n"
+        }
+      ],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos920/ContainerNumeric.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos920/ContainerNumeric.lean",
+      "upstream_sha256": "069a4503a099606fc8b806fd1ad5be6f18f03e453ad1937eddafd09fe25b286b",
+      "expected_sha256": "069a4503a099606fc8b806fd1ad5be6f18f03e453ad1937eddafd09fe25b286b",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos920/DStar.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos920/DStar.lean",
+      "upstream_sha256": "b1a41fab31521dbd840195887df5f2e9498296687a2b544708f13a10840cfd6b",
+      "expected_sha256": "f21252ec3f2b1d9f437a6cf692f5df99f30b4e6bbc4d57b8b05b1c03baadbadb",
+      "line_edits": [
+        {
+          "start": 0,
+          "end": 1,
+          "replacement": "/- Local adaptation: narrowed Mathlib imports for Lean 4.34.0 verification; mathematical body unchanged. -/\nimport LeanForty.RamseyImports\n"
+        }
+      ],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos920/DStarProjective.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos920/DStarProjective.lean",
+      "upstream_sha256": "85a58a3c889d68f26f6aa270ee1cab3e0cf5cbef1717796a4fac701edf163f33",
+      "expected_sha256": "85a58a3c889d68f26f6aa270ee1cab3e0cf5cbef1717796a4fac701edf163f33",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos920/DensitySide.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos920/DensitySide.lean",
+      "upstream_sha256": "05a0efe64e870bf3769654cb01e52f87ddded25ec9f0579ad788b274d6bc6af2",
+      "expected_sha256": "44484cd42bf4baf5b28e649849e21328c1dfeccca1433406ce31ac050ba78148",
+      "line_edits": [
+        {
+          "start": 0,
+          "end": 1,
+          "replacement": "/- Local adaptation: narrowed Mathlib imports for Lean 4.34.0 verification; mathematical body unchanged. -/\nimport LeanForty.RamseyImports\n"
+        }
+      ],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos920/DesignAdapter.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos920/DesignAdapter.lean",
+      "upstream_sha256": "d0e8bb7baa923e905096fc9a6bc211fd9516d7a5a454e3ee68eb58a408600d34",
+      "expected_sha256": "d0e8bb7baa923e905096fc9a6bc211fd9516d7a5a454e3ee68eb58a408600d34",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos920/ForwardBound.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos920/ForwardBound.lean",
+      "upstream_sha256": "475d4d9e64423708bd7d8ebd28087df984c24f7a313786b4f08b94d36fda1a94",
+      "expected_sha256": "475d4d9e64423708bd7d8ebd28087df984c24f7a313786b4f08b94d36fda1a94",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos920/Inversion.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos920/Inversion.lean",
+      "upstream_sha256": "8e1f50c111a5a301bddf82d1ddbc3733e3a489aab162f58292f9a8164c379237",
+      "expected_sha256": "7cc7857bbe1eee4fbc36a9b4eb5240f45b179d20918acdda3c80383b4809b3b2",
+      "line_edits": [
+        {
+          "start": 0,
+          "end": 0,
+          "replacement": "/- Local adaptation: narrowed Mathlib imports for Lean 4.34.0 verification; mathematical body unchanged. -/\n"
+        },
+        {
+          "start": 1,
+          "end": 2,
+          "replacement": "import LeanForty.RamseyImports\n"
+        }
+      ],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos920/MarkedChildren.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos920/MarkedChildren.lean",
+      "upstream_sha256": "fd5cf7665ff36c6864f60e37c8c8e0ca4bd64b21fe6996d3d2620c11e088f6b2",
+      "expected_sha256": "fd5cf7665ff36c6864f60e37c8c8e0ca4bd64b21fe6996d3d2620c11e088f6b2",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos920/MarkedChildrenBound.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos920/MarkedChildrenBound.lean",
+      "upstream_sha256": "5595aac8e0653ccae06721727f767067f4ce7de59c10f6adf4cd64e461e3a0a0",
+      "expected_sha256": "5595aac8e0653ccae06721727f767067f4ce7de59c10f6adf4cd64e461e3a0a0",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos920/MarkedTree.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos920/MarkedTree.lean",
+      "upstream_sha256": "22a05393591380e64bbff5ffb03d898337ea672fbbd3ff72554bb03fd7763de7",
+      "expected_sha256": "03d5c6945dcd8f0cde939917a38a10dc34cc4ce282c5026922aed3e82a362719",
+      "line_edits": [
+        {
+          "start": 0,
+          "end": 1,
+          "replacement": "/- Local adaptation: narrowed Mathlib imports for Lean 4.34.0 verification; mathematical body unchanged. -/\nimport LeanForty.RamseyImports\nimport Mathlib.Data.Bool.Count\n"
+        }
+      ],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos920/Mixing.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos920/Mixing.lean",
+      "upstream_sha256": "e45e326a583f3ab5bd5e1823ec6a2ea9c452c1a7762adb0163f1527a74cdb810",
+      "expected_sha256": "b9196c794693220102331cd0c14a78268965d01677c1adc58ffcf7f56ce99bc0",
+      "line_edits": [
+        {
+          "start": 0,
+          "end": 1,
+          "replacement": "/- Local adaptation: narrowed Mathlib imports for Lean 4.34.0 verification; mathematical body unchanged. -/\nimport LeanForty.RamseyImports\nimport Mathlib.Algebra.Order.Chebyshev\n"
+        }
+      ],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos920/NumericAbsorption.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos920/NumericAbsorption.lean",
+      "upstream_sha256": "080bec0bab37068e7bc4cfb128995a1516beb75c02aa4b30a0161819f078ee4e",
+      "expected_sha256": "080bec0bab37068e7bc4cfb128995a1516beb75c02aa4b30a0161819f078ee4e",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos920/Ordering.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos920/Ordering.lean",
+      "upstream_sha256": "4b10ac8a6729ef031120af41b9417bc4f7414c94a88ce362e66a2db73cd55088",
+      "expected_sha256": "4b10ac8a6729ef031120af41b9417bc4f7414c94a88ce362e66a2db73cd55088",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos920/Pivot.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos920/Pivot.lean",
+      "upstream_sha256": "89f66a2495c7e90d3f0c94e318e6433bbbdc59e709992dd16e7df304298aeb39",
+      "expected_sha256": "ac09efc0ada7303230325b7771fe433c1438e9dae55e36d5046fa7308b0181f9",
+      "line_edits": [
+        {
+          "start": 1,
+          "end": 1,
+          "replacement": "import Mathlib.Algebra.Order.Floor.Div\n"
+        }
+      ],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos920/PoorChildren.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos920/PoorChildren.lean",
+      "upstream_sha256": "6254c0678400eefd9cf06e801e78971966d25e827578f2b39474147c0c71cf9a",
+      "expected_sha256": "6254c0678400eefd9cf06e801e78971966d25e827578f2b39474147c0c71cf9a",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos920/PopularChildren.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos920/PopularChildren.lean",
+      "upstream_sha256": "9f24b5f929b3cabb92f38ed5094cd7296ce0e2443004613ad6992144d9b2fed0",
+      "expected_sha256": "9f24b5f929b3cabb92f38ed5094cd7296ce0e2443004613ad6992144d9b2fed0",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos920/PrimeScale.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos920/PrimeScale.lean",
+      "upstream_sha256": "7e5c62e9bd831a0979a1a39677f1870bf497c27ec8a291834d137589aad523dd",
+      "expected_sha256": "da35f10cbc840395d0d2c1a114f83ce530cf4247ffd00b64fc2e84658cb85570",
+      "line_edits": [
+        {
+          "start": 0,
+          "end": 0,
+          "replacement": "/- Local adaptation: narrowed Mathlib imports for Lean 4.34.0 verification; mathematical body unchanged. -/\n"
+        },
+        {
+          "start": 1,
+          "end": 2,
+          "replacement": "import LeanForty.RamseyImports\n"
+        }
+      ],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos920/Projective.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos920/Projective.lean",
+      "upstream_sha256": "d3291fe428926ab3db8d8cf2b486e8d9ac0a8d9a71e5d940b3c0424b265194cf",
+      "expected_sha256": "26c923d17eda88ba465f7680f4f09b710bfe37ed3df97b55f0236f62e2771f9b",
+      "line_edits": [
+        {
+          "start": 250,
+          "end": 251,
+          "replacement": "    (Set.equivOfEq (Set.ext fun p \u21a6 mem_range_projectivizeInclusion_iff S p))\n"
+        },
+        {
+          "start": 313,
+          "end": 314,
+          "replacement": "    (Set.equivOfEq (Set.ext fun y \u21a6 (orthogonal_iff_submodule_le x y).symm))\n"
+        },
+        {
+          "start": 358,
+          "end": 359,
+          "replacement": "    (Set.equivOfEq (Set.ext fun z \u21a6 by\n"
+        }
+      ],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos920/ProjectiveContainer.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos920/ProjectiveContainer.lean",
+      "upstream_sha256": "b4ef6c4e055cf12fc5a0b85fd984fb3a9c44ccbd8ebb0e537483e4d8dda4a18d",
+      "expected_sha256": "b4ef6c4e055cf12fc5a0b85fd984fb3a9c44ccbd8ebb0e537483e4d8dda4a18d",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos920/RamseyPackaging.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos920/RamseyPackaging.lean",
+      "upstream_sha256": "7ec842501d653b6c7ebd6d7c932bcd4e5ca20a83a492ebb2ad940f7b6b7530e7",
+      "expected_sha256": "94826e8ce0623f1ef8b321e994100cfd48e2da4ae3efc07aaabf974c490fcb9c",
+      "line_edits": [
+        {
+          "start": 0,
+          "end": 0,
+          "replacement": "/- Local adaptation: narrowed Mathlib imports for Lean 4.34.0 verification; mathematical body unchanged. -/\n"
+        },
+        {
+          "start": 1,
+          "end": 2,
+          "replacement": "import LeanForty.RamseyImports\n"
+        }
+      ],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos920/Sampling.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos920/Sampling.lean",
+      "upstream_sha256": "97a847b16043fb1426a9653eeaa56090e846d0b9cc0f623584c97257065802c0",
+      "expected_sha256": "97a847b16043fb1426a9653eeaa56090e846d0b9cc0f623584c97257065802c0",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos920/SamplingAdapter.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos920/SamplingAdapter.lean",
+      "upstream_sha256": "01348291da927eeee72e976c747d5620207de788934abb332d59767556b81ab9",
+      "expected_sha256": "01348291da927eeee72e976c747d5620207de788934abb332d59767556b81ab9",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos920/SpanCounts.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos920/SpanCounts.lean",
+      "upstream_sha256": "d939897f09d9618d1c430295d5bb37a0fb13fe919f3c3cf670c934ab1c155b89",
+      "expected_sha256": "4d51b3ece48e45b269a3e2a816b52173c65d84d91fea03ddcca06d19e6f0c4b3",
+      "line_edits": [
+        {
+          "start": 185,
+          "end": 186,
+          "replacement": "    Set.equivOfEq (Set.ext fun a \u21a6 (submodule_le_spanOrthSpace_iff a S).symm)\n"
+        }
+      ],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos920/StoppingPower.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos920/StoppingPower.lean",
+      "upstream_sha256": "3d6df16c661bf82f0e9f59c14596fa14b4e6134f3f6dbf4167d43a375e81aeb8",
+      "expected_sha256": "3d6df16c661bf82f0e9f59c14596fa14b4e6134f3f6dbf4167d43a375e81aeb8",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos920/TupleBound.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos920/TupleBound.lean",
+      "upstream_sha256": "42fa188b330067942593c9a0d9f54a0f0340a8ed8461766e7f428fc21972db4a",
+      "expected_sha256": "42fa188b330067942593c9a0d9f54a0f0340a8ed8461766e7f428fc21972db4a",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos920/TupleHistory.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos920/TupleHistory.lean",
+      "upstream_sha256": "6bc6683293c4aa67e5c3a4b7a03dffd409c421ebf6d3c2b965d3ef42474f89f7",
+      "expected_sha256": "6bc6683293c4aa67e5c3a4b7a03dffd409c421ebf6d3c2b965d3ef42474f89f7",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos95/External/Chapter39.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos95/External/Chapter39.lean",
+      "upstream_sha256": "f6e06a96337b9ed403e896ec65673f6236e8bf51cf8995fcb3b092b88758666f",
+      "expected_sha256": "298cd66f703b30865aceeaf8c41baffb9bee03a966c2eedf2d6b3a10dd0797df",
+      "line_edits": [
+        {
+          "start": 0,
+          "end": 0,
+          "replacement": "/- Local adaptation: narrowed Mathlib imports for Lean 4.34.0 verification; mathematical body unchanged. -/\n"
+        },
+        {
+          "start": 6,
+          "end": 7,
+          "replacement": "import LeanForty.HypergraphImports\n"
+        }
+      ],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/ErdosProblems/Erdos95/External/Tucker.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos95/External/Tucker.lean",
+      "upstream_sha256": "635478b4cec2171c401e9faeb6094a8c1bb4f71474ce1d4946ac7ce5064ae7a5",
+      "expected_sha256": "635478b4cec2171c401e9faeb6094a8c1bb4f71474ce1d4946ac7ce5064ae7a5",
+      "line_edits": [],
+      "license_header": "not_present"
+    },
+    {
+      "path": "vendor/plby/Util/Ramsey.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/Util/Ramsey.lean",
+      "upstream_sha256": "c1269d71fcd105835310b53e87a588fcb5628f87a76c9f16d7a007697f77b82a",
+      "expected_sha256": "3ae0c2633992cb7d775fc9cbbac2a73c9e2a33e7afa72bb4d2c5df60810f62ec",
+      "line_edits": [
+        {
+          "start": 0,
+          "end": 0,
+          "replacement": "/- Local adaptation: narrowed Mathlib imports for Lean 4.34.0 verification; mathematical body unchanged. -/\n"
+        },
+        {
+          "start": 1,
+          "end": 2,
+          "replacement": "import LeanForty.RamseyImports\n"
+        }
+      ],
+      "license_header": "not_present"
+    },
+    {
+      "path": ".source-cache/Erdos808.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos808.lean",
+      "upstream_sha256": "95b7dc1da430646787edf04e2b9db862695a458999b638d2356593a5cda64b24",
+      "expected_sha256": "95b7dc1da430646787edf04e2b9db862695a458999b638d2356593a5cda64b24",
+      "line_edits": [],
+      "license_header": "see_upstream"
+    },
+    {
+      "path": ".source-cache/Erdos202.lean",
+      "url": "https://raw.githubusercontent.com/plby/lean-proofs/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos202.lean",
+      "upstream_sha256": "f2694dbbe4b8a71a71b2728cfd54273cf84c35f36cce77b49c133d063d761059",
+      "expected_sha256": "f2694dbbe4b8a71a71b2728cfd54273cf84c35f36cce77b49c133d063d761059",
+      "line_edits": [],
+      "license_header": "see_upstream"
+    }
+  ],
+  "generated": {
+    "vendor/plby/ErdosProblems/Erdos808Disproof.lean": "7310a281db64211f40d349c86751f9937f42c3033d01c4cffa4d4fa6a6d505c3",
+    "vendor/plby/ErdosProblems/Erdos920/Bernoulli.lean": "1e7c2616539d59041b448a134361a3c862c10fade3dda0a2c66e355b2286f39b"
+  }
+}
